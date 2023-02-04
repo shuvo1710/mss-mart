@@ -8,6 +8,7 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
 }
 
 .bannerImg2 {
@@ -16,6 +17,7 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
 }
 
 .bannerSwiper .swiper-pagination {
