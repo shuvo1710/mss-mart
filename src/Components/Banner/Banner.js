@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 
 
 import { Pagination, Autoplay } from "swiper";
+import { Fade } from 'react-reveal';
 
 const Banner = () => {
     return (
@@ -28,14 +29,14 @@ const Banner = () => {
                     <div className="relative bannerImg2">
                         <div className="absolute top-1/4">
                             <div className="px-10">
-
-                                <h3 className="text-3xl font-semibold">Dresses And Jumpsuits</h3>
-                                <h1 className="text-6xl font-bold">Daisy Dress</h1>
-                                <div className="my-10">
-                                    <button className="px-4 py-2 text-black border border-black bg-white">Shop Now</button>
-                                </div>
+                                <Fade left>
+                                    <h3 className="text-3xl font-semibold">Dresses And Jumpsuits</h3>
+                                    <h1 className="text-6xl font-bold">Daisy Dress</h1>
+                                    <div className="my-10">
+                                        <button className="px-4 py-2 text-black border border-black bg-white">Shop Now</button>
+                                    </div>
+                                </Fade>
                             </div>
-
                         </div>
                     </div>
                 </SwiperSlide>
@@ -44,13 +45,13 @@ const Banner = () => {
                     <div className="relative bannerImg">
                         <div className="absolute top-1/4">
                             <div className="px-10">
-
-                                <h3 className="text-3xl font-semibold">Dresses And Jumpsuits</h3>
-                                <h1 className="text-6xl font-bold">Daisy Dress</h1>
-                                <div className="my-10">
-                                    <button className="px-4 py-2 text-black border border-black bg-white">Shop Now</button>
-                                </div>
-
+                                <Fade right>
+                                    <h3 className="text-3xl font-semibold">Dresses And Jumpsuits</h3>
+                                    <h1 className="text-6xl font-bold">Daisy Dress</h1>
+                                    <div className="my-10">
+                                        <button className="px-4 py-2 text-black border border-black bg-white">Shop Now</button>
+                                    </div>
+                                </Fade>
                             </div>
                         </div>
                     </div>

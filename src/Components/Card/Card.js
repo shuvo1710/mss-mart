@@ -32,7 +32,6 @@ const Card = () => {
                     <p>+ 3</p>
                 </div>
             </div>
-
             <div>
                 <div className="parent relative">
                     <div className="childrens">
