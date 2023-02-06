@@ -1,58 +1,51 @@
-.parent{
-    background-image:url("https://cdn.shopify.com/s/files/1/0256/4594/0810/products/2_e64bc63a-735c-4c2c-9542-81681cff4891_360x.jpg?v=1614070027");
-    width: 100%;
-    height: 400px;
-    background-size: cover;
-    transition: ease-in  0.5s;
-    position: relative;
-    
-    
-}
-
-
-
-.parent:hover{
-    background-image:url("https://cdn.shopify.com/s/files/1/0256/4594/0810/products/2_b71f02c8-1b6d-4f14-9686-cbd05ae3ab5c_360x.jpg?v=1615019404");
-    cursor: pointer;
-    transition: ease-in 0.5s;
-   
-
-}
-
-.childrens{
-    display: none;
-    transition:  0.5s;
-   
-}
-
-.parent:hover .childrens{
-    display: block;
-    
-}
-.arrowIcon{
-    opacity: 0;
-    
-
-}
-.iconParent:hover .arrowIcon{
+.first-image {
     opacity: 1;
-    transition:  0.5s;
-}
-
-.heart{
-    transition: 0.5s;
-}
-
-.heart:hover{
-    transform: scale(1.5);
-}
-
-.cart{
-    transition: 0.5s;
-}
-
-.cart:hover{
-    transform: scale(1.5);
-
-}
-
+    transition: 0.2s;
+    width: 100%;
+    cursor: pointer;
+  }
+  .second-image {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .image-parent  .first-image:hover {
+    opacity: 0;
+  }
+  .image-parent  .second-image:hover {
+    opacity: 1;
+  }
+  
+  .childrens {
+    position: absolute;
+  
+  }
+  
+  .image-parent:hover  .example {
+   opacity: 1;
+  }
+  .example{
+      position: absolute;
+      bottom: 2px;
+      opacity: 0;
+      transition: 0.2s;
+  }
+  
+  
+  .arrowIcon{
+      opacity: 0;
+      transition: 0.3s;
+      
+  }
+  
+  .button-parent:hover .arrowIcon{
+      opacity: 1;
+  
+  }
+  
