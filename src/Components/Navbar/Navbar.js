@@ -33,12 +33,9 @@ const Navbar = () => {
 
     let [open, setOpen] = useState(false)
     return (
-        <header className=" uppercase w-full    h-32   align-top font-semibold">
-
-            <div className='bg-white  text-yellow-900  flex lg:justify-between justify-around  w-full items-center space-x-0  md:py-3 md:px-5 h-32 border-b:rgba(255,255,255,0)  border-b-[1px] border-solid'>
                 <div>
 
-                    <ul className={`md:flex absolute z-50 md:static md:mt-0 mt-16 md:w-full w-full  bg-white left-0 md:pl-0 pl-8  text-black transition-all duration-500 ease-in ${open? 'top-18 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0' }`}>
+                    <ul className={`md:flex absolute z-50 md:static md:mt-0 mt-7 md:w-full w-full  bg-white left-0 md:pl-0 pl-8  text-black transition-all duration-500 ease-in ${open? 'top-18 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0' }`}>
                         {    Menu
                             // Links.map((link) => (
                             //     <li className='md:ml-8 text-xs md:my-0 my-7  ' key={link.name}  > <a className='text-gray-800 hover:underline duration-500' href={link.link}>{link.name} </a> </li>
