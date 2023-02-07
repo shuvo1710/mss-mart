@@ -4,6 +4,7 @@ import BestSale from '../BestSale/BestSale';
 import Card from '../Card/Card';
 import Discount from '../Discount/Discount';
 import Gallery from '../Gallery/Gallery';
+import GottaHaveIt from '../NewArraivale/GottaHaveIt';
 import NewsLetter from '../NewsLetter/NewsLetter';
 import PayementMethod from '../PayementMethod/PayementMethod';
 import Valentine from '../Valentine/Valentine';
@@ -16,6 +17,7 @@ const Home = () => {
             <Banner/>
             <Valentine/>
             <Card/>
+            <GottaHaveIt></GottaHaveIt>
             <Gallery/>
             <BestSale/>
             <Discount/>

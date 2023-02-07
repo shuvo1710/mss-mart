@@ -48,4 +48,12 @@
       opacity: 1;
   
   }
+
+
+  .notDesign{
+    color: #000;
+}
+.design{
+    color: red;
+}
   
