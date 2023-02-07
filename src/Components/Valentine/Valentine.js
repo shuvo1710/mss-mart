@@ -1,8 +1,8 @@
 import React from 'react';
-import img1 from '../../resource/img offer1.jpg'
-import img3 from '../../resource/imgOffer3.jpg'
-import img4 from '../../resource/imgOffer4.png'
-import img5 from '../../resource/imgOffer5.png'
+import img1 from '../../resource/valentaine5.jpg'
+// import img3 from '../../resource/imgOffer3.jpg'
+// import img4 from '../../resource/imgOffer4.png'
+// import img5 from '../../resource/imgOffer5.png'
 
 const Valentine = () => {
     return (
@@ -24,18 +24,18 @@ const Valentine = () => {
                     <div className='grid grid-cols-2 '>
                         <div className=' '>
                             <div className='row-span-1 bg-white m-4 '>
-                                <img className='' src={img4} alt="" />
+                                <img className='' src={img1} alt="" />
                             </div>
                             <div className=' row-span-1 '>
                                 <div className='grid grid-cols-2  '>
-                                    <div className='m-4'> <img src={img4} alt="" /> </div>
-                                    <div className='m-4'> <img src={img5} alt="" /></div>
+                                    <div className='m-4'> <img src={img1} alt="" /> </div>
+                                    <div className='m-4'> <img src={img1} alt="" /></div>
                                 </div>
                             </div>
                         </div>
                         <div className='row row-span-2 h-full'>
                             <div className='row-span-1 m-4'> <img className='h-2/4' src={img1} alt="" /></div>
-                            <div className='row-span-1 m-4'><img className=' h-2/4' src={img3} alt="" /> </div>
+                            <div className='row-span-1 m-4'><img className=' h-2/4' src={img1} alt="" /> </div>
                         </div>
 
                     </div>
