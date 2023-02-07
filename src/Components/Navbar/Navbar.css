@@ -1,18 +1,19 @@
 .scrollTop {
     position: fixed;
     top: 80%;
-    right: 2%;
+    right: 5%;
   }
   .scrollBtn{
     font-size: 22px;
     font-weight: 700;
   }
   button.scrollTop {
-    background-color: black;
-    height: 30px;
-    width: 30px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    color: white;
+    color: black;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
