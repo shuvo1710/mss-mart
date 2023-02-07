@@ -33,9 +33,9 @@ const Navbar = () => {
 
     let [open, setOpen] = useState(false)
     return (
-        <header className=" uppercase w-full font-['Noto_sans, sans-serif']   h-32 bg-white  align-top font-semibold">
+        <header className=" uppercase w-full    h-32   align-top font-semibold">
 
-            <div className='bg-white  text-white  flex lg:justify-between justify-around  w-full items-center space-x-0  md:py-3 md:px-5 h-32 border-b:rgba(255,255,255,0)  border-b-[1px] border-solid'>
+            <div className='bg-white  text-yellow-900  flex lg:justify-between justify-around  w-full items-center space-x-0  md:py-3 md:px-5 h-32 border-b:rgba(255,255,255,0)  border-b-[1px] border-solid'>
                 <div>
 
                     <ul className={`md:flex absolute z-50 md:static md:mt-0 mt-16 md:w-full w-full  bg-white left-0 md:pl-0 pl-8  text-black transition-all duration-500 ease-in ${open? 'top-18 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0' }`}>
