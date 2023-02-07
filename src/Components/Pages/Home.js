@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import BestSale from '../BestSale/BestSale';
 import Card from '../Card/Card';
 import Gallery from '../Gallery/Gallery';
 import NewsLetter from '../NewsLetter/NewsLetter';
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner/>
             <Card/>
             <Gallery/>
+            <BestSale/>
 
 
 
