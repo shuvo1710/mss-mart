@@ -1,5 +1,6 @@
 import React from 'react';
 import img1 from '../../resource/valentaine5.jpg'
+import img2 from '../../resource/valentaine6.jpg'
 // import img3 from '../../resource/imgOffer3.jpg'
 // import img4 from '../../resource/imgOffer4.png'
 // import img5 from '../../resource/imgOffer5.png'
@@ -28,8 +29,8 @@ const Valentine = () => {
                             </div>
                             <div className=' row-span-1 '>
                                 <div className='grid grid-cols-2  '>
-                                    <div className='m-4'> <img src={img1} alt="" /> </div>
-                                    <div className='m-4'> <img src={img1} alt="" /></div>
+                                    <div className='m-4'> <img src={img2} alt="" /> </div>
+                                    <div className='m-4'> <img src={img2} alt="" /></div>
                                 </div>
                             </div>
                         </div>
