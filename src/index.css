@@ -32,6 +32,7 @@ code {
   }
   body {
     @apply font-[Noto+Sans];
+    background-color: white
    
   }
   h1,
@@ -44,6 +45,9 @@ code {
   }
   .headerStyle{
     font-family: 'Dancing Script', cursive;
+  }
+  .footerBg{
+    background-color: #ebe8e2;
   }
   
 }
