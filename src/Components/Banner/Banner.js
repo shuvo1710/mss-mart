@@ -13,7 +13,6 @@ const Banner = () => {
         <div>
             <Swiper
                 loop={true}
-
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
@@ -35,11 +34,12 @@ const Banner = () => {
                             <h1 className='text-5xl font-bold my-2 uppercase'>Summer</h1>
                             <h6 className='text-lg'>The Biggest Spring/Summer 2023 Trends</h6>
                             <div className="my-10">
-                                <button className="px-4 py-2 text-black border border-black bg-white">Shop Now</button>
+                                <button className="btn rounded-none text-black border-black bg-white">Shop Now</button>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
                     <div className='relative'>
                         <div className=''>
@@ -51,11 +51,12 @@ const Banner = () => {
                             <h1 className='text-5xl font-bold my-2 uppercase'>Summer</h1>
                             <h6 className='text-lg'>The Biggest Spring/Summer 2023 Trends</h6>
                             <div className="my-10">
-                                <button className="px-4 py-2 text-black border border-black bg-white">Shop Now</button>
+                                <button className="btn rounded-none text-black border-black bg-white">Shop Now</button>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
                     <div className='relative'>
                         <div className=''>
@@ -67,12 +68,11 @@ const Banner = () => {
                             <h1 className='text-5xl font-bold my-2 uppercase'>Glasses</h1>
                             <h6 className='text-lg'>Best eyeglasses for woman to channel your inner clark kent</h6>
                             <div className="my-10">
-                                <button className="px-4 py-2 text-black border border-black bg-white">Shop Now</button>
+                                <button className="btn rounded-none text-black border-black bg-white">Shop Now</button>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
-                
             </Swiper>
         </div>
     );
