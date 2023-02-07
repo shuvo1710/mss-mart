@@ -20,7 +20,7 @@ const Footer = () => {
             </h3>
           </div>
 
-          <div className="mt-3 md:mt-0">
+          <div className="-mt-16">
             <h1 className="text-lg font-semibold mb-4">GET MORE RESERVED ON:</h1>
             <div className="flex gap-4 ">
               <a href="/" className="text-lg font-semibold">
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-20 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4   gap-4 mt-10">
           <div>
             <span className="font-bold mb-3 text-black text-xl">About Us</span>
             <br />
@@ -87,14 +87,14 @@ const Footer = () => {
               <label className="label">
                 <span className="label-text">Enter your email address</span>
               </label>
-              <div className="relative">
+              <div className="relative w-72 ">
                 <input
                   type="text"
                   placeholder="username@site.com"
-                  className="input input-bordered w-full pr-16"
+                  className="input input-bordered w-full"
                 />
 
-                <button className="btn bg-black absolute top-0 right-0 rounded-l-none">
+                <button className="btn bg-black absolute top-0 right-0">
                   Sign Me Up
                 </button>
               </div>

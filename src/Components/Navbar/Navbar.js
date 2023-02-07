@@ -44,7 +44,7 @@ const Navbar = () => {
 
     let [open, setOpen] = useState(false)
     return (
-        <header className=" uppercase w-full font-['Noto_sans, sans-serif']  bg-white  align-top font-semibold">
+        <header className="sticky top-0 z-50 uppercase w-full font-['Noto_sans, sans-serif']  bg-white  align-top font-semibold">
 
         <button onClick={scrollTop} className="scrollTop"><HiArrowNarrowUp className='scrollBtn'/></button>
 

@@ -1,0 +1,102 @@
+[
+ 
+    {
+        "man":3,
+        "rating":5,
+        "balance":1002,
+        "details":"New Zealand's South Island brims with majestic landscapes at every turn, from dramatic mountains to spectacular fjords. Here, you can admire the mountains of Fiordland National Park, a UNESCO World Heritage Site, from hiking trails or a boat on Milford Sound. At night, journey to the University of Canterbury's Mount John Observatory to gaze at the starry skies. You can also indulge your inner daredevil in Queenstown (a favorite destination among bungee jumpers), sample delicious sauvignon blanc wine in the Marlborough region or explore New Zealand's most accessible glaciers – Franz Josef and Fox Glacier – on the island's west coast.",
+        "picture":"https://i.ibb.co/Q6bc8cs/pexels-francesco-ungaro-464403.jpg",
+        "address":"New Zealand",
+        "name":"South Island"
+    },
+    {
+        "man":4,
+        "rating":4,
+        "balance":1500,
+        "details":"The magnetic City of Light draws visitors from around the globe who come to see iconic attractions like the Eiffel Tower, the Louvre and the Arc de Triomphe. But what travelers really fall in love with are the city's quaint cafes, vibrant markets, trendy shopping districts and unmistakable je ne sais quoi. Get lost wandering along the charming cobblestone streets, or grab a croissant and relax on the banks of the Seine for hours. If you're up for a quick daytrip, head about 15 miles southwest of the city center to the Palace of Versailles, which offers guided and self-guided tours of the estate",
+        "picture":"https://i.ibb.co/q9HV0nT/pexels-te-lensfix-1371360.jpg",
+        "address":"Paris",
+        "name":"Paris"
+    },
+    {
+        "man":4,
+        "rating":4,
+        "balance":2300,
+        "details":"Whether you're driving along the Road to Hana, enjoying a bird's-eye view of Maui's lush coastline from a helicopter, snorkeling with sea turtles or simply relaxing on white or black sand beaches, you'll find that this Hawaiian island is unlike any other tropical destination. Don't miss a chance to visit Haleakala National Park, which is home to one of the world's largest dormant volcanic craters. You should also attend a luau for a dose of local culture and a taste of Hawaiian specialties like poi, poke and mahimahi",
+        "picture":"https://i.ibb.co/g3z2c0R/pexels-pixabay-33622.jpg",
+        "address":"The Valley Island",
+        "name":"Maui"
+    },
+    {
+        "man":3,
+        "rating":5,
+        "balance":2350,
+        "details":"Travel to this island – the largest in French Polynesia – if you've been dreaming of a vacation spent lazing in a lavish overwater bungalow. Beyond the posh resorts, Tahiti boasts black sand and golden beaches, a bustling capital and prime snorkeling and surfing conditions. If you're looking for more cultural experiences, check out some of the island's ancient temples or shop at its traditional indoor markets. To save money, opt to stay in a vacation rental – the island is home to plenty of cute bungalows and chic condos",
+        "picture":"https://i.ibb.co/BzWCRY0/pexels-xue-guangjian-1687845.jpg",
+        "address":"Pacific Ocean",
+        "name":"Tahiti"
+    },
+    {
+        "man":3,
+        "rating":4,
+        "balance":3310,
+        "details":"Located north of the Dominican Republic, this collection of roughly 100 islands and cays is popular with honeymooners – and for good reason. With sparkling white sand, crystal-clear water and nearly 350 miles of colorful coral reef, the Turks and Caicos Islands are truly a sight to behold. While you'd be remiss to visit the islands and not spend a day or two lounging on Grace Bay Beach, those seeking a more active getaway will have plenty of opportunities to snorkel, scuba dive and ride horses along the coast.",
+        "picture":"https://i.ibb.co/BtLgGGM/pexels-sidde-8220281.jpg",
+        "address":"Florida",
+        "name":"Turks & Caicos"
+    },
+    {
+        "man":3,
+        "rating":5,
+        "balance":1230,
+        "details":"Simply setting foot in Japan's cosmopolitan capital is an experience within itself. A city known for its bustling streets and flashing neon signs, Tokyo has an electric energy and plenty of attractions to discover. Foodies won't be let down by the city's fresh sushi and hearty ramen. Budding photographers and adrenaline junkies will love taking in the sweeping panoramas from the top of the Tokyo Skytree. Shopaholics will find plenty of must-have designer products in Ginza. And for history buffs, Tokyo offers centuries-old temples and shrines to explore.",
+        "picture":"https://i.ibb.co/zNQjsTF/pexels-vlad-che-an-2892643.jpg",
+        "address":"Japan",
+        "name":"Tokyo"
+    },
+    {
+        "man":3,
+        "rating":3,
+        "balance":1165,
+        "details":"It is not cheap or easy to reach, but this isolated paradise between the Arabian and Laccadive seas is the personification of a dreamy tropical vacation. In this South Asian destination, which is made up of more than 1,000 islands, thatched-roof bungalows sit above the bright aquamarine sea, providing easy water access and a romantic atmosphere. Fill your days with beach trips, spa treatments and snorkeling or scuba diving excursions. If cabin fever sets in, pay a visit to the capital, Malé, where you'll find historic mosques and open-air markets",
+        "picture":"https://i.ibb.co/L145JGq/pexels-francesco-ungaro-464316.jpg",
+        "address":"Maldives",
+        "name":"Maldives"
+    },
+    {
+        "man":3,
+        "rating":4,
+        "balance":1120,
+        "details":"Located in southern Thailand, Phuket offers something for everyone, especially budget-minded travelers. Activities like spa treatments and boat tours come with low price tags, as do accommodations. For stunning scenery, check out the limestone cliffs of Phang Nga Bay and lounge on Phuket's gorgeous white sand beaches (Freedom Beach and Bangtao Beach are two visitor favorites). Other must-see attractions include Wat Chalong Temple and the Big Buddha. Once the sun sets, take part in the island's lively nightlife scene.",
+        "picture":"https://i.ibb.co/QkYbXRY/pexels-eberhard-grossgasteiger-542382.jpg",
+        "address":"Thailand",
+        "name":"Phuket"
+    },
+    {
+        "man":3,
+        "rating":4,
+        "balance":2301,
+        "details":"This Spanish city is a feast for the eyes: Visitors can walk past medieval architecture in the Barri Gòtic, snap photos of the intricate Basilica de la Sagrada Família and marvel at Antoni Gaudí's whimsical creations in Park Güell. Meanwhile, Barceloneta beach and the Parc de la Ciutadella are perfect places to pass the time on a sunny day before checking out the restaurants and bars along Las Ramblas, which buzzes at all hours of the night. For travelers who want to see Barcelona from above, trek up Mount Tibidabo or to the Bunkers del Carmel",
+        "picture":"https://i.ibb.co/SBPYzbr/pexels-eberhard-grossgasteiger-542608.jpg",
+        "address":"Spain",
+        "name":"Barcelona"
+    },
+    {
+        "man":2,
+        "rating":4,
+        "balance":3120,
+        "details":"Snow-capped peaks and azure lakes are just two reasons why Glacier National Park is one of America's most striking parks. There are more than 700 miles of hiking trails in this Montana park, plus 13 designated areas for camping. In the winter, travelers can enjoy snowshoeing and skiing, while during the summer vacationers can go swimming and whitewater rafting, among other popular activities. For those who'd rather admire their surroundings from their car, a scenic drive along Going-to-the-Sun Road can't be missed",
+        "picture":"https://i.ibb.co/3k0dzyt/pexels-francesco-ungaro-448995.jpg",
+        "address":"Glacier National Park",
+        "name":"Glacier National Park"
+    },
+    {
+        "man":3,
+        "rating":5,
+        "balance":2360,
+        "details":"An Alberta town full of acclaimed restaurants, breweries, boutiques and art galleries, Banff makes for an exciting vacation in every season. Vacationers can spend their days hiking, relaxing in hot springs and boating on scenic lakes. Banff's location within the Canadian Rockies also makes it easy for visitors to access Banff National Park, which boasts some of the world's most beautiful vistas. Inside the park, travelers can admire sweeping views of the Bow Valley from the Banff Gondola or while schussing the slopes at the park's three ski resorts.",
+        "picture":"https://i.ibb.co/L145JGq/pexels-francesco-ungaro-464316.jpg",
+        "address":"Banff National Park",
+        "name":"Banff"
+    }
+]

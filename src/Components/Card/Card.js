@@ -9,7 +9,8 @@ const Card = () => {
         <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-2  container mx-auto my-4">
 
             {
-                Array.from({length:16}).map(sajib=><div>
+                Array.from({length:16}).map(sajib=>
+                <div>
                     <div className="relative image-parent">
                         <img
                             className="first-image"
