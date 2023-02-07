@@ -13,7 +13,6 @@ const Card = () => {
                 <h3 className='text-3xl'>Best purchase i've made this winter!</h3>
             </div>
             <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-2  container mx-auto my-4">
-
                 {
                     Array.from({ length: 16 }).map(sajib =>
                         <div>
@@ -34,6 +33,7 @@ const Card = () => {
                                         <BsCartPlus className="cart duration-300 hover:scale-125 cursor-pointer" />
                                     </div>
                                 </div>
+
                                 <div className=" p-2">
                                     <a href="/" alt="" className="hover:underline duration-300">Lorem ipsum dolor sit amet.</a>
                                     <div className="flex justify-between">
