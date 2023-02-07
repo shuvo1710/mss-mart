@@ -1,0 +1,283 @@
+[
+    {
+        "name":"antalya",
+        "price":1510,
+        "day":"3",
+        "night":"2",
+        "rating":"3.5",
+        "details":"Antalya has been growing rapidly since 1960 and its population is 1,146,109 according to the 1990 census.",
+        "picture":"https://i.ibb.co/jhvpJST/pexels-leon-macapagal-2346008.jpg"
+        
+    },
+
+    {
+        "name":"bali",
+        "price":1530,
+        "day":"3",
+        "night":"4",
+        "rating":"4",
+        "details":"Bali is a province of Indonesia and is approximately 153km wide and 112km high with a total land area of approximately 5,780 square km.",
+        "picture":"https://i.ibb.co/F4PkqKQ/pexels-mikhail-nilov-6965514.jpg"
+       
+   
+    },
+
+    {
+        "name":"bangkok",
+        "price": 10,
+        "day":"2",
+        "night":"3",
+        
+        "rating":"5",
+        "details":"Bangkok, officially known in Thai as Krung Thep Maha Nakhon and colloquially as Krung Thep, is the capital and most populous city of Thailand.",
+        "picture":"https://i.ibb.co/nr7qzKj/pexels-oleksandr-pidvalnyi-1031669.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"barcelona",
+        "price":1360,
+        "day":"3",
+        "night":"4",
+        
+        "rating":"3",
+        "details":"Barcelona is a city on the coast of northeastern Spain. ",
+        "picture":"https://i.ibb.co/FqdHqdP/pexels-enrico-perini-819767.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"cox's bazar",
+        "price":2310,
+        "day":"4",
+        "night":"5",
+        "rating":"4",
+        "details":"Cox's Bazar, town, southeastern Bangladesh. It is situated along the Bay of Bengal about 60 miles (100 km) south of Chittagong. ",
+        "picture":"https://i.ibb.co/vdRsG4Q/pexels-pok-rie-166192.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"dubai",
+        "price":2310,
+        "day":"3",
+        "night":"4",
+        "rating":"5",
+        "details":"Dubai is a city of skyscrapers, ports, and beaches, where big business takes place alongside sun-seeking tourism. ",
+        "picture":"https://i.ibb.co/d6mKTcq/pexels-ivan-siarbolin-3787839.jpg"
+       
+        
+    },
+
+
+
+    {
+        "name":"hong kong sar",
+        "price":3210,
+        "day":"3",
+        "night":"4",
+        "rating":"4",
+        "details":"Hong Kong is a special administrative region (SAR) that exists as part of the People's Republic of China under the “One Country,",
+        "picture":"https://i.ibb.co/Wvwqnzy/pexels-nitin-sharma-2861883.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"istanbul",
+        "price":3210,
+        "day":"5",
+        "night":"6",
+        
+        "rating":"4",
+        "details":"Istanbul is a transcontinental city, straddling the Bosphorus strait in northwestern Turkey between the Sea of Marmara and the Black Sea.",
+        "picture":"https://i.ibb.co/PzQbJp3/pexels-meruyert-gonullu-6152147.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"kuala lampur",
+        "price":1210,
+        "day":"2",
+        "night":"3",
+        
+        "rating":"4",
+        "details":"Kuala Lumpur, which lies astride the confluence of the Kelang and Gombak rivers, is Malaysia's largest urban area as well as its cultural, commercial, and transportation centre.",
+        "picture":"https://i.ibb.co/8Xh1Zgv/pexels-umar-mukhtar-1538177.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"london",
+        "price":1210,
+        "day":"3",
+        "night":"4",
+        
+        "rating":"4",
+        "details":"London is the capital and largest city of England and the United Kingdom, with a population of just under 9 million.",
+        "picture":"https://i.ibb.co/jgbC9mw/pexels-dominika-gregu-ov-672532.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"makkah",
+        "price":5300,
+        "day":"7",
+        "night":"8",
+        
+        "rating":"5",
+        "details":"Mecca, Arabic Makkah, ancient Bakkah, city, western Saudi Arabia, located in the Ṣirāt Mountains, inland from the Red Sea coast.",
+        "picture":"https://i.ibb.co/QpjVqhw/pexels-konevi-4346403.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"milan",
+        "price":2310,
+        "day":"4",
+        "night":"5",
+        
+        "rating":"4",
+        "details":"Milan is the capital city of the region of Lombardy in northern Italy. It is the second largest city by population in Italy, behind Rome.",
+        "picture":"https://i.ibb.co/VD4cbrb/pexels-pixabay-37079.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"new york",
+        "price":3210,
+        "day":"2",
+        "night":"3",
+        
+        "rating":"5",
+        "details":"Located where the Hudson and East rivers empty into one of the world's premier harbours, New York is both the gateway to the North American continent and its preferred exit to the oceans of the globe.",
+        "picture":"https://i.ibb.co/rZL1LTy/pexels-quintin-gellar-313782.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"osaka",
+        "price":1510,
+        "day":"3",
+        "night":"4",
+        "rating":"5",
+        "details":"Osaka City, which was incorporated in 1889, has a population of 2.69 million and an area of 225.21 square kilometers",
+        "picture":"https://i.ibb.co/BwG9VwV/pexels-ryutaro-tsukata-5220061.jpg"
+       
+        
+    },
+
+    {
+        "name":"palma",
+        "price":1210,
+        "day":"3",
+        "night":"4",
+        
+        "rating":"5",
+        "details":"Palma is a major city and seaport located in the southwest of Mallorca, a western Mediterranean island belonging to the Balearic Islands archipelago.",
+        "picture":"https://i.ibb.co/tJKTmHP/pexels-mati-mango-5533931.jpg"
+       
+        
+    },
+
+
+
+    {
+        "name":"parish",
+        "price":1310,
+        "day":"3",
+        "night":"4",
+        
+        "rating":"5",
+        "details":"A parish is a territorial entity in many Christian denominations, constituting a division within a diocese.",
+        "picture":"https://i.ibb.co/YPbssCL/pexels-quang-nguyen-vinh-11334469.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"pattaya",
+        "price":1610,
+        "day":"3",
+        "night":"4",
+        
+        "rating":"5",
+        "details":"Pattaya is a popular Beach resort on the Gulf of Thailand, just 150 km southeast of Bangkok –a mere two-hour drive.",
+        "picture":"https://i.ibb.co/DpSvCgB/pexels-ke-phuah-13099696.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"pheuket",
+        "price":2310,
+        "day":"3",
+        "night":"4",
+        
+        "rating":"5",
+        "details":"It is the biggest Island of Thailand and sits on the Andaman sea. The nearest province to the north is Phang-nga and the nearest provinces to the east are Phang-nga and Krabi.",
+        "picture":"https://i.ibb.co/kqRn2LH/pexels-yasin-g-ndogdu-2867732.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"seol",
+        "price":2410,
+        "day":"3",
+        "night":"4",
+        
+        "rating":"5",
+        "details":"Seoul, officially the Seoul Special Metropolitan City, is the capital and largest metropolis of the Republic of Korea",
+        "picture":"https://i.ibb.co/ZWbFFSh/pexels-subbu-noir-318238.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"singapore",
+        "price":1910,
+        "day":"3",
+        "night":"4",
+        
+        "rating":"4",
+        "details":"Singapore is a sunny, tropical island in South-east Asia, off the southern tip of the Malay Peninsula.",
+        "picture":"https://i.ibb.co/NmCk0CL/pexels-kin-pastor-777059.jpg"
+       
+        
+    },
+
+
+    {
+        "name":"tokyo",
+        "price":2310,
+        "day":"4",
+        "night":"5",
+        "rating":"4",
+        "details":"Tokyo is the administrative, cultural, financial, commercial, and educational centre of Japan and the focus of an extensive urban complex that includes Kawasaki and Yokohama. ",
+        "picture":"https://i.ibb.co/98C7FXn/pexels-nick-kwan-2614818.jpg"    
+    }
+]
