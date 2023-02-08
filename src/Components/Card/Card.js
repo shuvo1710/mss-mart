@@ -6,7 +6,6 @@ import { BiHeart } from 'react-icons/bi'
 import { BsStar } from 'react-icons/bs'
 const Card = () => {
     return (
-
         <div className='py-20'>
             <div className='text-center my-10'>
                 <h1 className='headerStyle text-5xl font-medium py-4'>RECOMMENDED FOR YOU</h1>
