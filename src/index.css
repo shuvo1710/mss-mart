@@ -13,14 +13,16 @@
     --color-black: #17494d;
     --color-dark: #0b363d;
   }
+
   html {
     @apply scroll-smooth;
   }
+
   body {
     @apply font-[Noto+Sans];
     background-color: white
-   
   }
+
   h1,
   h2,
   h3,
@@ -29,11 +31,21 @@
   h6 {
     @apply font-[Style+Script];
   }
-  .headerStyle{
+
+  .headerStyle {
     font-family: 'Dancing Script', cursive;
   }
-  .footerBg{
+
+  .footerBg {
     background-color: #ebe8e2;
   }
-  
+  .shuvo{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100vh;
+  }
+  .shuvo2{
+    height: 50vh;
+  }
 }

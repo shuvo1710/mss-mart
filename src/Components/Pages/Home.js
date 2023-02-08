@@ -7,7 +7,7 @@ import Gallery from '../Gallery/Gallery';
 import GottaHaveIt from '../NewArraivale/GottaHaveIt';
 import NewsLetter from '../NewsLetter/NewsLetter';
 import PayementMethod from '../PayementMethod/PayementMethod';
-import Valentine from '../Valentine/Valentine';
+// import Valentine from '../Valentine/Valentine';
 
 
 
@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div>
             <Banner/>
-            <Valentine/>
+            {/* <Valentine/> */}
             <Card/>
             <GottaHaveIt></GottaHaveIt>
             <Gallery/>
