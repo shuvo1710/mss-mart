@@ -9,7 +9,7 @@ import Womens from './Womens';
 import Kids from './Kids';
 
 const GottaHaveIt = () => {
-    const [man, setMan] = useState([]);
+  const [man, setMan] = useState([]);
   const [woman, setWoman] = useState([]);
   const [Kid, setKid] = useState([]);
   const [active, setActive] = useState([]);
@@ -39,7 +39,7 @@ const GottaHaveIt = () => {
     fetch("TestTwo.json")
       .then((res) => res.json())
       .then((data) => {
-          setWoman(data);
+        setWoman(data);
         setMan([]);
         setKid([]);
         setActive([]);
@@ -49,7 +49,7 @@ const GottaHaveIt = () => {
     fetch("TestThree.json")
       .then((res) => res.json())
       .then((data) => {
-          setKid(data);
+        setKid(data);
         setMan([]);
         setWoman([]);
         setActive([]);
@@ -58,9 +58,13 @@ const GottaHaveIt = () => {
 
   let designClass = "design";
 
-    return (
-        <div className="">
-        <div className="justify-center items-center text-center text-3xl my-16">
+  return (
+    <div className="">
+      <div className="justify-center items-center text-center text-3xl my-16">
+        <div className='text-center pb-4'>
+          <h1 className='headerStyle text-4xl font-semibold'>New Arrivals</h1>
+          <h3 className='text-3xl font-medium'>Stay Ahead of the Fashion Game with Our Latest Collection of Trendy Outfits</h3>
+        </div>
         <div className="flex gap-4 justify-center items-center">
           <button
             onClick={newArrivals}
@@ -81,14 +85,14 @@ const GottaHaveIt = () => {
             Kids
           </button>
         </div>
-        </div>
-        
-        <Kids  kids={Kid}/>
-        <Womens woman={woman}/>
-        <Active active={active}/>
-        <Mens man={man}/>
       </div>
-    );
+
+      <Kids kids={Kid} />
+      <Womens woman={woman} />
+      <Active active={active} />
+      <Mens man={man} />
+    </div>
+  );
 };
 
 export default GottaHaveIt;
