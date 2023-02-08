@@ -17,7 +17,7 @@ const Home = () => {
             <Banner/>
             {/* <Valentine/> */}
             <Card/>
-            <GottaHaveIt></GottaHaveIt>
+            <GottaHaveIt/>
             <Gallery/>
             <BestSale/>
             <Discount/>
