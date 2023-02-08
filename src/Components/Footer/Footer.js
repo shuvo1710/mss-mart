@@ -20,7 +20,7 @@ const Footer = () => {
             </h3>
           </div>
 
-          <div className="-mt-16">
+          <div className="my-2 xl:-mt-16">
             <h1 className="text-lg font-semibold mb-4">GET MORE RESERVED ON:</h1>
             <div className="flex gap-4 ">
               <a href="/" className="text-lg font-semibold">
@@ -87,17 +87,20 @@ const Footer = () => {
               <label className="label">
                 <span className="label-text">Enter your email address</span>
               </label>
-              <div className="relative w-72 ">
-                <input
-                  type="text"
-                  placeholder="username@site.com"
-                  className="input input-bordered w-full"
-                />
-
-                <button className="btn bg-black absolute top-0 right-0">
-                  Sign Me Up
-                </button>
-              </div>
+              <div className="flex">
+              <input
+                type="text"
+                name=""
+                placeholder="Email address"
+                className="border rounded focus:outline-0 p-2 xl:p-3"
+                id=""
+              />
+              <input
+                type="submit"
+                value="Sign Me Up"
+                className="bg-black text-white px-4 cursor-pointer rounded"
+              />
+            </div>
             </div>
           </div>
         </div>
