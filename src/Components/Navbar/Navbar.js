@@ -9,7 +9,7 @@ import { BsBookmark } from "react-icons/bs"
 import { CiUser } from "react-icons/ci"
 import { GrFormClose } from "react-icons/gr"
 import { AiOutlineArrowUp } from 'react-icons/ai';
-import {HiArrowNarrowUp} from 'react-icons/hi'
+import {RiArrowUpSLine} from 'react-icons/ri'
 
 const Navbar = () => {
     const scrollTop = () => {
@@ -46,7 +46,7 @@ const Navbar = () => {
     return (
         <header className="sticky top-0 z-50 uppercase w-full font-['Noto_sans, sans-serif']  bg-white  align-top font-semibold">
 
-        <button onClick={scrollTop} className="scrollTop"><HiArrowNarrowUp className='scrollBtn'/></button>
+        <button onClick={scrollTop} className="scrollTop"><RiArrowUpSLine className='scrollBtn'/></button>
 
 
             <div className='bg-white  text-white flex lg:justify-between justify-around  w-full items-center space-x-0  md:py-3 md:px-5 h-16 border-b:rgba(255,255,255,0)  border-b-[1px] border-solid'>
