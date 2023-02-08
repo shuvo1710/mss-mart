@@ -8,12 +8,12 @@ const Card = () => {
     return (
         <div className='py-20'>
             <div className='text-center my-10'>
-                <h1 className='headerStyle text-5xl font-medium py-4'>RECOMMENDED FOR YOU</h1>
-                <h3 className='text-3xl'>Best purchase i've made this winter!</h3>
+                <h1 className='headerStyle text-4xl font-medium py-4'>RECOMMENDED FOR YOU</h1>
+                <h3 className='text-2xl font-medium headerStyle'>Discover Your Next Favorite Look with Our Personalized Suggestions</h3>
             </div>
-            <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-2  container mx-auto my-4">
+            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-2  container mx-auto my-4">
                 {
-                    Array.from({ length: 16 }).map(sajib =>
+                    Array.from({ length: 12 }).map(sajib =>
                         <div>
                             <div className="relative image-parent">
                                 <img

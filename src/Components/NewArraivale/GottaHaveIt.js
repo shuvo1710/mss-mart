@@ -63,7 +63,7 @@ const GottaHaveIt = () => {
       <div className="justify-center items-center text-center text-3xl my-16">
         <div className='text-center pb-4'>
           <h1 className='headerStyle text-4xl font-semibold'>New Arrivals</h1>
-          <h3 className='text-3xl font-medium'>Stay Ahead of the Fashion Game with Our Latest Collection of Trendy Outfits</h3>
+          <h3 className='headerStyle text-2xl font-medium'>Stay Ahead of the Fashion Game with Our Latest Collection of Trendy Outfits</h3>
         </div>
         <div className="flex gap-4 justify-center items-center">
           <button

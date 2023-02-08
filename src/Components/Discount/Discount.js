@@ -8,8 +8,8 @@ const Discount = () => {
         <div className='mt-20'>
             <div className='container mx-auto'>
                 <div className='text-center pb-4'>
-                    <h1 className='headerStyle text-5xl font-semibold pb-2'>Offer</h1>
-                    <h3 className='text-2xl font-medium'>Exclusive designs you won't find anywhere else</h3>
+                    <h1 className='headerStyle text-4xl font-semibold pb-2'>Offer</h1>
+                    <h3 className='headerStyle text-2xl font-medium'>Exclusive designs you won't find anywhere else</h3>
                 </div>
                 <div className='grid grid-cols-2 gap-2'>
                     <div className="relative overflow-hidden transition duration-300 transform  cursor-pointer ">
