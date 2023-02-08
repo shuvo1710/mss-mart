@@ -15,13 +15,13 @@ const NewsLetter = () => {
                 type="text"
                 name=""
                 placeholder="Email address"
-                className="border rounded p-2 xl:p-3 md:w-[200px] lg:w-[300px] xl:w-[550px]"
+                className="border rounded focus:outline-0 p-2 xl:p-3 md:w-[200px] lg:w-[300px] xl:w-[550px]"
                 id=""
               />
               <input
                 type="submit"
                 value="SUBSCRIBE"
-                className="bg-black text-white px-4   cursor-pointer"
+                className="bg-black text-white px-4   cursor-pointer rounded"
               />
             </div>
           </div>
