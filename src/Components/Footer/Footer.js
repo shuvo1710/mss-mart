@@ -83,22 +83,22 @@ const Footer = () => {
           </div>
           <div>
             <span className="font-bold mb-3 text-black text-xl">Newsletter</span>
-            <div className="form-control w-80">
+            <div className="form-control w-full">
               <label className="label">
                 <span className="label-text">Enter your email address</span>
               </label>
-              <div className="flex">
+              <div className="md:flex">
               <input
                 type="text"
                 name=""
                 placeholder="Email address"
-                className="border rounded focus:outline-0 p-2 xl:p-3"
+                className="border rounded focus:outline-0 p-2 xl:p-3 w-full"
                 id=""
               />
               <input
                 type="submit"
                 value="Sign Me Up"
-                className="bg-black text-white px-4 cursor-pointer rounded"
+                className="bg-black text-white px-4 cursor-pointer rounded py-2 md:py-0 mt-2 md:mt-0"
               />
             </div>
             </div>

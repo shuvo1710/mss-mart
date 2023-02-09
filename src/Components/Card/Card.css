@@ -1,64 +1,76 @@
 .first-image {
-    opacity: 1;
-    transition: 0.2s;
-    width: 100%;
-    cursor: pointer;
-  }
-  .second-image {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    content: "";
-    transition: 0.2s;
-    cursor: pointer;
-  }
-  
-  .image-parent  .first-image:hover {
-    opacity: 0;
-  }
-  .image-parent  .second-image:hover {
-    opacity: 1;
-  }
-  
-  .childrens {
-    position: absolute;
-  
-  }
-  
-  .image-parent:hover  .example {
-   opacity: 1;
-  }
-  .example{
-      position: absolute;
-      bottom: 2px;
-      opacity: 0;
-      transition: 0.2s;
-  }
-  
-  
-  .arrowIcon{
-      opacity: 0;
-      transition: 0.3s;
-      
-  }
-  
-  .button-parent:hover .arrowIcon{
-      opacity: 1;
-  
-  }
-
-
-  .notDesign{
-    color: #000;
-    font-size: 22px;
-    font-weight: 600;
+  opacity: 1;
+  transition: 0.2s;
+  width: 100%;
+  cursor: pointer;
 }
-.design{
-    color: rgb(71, 151, 71);
-    transition: ease-in-out 0.3s;
-    border-bottom: 1px solid rgb(71, 151, 71);
-    font-weight: 600;
+.second-image {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  transition: 0.2s;
+  cursor: pointer;
 }
-  
+
+.image-parent .first-image:hover {
+  opacity: 0;
+}
+.image-parent .second-image:hover {
+  opacity: 1;
+}
+
+.childrens {
+  position: absolute;
+}
+
+.image-parent:hover .example {
+  opacity: 1;
+}
+.example {
+  position: absolute;
+  bottom: 2px;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.arrowIcon {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.button-parent:hover .arrowIcon {
+  opacity: 1;
+}
+
+.notDesign {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+}
+.design {
+  color: rgb(71, 151, 71);
+  transition: ease-in-out 0.3s;
+  border-bottom: 1px solid rgb(71, 151, 71);
+  font-weight: 600;
+}
+
+.hover-image {
+  position: relative;
+ 
+}
+.hidden-div {
+  opacity: 0;
+ transform: translate(-50%, -50%);
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transition: 0.5s;
+}
+
+.hover-image:hover .hidden-div {
+  opacity: 1;
+ 
+}
