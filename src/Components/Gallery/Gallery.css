@@ -1,11 +1,10 @@
-.img-animation{
+.img-animation {
     transition: 0.5s;
     overflow: hidden;
-    
+
 }
-.img-animation:hover{
-    opacity: 0.8;
+
+.sajib:hover .img-animation{
     transform: scale(1.1);
-    overflow: hidden;
-     
+
 }
