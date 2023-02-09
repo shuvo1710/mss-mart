@@ -27,9 +27,7 @@ const Gallery = () => {
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">
                             Ethnics
                             </p>
-                            
                         </div>
-                        
                     </div>
                     <div className='overflow-hidden'>
                         <img alt='' src={ethnics} className="img-animation" />
