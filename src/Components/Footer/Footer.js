@@ -5,7 +5,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="footerBg p-4 ">
+    <div className="bgPrimary p-4 ">
       <div className="container mx-auto my-10  ">
         <div className="md:flex justify-between mt-4 mb-10 items-center">
           <div>

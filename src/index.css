@@ -6,12 +6,12 @@
 
 @layer base {
   :root {
-    --color-primary: #13393b;
-    --color-secondary: #f18840;
-    --color-ternary: #618a8d;
+    --color-primary: #ebe8e2;
+    --color-secondary: #ebe8e22b;
+    /* --color-ternary: #618a8d;
     --color-white: #fff;
     --color-black: #17494d;
-    --color-dark: #0b363d;
+    --color-dark: #0b363d; */
   }
 
   html {
@@ -36,16 +36,13 @@
     font-family: 'Dancing Script', cursive;
   }
 
-  .footerBg {
+  .bgPrimary {
     background-color: #ebe8e2;
   }
-  .shuvo{
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    height: 100vh;
+  .bgSecondary{
+    background-color: #ebe8e22b;
   }
-  .shuvo2{
-    height: 50vh;
+  .text-line-height{
+    letter-spacing: 2.5px;
   }
 }
