@@ -3,23 +3,23 @@
     "images": [
       {
         "id": 1,
-        "i": ""
+        "i": "https://i.ibb.co/2NFzwG6/mens-casual-shirt01.jpg"
       },
       {
         "id": 2,
-        "i": ""
+        "i": "https://i.ibb.co/7jkJFq6/mens-casual-shirt1.jpg"
       },
       {
         "id": 3,
-        "i": ""
+        "i": "https://i.ibb.co/7jkJFq6/mens-casual-shirt1.jpg"
       },
       {
         "id": 4,
-        "i": ""
+        "i": "https://i.ibb.co/7jkJFq6/mens-casual-shirt1.jpg"
       },
       {
         "id": 5,
-        "i": ""
+        "i": "https://i.ibb.co/7jkJFq6/mens-casual-shirt1.jpg"
       }
     ],
     
@@ -50,7 +50,38 @@
         "size": "XL",
         "quantity": 0
       }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/PzqvSwR/mens-casual-shirt02.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/GRyvmZr/mens-casual-shirt2.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/GRyvmZr/mens-casual-shirt2.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/GRyvmZr/mens-casual-shirt2.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/GRyvmZr/mens-casual-shirt2.jpg"
+      }
     ],
+    
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
     "productSizes": [
       {
         "size": "S",
@@ -72,7 +103,37 @@
         "size": "XL",
         "quantity": 0
       }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/GsbsZDg/mens-casual-shirt03.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/xfzChWW/mens-casual-shirt3.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/xfzChWW/mens-casual-shirt3.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/xfzChWW/mens-casual-shirt3.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/xfzChWW/mens-casual-shirt3.jpg"
+      }
     ],
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
     "productSizes": [
       {
         "size": "S",
@@ -94,7 +155,38 @@
         "size": "XL",
         "quantity": 0
       }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/pQG2qy0/mens-casual-shirt04.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/6Z3shXj/mens-casual-shirt4.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/6Z3shXj/mens-casual-shirt4.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/6Z3shXj/mens-casual-shirt4.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/6Z3shXj/mens-casual-shirt4.jpg"
+      }
     ],
+    
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
     "productSizes": [
       {
         "size": "S",
@@ -114,7 +206,325 @@
       },
       {
         "size": "XL",
-        "quantity": 5
+        "quantity": 0
+      }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/ZXmF1Nc/mens-casual-shirt05.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/MSrbzHm/mens-casual-shirt5.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/MSrbzHm/mens-casual-shirt5.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/MSrbzHm/mens-casual-shirt5.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/MSrbzHm/mens-casual-shirt5.jpg"
+      }
+    ],
+    
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+    "productSizes": [
+      {
+        "size": "S",
+        "quantity": 25
+      },
+      {
+        "size": "M",
+        "quantity": 25
+      },
+      {
+        "size": "L",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 0
+      }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/rprqVXw/mens-casual-shirt06.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/f05WSgV/mens-casual-shirt6.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/f05WSgV/mens-casual-shirt6.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/f05WSgV/mens-casual-shirt6.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/f05WSgV/mens-casual-shirt6.jpg"
+      }
+    ],
+    
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+    "productSizes": [
+      {
+        "size": "S",
+        "quantity": 25
+      },
+      {
+        "size": "M",
+        "quantity": 25
+      },
+      {
+        "size": "L",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 0
+      }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/k6fnvxP/mens-casual-shirt07.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/Q8F1TZv/mens-casual-shirt7.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/Q8F1TZv/mens-casual-shirt7.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/Q8F1TZv/mens-casual-shirt7.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/Q8F1TZv/mens-casual-shirt7.jpg"
+      }
+    ],
+    
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+    "productSizes": [
+      {
+        "size": "S",
+        "quantity": 25
+      },
+      {
+        "size": "M",
+        "quantity": 25
+      },
+      {
+        "size": "L",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 0
+      }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/rprqVXw/mens-casual-shirt06.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/f05WSgV/mens-casual-shirt6.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/f05WSgV/mens-casual-shirt6.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/f05WSgV/mens-casual-shirt6.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/f05WSgV/mens-casual-shirt6.jpg"
+      }
+    ],
+    
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+    "productSizes": [
+      {
+        "size": "S",
+        "quantity": 25
+      },
+      {
+        "size": "M",
+        "quantity": 25
+      },
+      {
+        "size": "L",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 0
+      }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/zmybwWm/mens-casual-shirt09.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/vdFDsc8/mens-casual-shirt9.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/vdFDsc8/mens-casual-shirt9.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/vdFDsc8/mens-casual-shirt9.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/vdFDsc8/mens-casual-shirt9.jpg"
+      }
+    ],
+    
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+    "productSizes": [
+      {
+        "size": "S",
+        "quantity": 25
+      },
+      {
+        "size": "M",
+        "quantity": 25
+      },
+      {
+        "size": "L",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 0
+      }
+    ]
+  },
+  {
+    "images": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/FgfcSy3/mens-casual-shirt-010.jpg"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/PzP3PmX/mens-casual-shirt10.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/PzP3PmX/mens-casual-shirt10.jpg"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/PzP3PmX/mens-casual-shirt10.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/PzP3PmX/mens-casual-shirt10.jpg"
+      }
+    ],
+    
+    "category": "man",
+    "price": "3,000",
+    "discount": 7,
+    "title": "Product Name",
+    "rating": "4",
+    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+    "productSizes": [
+      {
+        "size": "S",
+        "quantity": 25
+      },
+      {
+        "size": "M",
+        "quantity": 25
+      },
+      {
+        "size": "L",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 25
+      },
+      {
+        "size": "XL",
+        "quantity": 0
       }
     ]
   }
