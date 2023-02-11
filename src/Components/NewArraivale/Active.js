@@ -7,7 +7,7 @@ const Active = ({active}) => {
     return (
         <div className='grid md:grid-cols-3 lg:grid-cols-5 gap-2 container mx-auto my-4'>
             {
-                active.map(singleMan=><ProductCard key={singleMan._id} singleMan={singleMan}></ProductCard>)
+                active.map(activeProducts=><ProductCard key={activeProducts._id} Products={activeProducts}></ProductCard>)
             }
         </div>
     );

@@ -7,7 +7,7 @@ const Womens = ({ woman}) => {
     return (
         <div className='grid md:grid-cols-3 lg:grid-cols-5 gap-2  container mx-auto my-4'>
         {
-            woman.map(singleMan=><ProductCard key={singleMan._id} singleMan={singleMan}></ProductCard>)
+            woman.map(woManProducts=><ProductCard key={woManProducts._id} Products={woManProducts}></ProductCard>)
         }
     </div>
     );
