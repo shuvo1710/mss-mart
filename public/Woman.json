@@ -3,32 +3,32 @@
       "images": [
         {
           "id": 1,
-          "i": ""
+          "i": "https://i.ibb.co/PN1T0Y0/woman1.jpg"
         },
         {
           "id": 2,
-          "i": ""
+          "i": "https://i.ibb.co/k15WQKK/woman1-2.jpg"
         },
         {
           "id": 3,
-          "i": ""
+          "i": "https://i.ibb.co/k15WQKK/woman1-2.jpg"
         },
         {
           "id": 4,
-          "i": ""
+          "i": "https://i.ibb.co/k15WQKK/woman1-2.jpg"
         },
         {
           "id": 5,
-          "i": ""
+          "i": "https://i.ibb.co/k15WQKK/woman1-2.jpg"
         }
       ],
       
-      "category": "man",
+      "category": "woman",
       "price": "3,000",
       "discount": 7,
-      "title": "Product Name",
+      "title": "Womens Fashion Jump Suit",
       "rating": "4",
-      "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+      "description": "FH-EF57-OWFJS-0581",
       "productSizes": [
         {
           "size": "S",
@@ -49,74 +49,523 @@
         {
           "size": "XL",
           "quantity": 0
-        }
-      ],
-      "productSizes": [
-        {
-          "size": "S",
-          "quantity": 25
-        },
-        {
-          "size": "M",
-          "quantity": 25
-        },
-        {
-          "size": "L",
-          "quantity": 25
-        },
-        {
-          "size": "XL",
-          "quantity": 25
-        },
-        {
-          "size": "XL",
-          "quantity": 0
-        }
-      ],
-      "productSizes": [
-        {
-          "size": "S",
-          "quantity": 25
-        },
-        {
-          "size": "M",
-          "quantity": 25
-        },
-        {
-          "size": "L",
-          "quantity": 25
-        },
-        {
-          "size": "XL",
-          "quantity": 25
-        },
-        {
-          "size": "XL",
-          "quantity": 0
-        }
-      ],
-      "productSizes": [
-        {
-          "size": "S",
-          "quantity": 25
-        },
-        {
-          "size": "M",
-          "quantity": 25
-        },
-        {
-          "size": "L",
-          "quantity": 25
-        },
-        {
-          "size": "XL",
-          "quantity": 25
-        },
-        {
-          "size": "XL",
-          "quantity": 5
         }
       ]
+     
+    },
+
+
+
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/DDVSdwQ/woman2.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/r56T1w7/woman2-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/r56T1w7/woman2-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/r56T1w7/woman2-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/r56T1w7/woman2-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "Womens Fashion Long Top",
+      "rating": "4",
+      "description": "SO-EA57-OWWFLT-0005",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
+    },
+
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/d6PSMgb/woman3.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/nzs9J56/woman3-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/nzs9J56/woman3-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/nzs9J56/woman3-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/nzs9J56/woman3-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "Womens Fashion Outerwear",
+      "rating": "4",
+      "description": "FH-WI57-OWWOW-0670",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
+    },
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/QMp3Sb9/woman4.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/HHzwpvN/woman4-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/HHzwpvN/woman4-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/HHzwpvN/woman4-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/HHzwpvN/woman4-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "Womens Fashion Skirt",
+      "rating": "4",
+      "description": "FH-SP57-OWWFS-0600",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
+    },
+
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/PY3m6fN/woman5.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/7tj97H5/woman5-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/7tj97H5/woman5-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/7tj97H5/woman5-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/7tj97H5/woman5-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "Womens Fusion Long Top",
+      "rating": "4",
+      "description": "JR-FL57-OWWFLT-0045SC",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
+    },
+
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/d7C1wqj/woman6.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/D4bCL3N/woman6-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/D4bCL3N/woman6-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/D4bCL3N/woman6-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/D4bCL3N/woman6-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "Womens Knit Hoodie Jacket",
+      "rating": "4",
+      "description": "JR-WI57-OWKHDJ-0098",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
+    },
+
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/m6tsszH/woman7.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/gmngVRr/woman7-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/gmngVRr/woman7-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/gmngVRr/woman7-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/gmngVRr/woman7-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "Womens Knit Crop Top",
+      "rating": "4",
+      "description": "JR-FL57-OWKCT-0054",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
+    },
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/nC4826P/woman8.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/b2kx2MF/woman8-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/b2kx2MF/woman8-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/b2kx2MF/woman8-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/b2kx2MF/woman8-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "WOMENS KNIT CROP TOPS WITH MASK",
+      "rating": "4",
+      "description": "JR-SP57-OWKCT-0004",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
+    },
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/c2dTdnw/woman9.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/KzfPc6X/woman9-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/KzfPc6X/woman9-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/KzfPc6X/woman9-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/KzfPc6X/woman9-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "WOMENS KNIT OUTERWEAR",
+      "rating": "4",
+      "description": "SF-EA58-OWKOW-0220",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
+    },
+
+
+
+
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/Qd6Zpn8/woman10.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/LCq7m65/woman10-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/LCq7m65/woman10-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/LCq7m65/woman10-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/LCq7m65/woman10-1.jpg"
+        }
+      ],
+      
+      "category": "woman",
+      "price": "3,000",
+      "discount": 7,
+      "title": "WOMENS KNIT T-SHIRT WITH MASK",
+      "rating": "4",
+      "description": "ST-SP57-OWKT-0010",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+     
     }
+
   ]
   
