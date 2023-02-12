@@ -4,7 +4,6 @@
 
 }
 
-.sajib:hover .img-animation{
+.items:hover .img-animation{
     transform: scale(1.1);
-
 }

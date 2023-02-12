@@ -28,7 +28,7 @@
       "discount": 7,
       "title": "Boy’s Woven Fashion shorts",
       "rating": "4",
-      "Style Name": "SA-EF58-GBCS-0424",
+      "styleName": "SA-EF58-GBCS-0424",
       "productSizes": [
         {
           "size": "S",
@@ -52,9 +52,6 @@
         }
       ]
     },
-
-
-
 
     {
         "images": [
@@ -84,7 +81,7 @@
         "discount": 7,
         "title": "BOYS CLASSIC KURTA",
         "rating": "4",
-        "Style Name": "BOYS CLASSIC KURTA",
+        "styleName": "BOYS CLASSIC KURTA",
         "productSizes": [
           {
             "size": "S",
@@ -108,9 +105,6 @@
           }
         ]
       },
-
-
-
 
       {
         "images": [
@@ -140,7 +134,7 @@
         "discount": 7,
         "title": "BOYS CASUAL SHIRT",
         "rating": "4",
-        "Style Name": "SA-EF58-GBCS-0424",
+        "styleName": "SA-EF58-GBCS-0424",
         "productSizes": [
           {
             "size": "S",
@@ -164,10 +158,6 @@
           }
         ]
       },
-
-
-
-
 
       {
         "images": [
@@ -197,7 +187,7 @@
         "discount": 7,
         "title": "Boys Casual Shirt",
         "rating": "4",
-        "Style Name": "FZ-SP57-GBCS-0589C",
+        "styleName": "FZ-SP57-GBCS-0589C",
         "productSizes": [
           {
             "size": "S",
@@ -221,9 +211,6 @@
           }
         ]
       },
-
-
-
 
       {
         "images": [
@@ -253,7 +240,7 @@
         "discount": 7,
         "title": "Boys Casual Shirt (7-10 Years)",
         "rating": "4",
-        "Style Name": "OY-BK57-GBCS-0004B",
+        "styleName": "OY-BK57-GBCS-0004B",
         "productSizes": [
           {
             "size": "S",
@@ -277,13 +264,6 @@
           }
         ]
       },
-
-
-
-
-
-
-
 
       {
         "images": [
@@ -313,7 +293,7 @@
         "discount": 7,
         "title": "BOYS CLASSIC KURTA",
         "rating": "4",
-        "Style Name": "OY-EF58-GBCK-0113",
+        "styleName": "OY-EF58-GBCK-0113",
         "productSizes": [
           {
             "size": "S",
@@ -337,14 +317,6 @@
           }
         ]
       },
-
-
-
-
-
-
-
-
 
       {
         "images": [
@@ -374,7 +346,7 @@
         "discount": 7,
         "title": "Boys Classic Kurta (11-14 Years)",
         "rating": "4",
-        "Style Name": "SA-EF57-GBCK-0208C",
+        "styleName": "SA-EF57-GBCK-0208C",
         "productSizes": [
           {
             "size": "S",
@@ -398,15 +370,6 @@
           }
         ]
       },
-
-
-
-
-
-
-
-
-
 
       {
         "images": [
@@ -436,7 +399,7 @@
         "discount": 7,
         "title": "BOYS KABLI SUIT",
         "rating": "4",
-        "Style Name": "OY-EA58-GBKS-0095",
+        "styleName": "OY-EA58-GBKS-0095",
         "productSizes": [
           {
             "size": "S",
@@ -460,15 +423,6 @@
           }
         ]
       },
-
-
-
-
-
-
-
-
-
 
       {
         "images": [
@@ -498,7 +452,7 @@
         "discount": 7,
         "title": "BOYS KNIT FASHION HOODIE",
         "rating": "4",
-        "Style Name": "SA-WI58-GBKFH-0482",
+        "styleName": "SA-WI58-GBKFH-0482",
         "productSizes": [
           {
             "size": "S",
@@ -522,12 +476,6 @@
           }
         ]
       },
-
-
-
-
-
-
 
       {
         "images": [
@@ -557,7 +505,7 @@
         "discount": 7,
         "title": "BOYS KNIT HENLEY SHIRT",
         "rating": "4",
-        "Style Name": "SA-EA58-GBKHS-0468",
+        "styleName": "SA-EA58-GBKHS-0468",
         "productSizes": [
           {
             "size": "S",
@@ -581,15 +529,6 @@
           }
         ]
       },
-
-
-
-
-
-
-
-
-
 
       {
         "images": [
@@ -619,7 +558,7 @@
         "discount": 7,
         "title": "BOYS KNIT HOODIE",
         "rating": "4",
-        "Style Name": "SA-WI58-GBKH-0487",
+        "styleName": "SA-WI58-GBKH-0487",
         "productSizes": [
           {
             "size": "S",
@@ -643,14 +582,6 @@
           }
         ]
       },
-
-
-
-
-
-
-
-
 
       {
         "images": [
@@ -680,7 +611,7 @@
         "discount": 7,
         "title": "BOYS KNIT JACKET",
         "rating": "4",
-        "Style Name": "SA-WI58-GBKJ-0480",
+        "styleName": "SA-WI58-GBKJ-0480",
         "productSizes": [
           {
             "size": "S",
@@ -704,12 +635,6 @@
           }
         ]
       },
-
-
-
-
-
-
 
       {
         "images": [
@@ -739,7 +664,7 @@
         "discount": 7,
         "title": "GIRLS KNIT TOP BOTTOM SET",
         "rating": "4",
-        "Style Name": "EV-EA58-GGKTBS-0950",
+        "styleName": "EV-EA58-GGKTBS-0950",
         "productSizes": [
           {
             "size": "S",
@@ -763,15 +688,6 @@
           }
         ]
       },
-
-
-
-
-
-
-
-
-
 
       {
         "images": [
@@ -801,7 +717,7 @@
         "discount": 7,
         "title": "GIRLS KNIT SWEAT SHIRT",
         "rating": "4",
-        "Style Name": "PR-WI58-GGKSS-0294",
+        "styleName": "PR-WI58-GGKSS-0294",
         "productSizes": [
           {
             "size": "S",
@@ -825,12 +741,6 @@
           }
         ]
       },
-
-
-
-
-
-
 
       {
         "images": [
@@ -860,7 +770,7 @@
         "discount": 7,
         "title": "GIRLS KNIT FASHION BLAZER",
         "rating": "4",
-        "Style Name": "EV-WI58-GGKFB-1032",
+        "styleName": "EV-WI58-GGKFB-1032",
         "productSizes": [
           {
             "size": "S",

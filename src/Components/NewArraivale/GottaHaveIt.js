@@ -15,7 +15,7 @@ const GottaHaveIt = () => {
   const [active, setActive] = useState([]);
 
   useEffect(() => {
-    fetch("Test.json")
+    fetch("man.json")
       .then((res) => res.json())
       .then((data) => {
         setActive(data);
@@ -25,8 +25,8 @@ const GottaHaveIt = () => {
       });
   }, []);
 
-  const newArrivals = () => {
-    fetch("Test.json")
+  const mansProduct = () => {
+    fetch("man.json")
       .then((res) => res.json())
       .then((data) => {
         setMan(data);
@@ -35,8 +35,8 @@ const GottaHaveIt = () => {
         setActive([]);
       });
   };
-  const bestSellers = () => {
-    fetch("TestTwo.json")
+  const womansProducts = () => {
+    fetch("woman.json")
       .then((res) => res.json())
       .then((data) => {
         setWoman(data);
@@ -45,8 +45,8 @@ const GottaHaveIt = () => {
         setActive([]);
       });
   };
-  const OnSale = () => {
-    fetch("TestThree.json")
+  const kidsProducts = () => {
+    fetch("kid.json")
       .then((res) => res.json())
       .then((data) => {
         setKid(data);
@@ -67,19 +67,19 @@ const GottaHaveIt = () => {
         </div>
         <div className="flex gap-4 justify-center items-center">
           <button
-            onClick={newArrivals}
+            onClick={mansProduct}
             className={man.length || active.length ? designClass : "notDesign"}
           >
             Man
           </button>
           <button
-            onClick={bestSellers}
+            onClick={womansProducts}
             className={woman.length ? designClass : "notDesign"}
           >
             Woman
           </button>
           <button
-            onClick={OnSale}
+            onClick={kidsProducts}
             className={Kid.length ? designClass : "notDesign"}
           >
             Kids
@@ -87,10 +87,10 @@ const GottaHaveIt = () => {
         </div>
       </div>
 
-      <Kids kids={Kid} />
-      <Womens woman={woman} />
-      <Active active={active} />
-      <Mens man={man} />
+      <Kids kids={Kid}/>
+      <Womens woman={woman}/>
+      <Active active={active}/>
+      <Mens man={man}/>
     </div>
   );
 };

@@ -21,7 +21,6 @@ const Home = () => {
             <Gallery/>
             <BestSale/>
             <Discount/>
-
             <PayementMethod/>
             <NewsLetter/>
         </div>
