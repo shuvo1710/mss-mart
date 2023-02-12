@@ -1,4 +1,5 @@
 import React from "react";
+// import "./ProductCard.css"
 import { BsCartPlus } from "react-icons/bs";
 import { BiHeart } from "react-icons/bi";
 import { BsStar } from "react-icons/bs";
@@ -9,15 +10,15 @@ const ProductCard = ({ Products }) => {
   console.log(images)
   return (
     <div>
-      <div className="relative image-parent">
+      <div className="relative image-parent border">
         <img
           className="first-image"
-          src="https://cdn.shopify.com/s/files/1/0256/4594/0810/products/2_e64bc63a-735c-4c2c-9542-81681cff4891_360x.jpg?v=1614070027"
+          src={images?.[0].i}
           alt=""
         />
         <img
           className="second-image"
-          src="https://cdn.shopify.com/s/files/1/0256/4594/0810/products/2_b71f02c8-1b6d-4f14-9686-cbd05ae3ab5c_360x.jpg?v=1615019404"
+          src={images?.[1].i}
           alt=""
         />
         <div className="example top-4 right-4">
@@ -28,9 +29,9 @@ const ProductCard = ({ Products }) => {
         </div>
 
         <div className=" p-2">
-          <a href="/" alt="" className="hover:underline duration-300">{title}</a>
-          <div className="flex justify-between">
-            <p className="font-semibold">$33.00</p>
+          <a href="/" alt="" className="hover:underline duration-300 text-sm">{title}</a>
+          <div className="flex justify-between items-center pt-2">
+            <p className="font-semibold">Tk: {price}</p>
             <div className="flex gap-1">
               <p><BsStar /></p>
               <p><BsStar /></p>
