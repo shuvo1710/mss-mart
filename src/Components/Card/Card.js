@@ -26,7 +26,7 @@ const Card = () => {
                                     src="https://cdn.shopify.com/s/files/1/0256/4594/0810/products/2_b71f02c8-1b6d-4f14-9686-cbd05ae3ab5c_360x.jpg?v=1615019404"
                                     alt=""
                                 />
-                                <div className="example top-4 right-4">
+                                <div className="icons top-4 right-4">
                                     <div className="">
                                         <BiHeart className="mb-4 heart duration-300 hover:scale-125 cursor-pointer" />
                                         <BsCartPlus className="cart duration-300 hover:scale-125 cursor-pointer" />
