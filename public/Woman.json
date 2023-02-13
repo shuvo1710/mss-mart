@@ -22,7 +22,7 @@
           "i": "https://i.ibb.co/k15WQKK/woman1-2.jpg"
         }
       ],
-      
+      "productType": "ethnics",
       "category": "woman",
       "price": "3,000",
       "discount": 7,
@@ -53,6 +53,7 @@
       ]
      
     },
+
     {
       "images": [
         {
@@ -546,4 +547,5 @@
         }
       ]
     }
+    
   ]
