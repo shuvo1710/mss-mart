@@ -14,7 +14,7 @@ const Footer = () => {
               We're available by phone{" "}
               <span className="text-2xl">+123-456-789</span>
             </p>
-            <p>info@example.com</p>
+            <p>info@icons.com</p>
             <h3 className="text-2xl font-semibold">
               Monday till Friday 10 to 6 EST
             </h3>

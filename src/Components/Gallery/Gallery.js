@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import "./Gallery.css"
 import ethnics from "../../resource/ethnics.jpg"
 import panjabi from "../../resource/panjabi.jpg"
@@ -10,10 +10,14 @@ import mansShirt from "../../resource/mans-shart.jpg"
 import mansPolo from "../../resource/mans-polo.jpg"
 import western1 from "../../resource/western1.jpg"
 import western2 from "../../resource/western2.jpg"
-
+import  { Category } from '../../CategoryContext/CategoryContext';
 
 
 const Gallery = () => {
+    const {setCategoryName, storeProduct}=useContext(Category)
+    console.log(storeProduct);
+  
+   
     return (
         <div className='my-20'>
             <div className='container mx-auto'>
@@ -22,7 +26,7 @@ const Gallery = () => {
                     <h3 className='headerStyle text-lg md:text-2xl font-medium'>Shop Our Best-Selling Styles and Find Your New Favorite Outfit</h3>
                 </div>
                 <div className='grid lg:grid-cols-2 grid-cols-1 mb-2 gap-3'>
-                    <div className='overflow-hidden relative items'>
+                    <div  onClick={()=> setCategoryName("man")}  className='overflow-hidden relative items'>
                         <img alt='' src={ethnics} className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">
@@ -30,7 +34,7 @@ const Gallery = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='overflow-hidden relative items'>
+                    <div onClick={()=> setCategoryName("woman")}  className='overflow-hidden relative items'>
                         <img alt='' src={panjabi} className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">
