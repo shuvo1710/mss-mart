@@ -22,7 +22,7 @@
           "i": "https://i.ibb.co/k15WQKK/woman1-2.jpg"
         }
       ],
-      
+      "productType": "ethnics",
       "category": "woman",
       "price": "3,000",
       "discount": 7,
@@ -53,6 +53,7 @@
       ]
      
     },
+
     {
       "images": [
         {
@@ -80,6 +81,7 @@
       "category": "woman",
       "price": "3,000",
       "discount": 7,
+      "productType": "coupleTShirt",
       "title": "Womens Fashion Long Top",
       "rating": "4",
       "description": "SO-EA57-OWWFLT-0005",
@@ -135,6 +137,7 @@
       "category": "woman",
       "price": "3,000",
       "discount": 7,
+      "productType": "femaleTShirt",
       "title": "Womens Fashion Outerwear",
       "rating": "4",
       "description": "FH-WI57-OWWOW-0670",
@@ -189,6 +192,7 @@
       
       "category": "woman",
       "price": "3,000",
+      "productType": "femaleOnePiece",
       "discount": 7,
       "title": "Womens Fashion Skirt",
       "rating": "4",
@@ -245,6 +249,7 @@
       "category": "woman",
       "price": "3,000",
       "discount": 7,
+      "productType": "western",
       "title": "Womens Fusion Long Top",
       "rating": "4",
       "description": "JR-FL57-OWWFLT-0045SC",
@@ -546,4 +551,5 @@
         }
       ]
     }
+    
   ]
