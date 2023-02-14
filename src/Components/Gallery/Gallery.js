@@ -24,11 +24,11 @@ const Gallery = () => {
                     <h3 className='headerStyle text-lg md:text-2xl font-medium'>Shop Our Best-Selling Styles and Find Your New Favorite Outfit</h3>
                 </div>
                 <div className='grid lg:grid-cols-2 grid-cols-1 mb-2 gap-3'>
-                    <Link to="/check"  onClick={()=> setCategoryName("ethnics")}  className='overflow-hidden relative items'>
+                    <Link to="/check"  onClick={()=> setCategoryName("womanLawn")}  className='overflow-hidden relative items'>
                         <img alt='' src={ethnics} className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">
-                                Premium Lown
+                                Premium Lawn
                             </p>
                         </div>
                     </Link>

@@ -12,7 +12,6 @@ const CategoryContext = ({children}) => {
     const userCategory={
         setCategoryName,
         storeProduct
-
     }
     return (
         <Category.Provider value={userCategory}>
