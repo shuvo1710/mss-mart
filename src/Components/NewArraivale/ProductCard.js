@@ -28,7 +28,7 @@ const ProductCard = ({ Products }) => {
             <BsCartPlus className="cart duration-300 hover:scale-125 cursor-pointer" />
           </div>
         </div>
-        <div className="hiddenButton justify-center text-center -mt-10">
+        <div className="hiddenButton justify-center text-center">
           <button className="bg-black p-2 text-white rounded font-semibold">
             Order Now
           </button>

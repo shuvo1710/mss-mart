@@ -138,10 +138,7 @@
       "productType": "womanLawn",
       "price": "3,000",
       "discount": 7,
-
       "title": "Women's Lawn",
-
-     
       "rating": "4",
       "description": "FH-WI57-OWWOW-0670",
       "productSizes": [
@@ -196,7 +193,6 @@
       "category": "woman",
       "productType": "womanLawn",
       "price": "3,000",
-      "productType": "femaleOnePiece",
       "discount": 7,
       "title": "Women's Lawn",
       "rating": "4",
@@ -254,10 +250,7 @@
       "productType": "womanLawn",
       "price": "3,000",
       "discount": 7,
-
       "title": "Women's Lawn",
-
-      
       "rating": "4",
       "description": "JR-FL57-OWWFLT-0045SC",
       "productSizes": [
