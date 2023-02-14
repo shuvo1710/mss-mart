@@ -4,13 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CategoryContext from './CategoryContext/CategoryContext';
+import {
+  QueryClient,
+  QueryClientProvider,
+} from 'react-query'
+
+// Create a client
+const queryClient = new QueryClient()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
     <CategoryContext>
-
-    <App />
+      <QueryClientProvider client={queryClient}>
+        <App />
+      </QueryClientProvider>
     </CategoryContext>
   </React.StrictMode>
 );

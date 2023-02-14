@@ -5,7 +5,7 @@ import { BiHeart } from "react-icons/bi";
 import { BsStar } from "react-icons/bs";
 import { Link } from "react-router-dom";
 const ProductCard = ({ Products }) => {
-  console.log(Products);
+
   const {
     category,
     description,
@@ -16,7 +16,7 @@ const ProductCard = ({ Products }) => {
     rating,
     title,
   } = Products;
-  console.log(images);
+  // console.log(images);
   return (
     <div>
       <div className="relative image-parent border">
@@ -29,7 +29,7 @@ const ProductCard = ({ Products }) => {
           </div>
         </div>
         <div className="hiddenButton justify-center text-center">
-          <button className="bg-black p-2 text-white rounded font-semibold">
+          <button className="bg-black p-2 text-white rounded font-medium text-sm  hover:bg-white hover:text-black">
             Order Now
           </button>
         </div>

@@ -1,10 +1,21 @@
 import React from 'react';
-import { FaArrowRight, FaCartArrowDown, FaHeart, FaLock } from "react-icons/fa";
 import './Card.css'
-import { BsCartPlus } from 'react-icons/bs'
-import { BiHeart } from 'react-icons/bi'
-import { BsStar } from 'react-icons/bs'
+import { useQuery } from 'react-query';
+import Loder from '../Loder/Loder';
+import RecommendationCard from './RecommendationCard/RecommendationCard';
 const Card = () => {
+    const {data:recommendation = [], isLoading} = useQuery({
+        queryKey: ['recommendation'],
+        queryFn: async ()=>{
+            const res = await fetch('http://localhost:5000/recommendation')
+            const data = await res.json()
+            return data;
+        }
+ 
+    })
+     if(isLoading){
+        return <Loder/>;
+     }
     return (
         <div className='py-20'>
             <div className='text-center my-10'>
@@ -13,41 +24,8 @@ const Card = () => {
             </div>
             <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-2  container mx-auto my-4">
                 {
-                    Array.from({ length: 12 }).map(sajib =>
-                        <div>
-                            <div className="relative image-parent">
-                                <img
-                                    className="first-image"
-                                    src="https://cdn.shopify.com/s/files/1/0256/4594/0810/products/2_e64bc63a-735c-4c2c-9542-81681cff4891_360x.jpg?v=1614070027"
-                                    alt=""
-                                />
-                                <img
-                                    className="second-image"
-                                    src="https://cdn.shopify.com/s/files/1/0256/4594/0810/products/2_b71f02c8-1b6d-4f14-9686-cbd05ae3ab5c_360x.jpg?v=1615019404"
-                                    alt=""
-                                />
-                                <div className="icons top-4 right-4">
-                                    <div className="">
-                                        <BiHeart className="mb-4 heart duration-300 hover:scale-125 cursor-pointer" />
-                                        <BsCartPlus className="cart duration-300 hover:scale-125 cursor-pointer" />
-                                    </div>
-                                </div>
-
-                                <div className=" p-2">
-                                    <a href="/" alt="" className="hover:underline duration-300">Lorem ipsum dolor sit amet.</a>
-                                    <div className="flex justify-between">
-                                        <p className="font-semibold">$33.00</p>
-                                        <div className="flex gap-1">
-                                            <p><BsStar /></p>
-                                            <p><BsStar /></p>
-                                            <p><BsStar /></p>
-                                            <p><BsStar /></p>
-                                            <p><BsStar /></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>)
+                    recommendation.map(product=> <RecommendationCard key={[product._id]} product={product}/>
+                        )
                 }
             </div>
 

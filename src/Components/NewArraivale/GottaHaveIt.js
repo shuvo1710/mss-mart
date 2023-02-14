@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
 import Mens from './Mens';
-
 import Active from './Active';
-
 import '../Card/Card.css'
 import Womens from './Womens';
 import Kids from './Kids';
@@ -15,7 +12,7 @@ const GottaHaveIt = () => {
   const [active, setActive] = useState([]);
 
   useEffect(() => {
-    fetch("man.json")
+    fetch("http://localhost:5000/man")
       .then((res) => res.json())
       .then((data) => {
         setActive(data);
@@ -26,7 +23,7 @@ const GottaHaveIt = () => {
   }, []);
 
   const mansProduct = () => {
-    fetch("man.json")
+    fetch("http://localhost:5000/man")
       .then((res) => res.json())
       .then((data) => {
         setMan(data);
@@ -36,7 +33,7 @@ const GottaHaveIt = () => {
       });
   };
   const womansProducts = () => {
-    fetch("woman.json")
+    fetch("http://localhost:5000/woman")
       .then((res) => res.json())
       .then((data) => {
         setWoman(data);
@@ -46,7 +43,7 @@ const GottaHaveIt = () => {
       });
   };
   const kidsProducts = () => {
-    fetch("kid.json")
+    fetch("http://localhost:5000/kids")
       .then((res) => res.json())
       .then((data) => {
         setKid(data);
