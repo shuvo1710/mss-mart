@@ -16,6 +16,7 @@ import { Link } from 'react-router-dom';
 
 const Gallery = () => {
     const {setCategoryName, storeProduct}=useContext(Category)
+
     return (
         <div className='my-20'>
             <div className='container mx-auto'>
