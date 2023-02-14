@@ -138,12 +138,7 @@
       "productType": "womanLawn",
       "price": "3,000",
       "discount": 7,
-<<<<<<<<< Temporary merge branch 1
       "title": "Women's Lawn",
-=========
-      "productType": "femaleTShirt",
-      "title": "Womens Fashion Outerwear",
->>>>>>>>> Temporary merge branch 2
       "rating": "4",
       "description": "FH-WI57-OWWOW-0670",
       "productSizes": [
@@ -255,12 +250,7 @@
       "productType": "womanLawn",
       "price": "3,000",
       "discount": 7,
-<<<<<<<<< Temporary merge branch 1
       "title": "Women's Lawn",
-=========
-      "productType": "western",
-      "title": "Womens Fusion Long Top",
->>>>>>>>> Temporary merge branch 2
       "rating": "4",
       "description": "JR-FL57-OWWFLT-0045SC",
       "productSizes": [
