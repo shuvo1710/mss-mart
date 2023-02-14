@@ -129,6 +129,7 @@
       }
     ],
     "category": "man",
+    "productType": "casualShirt",
     "price": "3,000",
     "discount": 7,
     "title": "Men's casual shirt",
@@ -182,6 +183,7 @@
     ],
     
     "category": "man",
+    "productType": "casualShirt",
     "price": "3,000",
     "discount": 7,
     "title": "Men's casual shirt",
@@ -235,6 +237,7 @@
     ],
     
     "category": "man",
+    "productType": "casualShirt",
     "price": "3,000",
     "discount": 7,
     "title": "Men's casual shirt",
@@ -288,6 +291,7 @@
     ],
     
     "category": "man",
+    "productType": "casualShirt",
     "price": "3,000",
     "discount": 7,
     "title": "Men's casual shirt",
@@ -341,6 +345,7 @@
     ],
     
     "category": "man",
+    "productType": "casualShirt",
     "price": "3,000",
     "discount": 7,
     "title": "Men's casual shirt",
@@ -394,6 +399,7 @@
     ],
     
     "category": "man",
+    "productType": "casualShirt",
     "price": "3,000",
     "discount": 7,
     "title": "Men's casual shirt",
@@ -447,6 +453,7 @@
     ],
     
     "category": "man",
+    "productType": "casualShirt",
     "price": "3,000",
     "discount": 7,
     "title": "Men's casual shirt",
@@ -500,6 +507,7 @@
     ],
     
     "category": "man",
+    "productType": "casualShirt",
     "price": "3,000",
     "discount": 7,
     "title": "Men's casual shirt",
@@ -528,4 +536,5 @@
       }
     ]
   }
+
 ]
