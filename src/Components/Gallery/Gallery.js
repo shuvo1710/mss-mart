@@ -17,7 +17,7 @@ const Gallery = () => {
     const {setCategoryName, storeProduct}=useContext(Category)
     console.log(storeProduct);
   
-   
+
     return (
         <div className='my-20'>
             <div className='container mx-auto'>
@@ -30,7 +30,7 @@ const Gallery = () => {
                         <img alt='' src={ethnics} className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">
-                                Ethnics
+                                Premium Lown
                             </p>
                         </div>
                     </div>
