@@ -5,7 +5,7 @@ import { BiHeart } from "react-icons/bi";
 import { BsStar } from "react-icons/bs";
 import { Link } from "react-router-dom";
 const ProductCard = ({ Products }) => {
-  console.log(Products);
+
   const {
     category,
     description,
