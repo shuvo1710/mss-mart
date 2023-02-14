@@ -1,0 +1,800 @@
+
+[
+    {
+      "images": [
+        {
+          "id": 1,
+          "i": "https://i.ibb.co/n6XHnP8/kid1.jpg"
+        },
+        {
+          "id": 2,
+          "i": "https://i.ibb.co/wNNG0W0/kid1-1.jpg"
+        },
+        {
+          "id": 3,
+          "i": "https://i.ibb.co/wNNG0W0/kid1-1.jpg"
+        },
+        {
+          "id": 4,
+          "i": "https://i.ibb.co/wNNG0W0/kid1-1.jpg"
+        },
+        {
+          "id": 5,
+          "i": "https://i.ibb.co/wNNG0W0/kid1-1.jpg"
+        }
+      ],
+      "category": "kid",
+      "price": "3,000",
+      "discount": 7,
+      "productType": "kidsTShirt",
+      "title": "Boy’s Woven Fashion shorts",
+      "rating": "4",
+      "styleName": "SA-EF58-GBCS-0424",
+      "productSizes": [
+        {
+          "size": "S",
+          "quantity": 25
+        },
+        {
+          "size": "M",
+          "quantity": 25
+        },
+        {
+          "size": "L",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 25
+        },
+        {
+          "size": "XL",
+          "quantity": 0
+        }
+      ]
+    },
+
+    {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/c6TynTY/kid2.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/VBMLWXv/kid2-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/VBMLWXv/kid2-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/VBMLWXv/kid2-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/VBMLWXv/kid2-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "BOYS CLASSIC KURTA",
+        "rating": "4",
+        "styleName": "BOYS CLASSIC KURTA",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/BPv10bG/kid3.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/1qKbqcz/kid3-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/1qKbqcz/kid3-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/1qKbqcz/kid3-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/1qKbqcz/kid3-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "BOYS CASUAL SHIRT",
+        "rating": "4",
+        "styleName": "SA-EF58-GBCS-0424",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/KGCT424/kid4.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/1dW0yRW/kid4-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/1dW0yRW/kid4-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/1dW0yRW/kid4-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/1dW0yRW/kid4-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "Boys Casual Shirt",
+        "rating": "4",
+        "styleName": "FZ-SP57-GBCS-0589C",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/0jVfT69/kid5.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/RHfBvhV/kid5-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/RHfBvhV/kid5-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/RHfBvhV/kid5-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/RHfBvhV/kid5-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "Boys Casual Shirt (7-10 Years)",
+        "rating": "4",
+        "styleName": "OY-BK57-GBCS-0004B",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/PWdw9m7/kid6.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/Fm6nhJm/kid6-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/Fm6nhJm/kid6-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/Fm6nhJm/kid6-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/Fm6nhJm/kid6-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "BOYS CLASSIC KURTA",
+        "rating": "4",
+        "styleName": "OY-EF58-GBCK-0113",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/HBN7Dyn/kid7-1.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/rHfMNMM/kid7.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/rHfMNMM/kid7.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/HBN7Dyn/kid7-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/HBN7Dyn/kid7-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "Boys Classic Kurta (11-14 Years)",
+        "rating": "4",
+        "styleName": "SA-EF57-GBCK-0208C",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/Tbw32Hq/kid8.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/1XGSyQr/kid8-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/1XGSyQr/kid8-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/1XGSyQr/kid8-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/1XGSyQr/kid8-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "BOYS KABLI SUIT",
+        "rating": "4",
+        "styleName": "OY-EA58-GBKS-0095",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/XkVpGsc/kid9.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/WPzSGLC/kid9-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/WPzSGLC/kid9-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/WPzSGLC/kid9-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/WPzSGLC/kid9-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "BOYS KNIT FASHION HOODIE",
+        "rating": "4",
+        "styleName": "SA-WI58-GBKFH-0482",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/3z9X6nD/kid10.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/hCrZm1J/kid10-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/hCrZm1J/kid10-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/hCrZm1J/kid10-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/hCrZm1J/kid10-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "BOYS KNIT HENLEY SHIRT",
+        "rating": "4",
+        "styleName": "SA-EA58-GBKHS-0468",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/9Ym6tC4/kid11.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/kx5cT9V/kid11-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/kx5cT9V/kid11-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/kx5cT9V/kid11-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/kx5cT9V/kid11-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "BOYS KNIT HOODIE",
+        "rating": "4",
+        "styleName": "SA-WI58-GBKH-0487",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/XpKbVgv/kid12.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/Bfmb6kj/kid12-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/Bfmb6kj/kid12-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/Bfmb6kj/kid12-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/Bfmb6kj/kid12-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "BOYS KNIT JACKET",
+        "rating": "4",
+        "styleName": "SA-WI58-GBKJ-0480",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/Z2nt39x/kid13.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/DY2j1fW/kid13-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/DY2j1fW/kid13-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/DY2j1fW/kid13-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/DY2j1fW/kid13-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "GIRLS KNIT TOP BOTTOM SET",
+        "rating": "4",
+        "styleName": "EV-EA58-GGKTBS-0950",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/wpHqxyj/kid14.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/Cm18nN0/kid14-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/Cm18nN0/kid14-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/Cm18nN0/kid14-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/Cm18nN0/kid14-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "GIRLS KNIT SWEAT SHIRT",
+        "rating": "4",
+        "styleName": "PR-WI58-GGKSS-0294",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      },
+
+      {
+        "images": [
+          {
+            "id": 1,
+            "i": "https://i.ibb.co/hZWnvZF/kid15.jpg"
+          },
+          {
+            "id": 2,
+            "i": "https://i.ibb.co/DQSXrdT/kid15-1.jpg"
+          },
+          {
+            "id": 3,
+            "i": "https://i.ibb.co/DQSXrdT/kid15-1.jpg"
+          },
+          {
+            "id": 4,
+            "i": "https://i.ibb.co/DQSXrdT/kid15-1.jpg"
+          },
+          {
+            "id": 5,
+            "i": "https://i.ibb.co/DQSXrdT/kid15-1.jpg"
+          }
+        ],
+        "category": "kid",
+        "price": "3,000",
+        "discount": 7,
+        "title": "GIRLS KNIT FASHION BLAZER",
+        "rating": "4",
+        "styleName": "EV-WI58-GGKFB-1032",
+        "productSizes": [
+          {
+            "size": "S",
+            "quantity": 25
+          },
+          {
+            "size": "M",
+            "quantity": 25
+          },
+          {
+            "size": "L",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 25
+          },
+          {
+            "size": "XL",
+            "quantity": 0
+          }
+        ]
+      }
+    
+  ]
+  
