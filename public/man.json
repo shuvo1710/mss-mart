@@ -29,7 +29,18 @@
     "discount": 7,
     "title": "men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -84,7 +95,18 @@
     
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -138,7 +160,18 @@
     "discount": 7,
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -188,13 +221,22 @@
     
     "category": "man",
     "productType": "casualShirt",
-    
     "price": "3,000",
     "discount": 7,
-    "productType": "tShirt",
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -249,7 +291,18 @@
     "discount": 7,
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -304,7 +357,18 @@
     "discount": 7,
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -359,7 +423,18 @@
     "discount": 7,
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -414,7 +489,18 @@
     "discount": 7,
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -469,7 +555,18 @@
     "discount": 7,
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -523,7 +620,18 @@
     "discount": 7,
     "title": "Men's casual shirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -577,7 +685,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -631,7 +750,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -685,7 +815,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -739,7 +880,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -793,7 +945,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -847,7 +1010,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -901,7 +1075,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -955,7 +1140,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1009,7 +1205,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1063,7 +1270,18 @@
     "discount": 7,
     "title": "men's Panjabi",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1117,7 +1335,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1171,7 +1400,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1225,7 +1465,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1279,7 +1530,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1333,7 +1595,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1387,7 +1660,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1441,7 +1725,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1495,7 +1790,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1549,7 +1855,18 @@
     "discount": 7,
     "title": "men's polo TShirt",
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -1603,7 +1920,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -1657,7 +1985,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -1711,7 +2050,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -1765,7 +2115,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -1819,7 +2180,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -1873,7 +2245,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -1927,7 +2310,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -1981,7 +2375,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -2035,7 +2440,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -2089,7 +2505,18 @@
   "discount": 7,
   "title": "men's Shirt",
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -2165,7 +2592,18 @@
   "price": "3,000",
   "discount": 7,
   "rating": "4",
-  "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+   "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+  "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
   "productSizes": [
     {
       "size": "S",
@@ -2220,7 +2658,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -2275,7 +2724,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -2330,7 +2790,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -2385,7 +2856,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -2440,7 +2922,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -2496,7 +2989,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -2551,7 +3055,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -2606,7 +3121,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
@@ -2661,7 +3187,18 @@
     "price": "3,000",
     "discount": 7,
     "rating": "4",
-    "description": "The Samsung Galaxy S22 Ultra features a 6.8-inch Quad HD+ Dynamic AMOLED 2X screen. It has a front-facing camera with a punch-hole design. The rear camera has quad 108+10+10+12 MP resolution, Laser AF, OIS, periscope telephoto, 10x optical zoom, ultrawide, and other features, as well as 8K video recording. The front-facing camera has a resolution of 40 Megapixels. The Galaxy S22 Ultra has a 5000 mAh battery and 45W fast charging. It has 12 GB of RAM, an octa-core CPU that runs at up to 3.0 GHz, and an Adreno 730 GPU. The Qualcomm Snapdragon 8 Gen 1 (4 nm) chipset powers it. The device has 256 GB of internal storage and no MicroSD slot. There is an ultrasonic in-display fingerprint sensor in this phone.",
+     "details":"A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes.",
+    "deliveryPolicy":"Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "returnAndExchangePolicy":"The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "customerReview":[
+       {
+        "name":"mahedi",
+        "date":"2-6-2017",
+        "reviewDescription":"This product is very comfortable and easy to buy",
+        "rating":"4"
+       }
+    ],
+    "description": "A typical men's outfit might consist of a button-up shirt, a pair of pants, and dress shoes. The shirt could be a solid color, such as white or blue, or it could have a pattern like stripes or checks. The fabric of the shirt might be cotton, linen, or a blend of materials.",
     "productSizes": [
       {
         "size": "S",
