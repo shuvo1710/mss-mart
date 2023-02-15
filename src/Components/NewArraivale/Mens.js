@@ -1,4 +1,5 @@
 import React from 'react';
+import PurchaseModal from '../PurchaseModal/PurchaseModal';
 // import Card from '../Card/Card';
 import ProductCard from './ProductCard';
 
@@ -9,6 +10,7 @@ const Mens = ({man}) => {
             {
                 man.map(mansProducts=><ProductCard key={mansProducts._id} Products={mansProducts}></ProductCard>)
             }
+         
         </div>
     );
    }

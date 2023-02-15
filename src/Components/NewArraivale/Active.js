@@ -1,4 +1,5 @@
 import React from 'react';
+import PurchaseModal from '../PurchaseModal/PurchaseModal';
 import ProductCard from './ProductCard';
 
 const Active = ({active}) => {
@@ -8,6 +9,7 @@ const Active = ({active}) => {
             {
                 active.map(activeProducts=><ProductCard key={activeProducts._id} Products={activeProducts}></ProductCard>)
             }
+            
         </div>
     );
  }
