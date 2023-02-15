@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../Card/Card';
+import PurchaseModal from '../PurchaseModal/PurchaseModal';
 import ProductCard from './ProductCard';
 
 const Womens = ({ woman}) => {
@@ -9,6 +10,7 @@ const Womens = ({ woman}) => {
         {
             woman.map(woManProducts=><ProductCard key={woManProducts._id} Products={woManProducts}></ProductCard>)
         }
+        
     </div>
     );
    }

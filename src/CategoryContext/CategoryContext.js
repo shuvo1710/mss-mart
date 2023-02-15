@@ -1,6 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react';
 export const Category=createContext()
 const CategoryContext = ({children}) => {
+    const [modalData,setMOdalData] = useState([])
     const [categoryName, setCategoryName]=useState("")
     const [storeProduct, setStoreProduct]=useState([])
     useEffect(()=>{
@@ -11,8 +12,11 @@ const CategoryContext = ({children}) => {
 
     const userCategory={
         setCategoryName,
-        storeProduct
+        storeProduct,
+        setMOdalData,
+        modalData
     }
+    
     return (
         <Category.Provider value={userCategory}>
             {children}
