@@ -11,8 +11,10 @@ const PurchaseModal = () => {
             <div className="modal" id="purchaseNow">
                 <div className="modal-box w-10/12 max-w-5xl">
                     <div className='grid lg:grid-cols-2 grid-cols-1 gap-2'>
-                        <div className='overflow-hidden w-full'>
-                            <img className='' src={img1} alt='' />
+                        <div>
+                            <div className='w-full'>
+                                <img className='' src={img1} alt='' />
+                            </div>
                         </div>
                         <div className=''>
                             <h4>products Title</h4>
@@ -50,6 +52,22 @@ const PurchaseModal = () => {
                                 <div>
                                     <textarea className="textarea border border-gray-500 w-full" placeholder="Bio"></textarea>
                                 </div>
+                                <p className='my-2'>QUANTITY:</p>
+                                <div className='flex items-center'>
+                                    <p className='px-1 py-1 text-gray-400 border'>-</p>
+                                    <p className='py-1 px-2 border bg-gray-300'>2</p>
+                                    <p className='px-1 py-1 text-gray-400 border'>+</p>
+                                </div>
+                                <div className='mt-3 flex items-center gap-3'>
+
+                                    <button className="btn modalButton">Add To Cart</button>
+                                    <button className="btn modalButton">Buy It Now</button>
+
+                                    <div className="modal-action m-0">
+                                        <a href="#" className="btn modalButton">Close</a>
+                                    </div>
+                                </div>
+
 
 
 
@@ -58,9 +76,7 @@ const PurchaseModal = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="modal-action">
-                        <a href="#" className="btn">Close</a>
-                    </div>
+
                 </div>
 
             </div>
