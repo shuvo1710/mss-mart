@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext} from 'react';
 import "./Gallery.css"
 import ethnics from "../../resource/ethnics.jpg"
 import panjabi from "../../resource/panjabi.jpg"
@@ -16,7 +16,9 @@ import { Link } from 'react-router-dom';
 
 const Gallery = () => {
     const {setCategoryName, storeProduct}=useContext(Category);
-    
+    const setLocalStore=()=>{
+        
+    }
     return (
         <div className='my-20'>
             <div className='container mx-auto'>

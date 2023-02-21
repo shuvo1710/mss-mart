@@ -1,8 +1,8 @@
 
 import { createBrowserRouter } from "react-router-dom";
-import Chect from "../Components/Check/Chect";
 import DetailsPage from "../Components/DetailsPage/DetailsPage";
 import Main from "../Components/Layout/Main";
+import FoundProduct from "../Components/Pages/FoundProduct";
 import Home from "../Components/Pages/Home";
 
 
@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/check",
-                element:<Chect/>
+                element:<FoundProduct/>
             },
             {
                 path:"/details/:id",
