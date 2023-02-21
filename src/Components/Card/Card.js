@@ -1,8 +1,9 @@
 import React from 'react';
 import './Card.css'
-import { useQuery } from 'react-query';
+
 import Loder from '../Loder/Loder';
 import RecommendationCard from './RecommendationCard/RecommendationCard';
+import { useQuery } from '@tanstack/react-query';
 const Card = () => {
     const {data:recommendation = [], isLoading} = useQuery({
         queryKey: ['recommendation'],

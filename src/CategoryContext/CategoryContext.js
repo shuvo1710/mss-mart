@@ -1,27 +1,33 @@
-import React, { createContext, useEffect, useState } from 'react';
-export const Category=createContext()
-const CategoryContext = ({children}) => {
-    const [modalData,setMOdalData] = useState([])
-    const [categoryName, setCategoryName]=useState("")
-    const [storeProduct, setStoreProduct]=useState([])
-    useEffect(()=>{
-        fetch(`http://localhost:5000/allData?productType=${categoryName}`)
-        .then(res=> res.json())
-        .then(data=> setStoreProduct(data))
-    },[categoryName])
+import { useQuery } from "@tanstack/react-query";
+import React, { createContext, useEffect, useState } from "react";
+import Loder from "../Components/Loder/Loder";
+export const Category = createContext();
+const CategoryContext = ({ children }) => {
+  const [modalData, setMOdalData] = useState([]);
+  const [categoryName, setCategoryName] = useState("");
 
-    const userCategory={
-        setCategoryName,
-        storeProduct,
-        setMOdalData,
-        modalData
-    }
-    
-    return (
-        <Category.Provider value={userCategory}>
-            {children}
-        </Category.Provider>
-    );
+
+  const { data: storeProduct = [], isLoading } = useQuery({
+    queryKey: ["allProduct", categoryName],
+    queryFn: async () => {
+      const res = await fetch(`http://localhost:5000/allProduct?productType=${categoryName}`);
+      const data = await res.json();
+      return data;
+    },
+  });
+  if (isLoading) {
+    return <Loder />;
+  }
+  console.log(storeProduct);
+
+  const userCategory = {
+    setCategoryName,
+    storeProduct,
+    setMOdalData,
+    modalData,
+  };
+
+  return <Category.Provider value={userCategory}>{children}</Category.Provider>;
 };
 
 export default CategoryContext;

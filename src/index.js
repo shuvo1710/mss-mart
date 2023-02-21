@@ -7,7 +7,7 @@ import CategoryContext from './CategoryContext/CategoryContext';
 import {
   QueryClient,
   QueryClientProvider,
-} from 'react-query'
+} from '@tanstack/react-query'
 
 // Create a client
 const queryClient = new QueryClient()
@@ -16,11 +16,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <React.StrictMode>
-    <CategoryContext>
+    
       <QueryClientProvider client={queryClient}>
+      <CategoryContext>
         <App />
+        </CategoryContext>
       </QueryClientProvider>
-    </CategoryContext>
+    
   </React.StrictMode>
 );
 
