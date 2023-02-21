@@ -16,6 +16,7 @@ const ProductCard = ({ Products }) => {
     productSizes,
     rating,
     title,
+    _id
   } = Products;
   // console.log(images);
 
@@ -40,11 +41,11 @@ const {setMOdalData} = useContext(Category)
            
           </div>
         </div>
-        <div className="hiddenButton justify-center text-center">
+        <Link to={`/details/${_id}`} className="hiddenButton justify-center text-center">
           <button className="bg-black p-2 text-white rounded font-medium text-sm  hover:bg-white hover:text-black">
             Order Now
           </button>
-        </div>
+        </Link>
 
         <div className=" p-2">
           <a href="/" alt="" className="hover:underline duration-300 text-sm">

@@ -14,7 +14,7 @@ const RecommendationCard = ({ product }) => {
         rating,
         title,
     } = product;
-    console.log(product);
+    
     return (
 
         <div>
