@@ -35,10 +35,9 @@ const {setMOdalData} = useContext(Category)
             <p className="bg-white p-2 rounded-full">
               <BsCartPlus className="cart duration-300 hover:scale-125 cursor-pointer" />
             </p>
-            <a className="bg-white p-2 rounded-full" href="#purchaseNow" onClick={()=>setMOdalData(Products)}>
+            <label className="bg-white p-2 rounded-full" htmlFor="purchaseNow"  onClick={()=>setMOdalData(Products)}>
               <BsImages className="cart duration-300 hover:scale-125 cursor-pointer" />
-            </a>
-           
+            </label>
           </div>
         </div>
         <Link to={`/details/${_id}`} className="hiddenButton justify-center text-center">
