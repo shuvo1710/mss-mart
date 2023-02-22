@@ -1,6 +1,7 @@
 import React from 'react';
 
-const CheckOut = () => {
+
+const Categories = () => {
     return (
         <div>
             
@@ -8,4 +9,4 @@ const CheckOut = () => {
     );
 };
 
-export default CheckOut;
+export default Categories;

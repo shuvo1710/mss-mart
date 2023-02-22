@@ -1,12 +1,11 @@
 
 import React, { createContext, useEffect, useState } from 'react';
-import { useQuery } from 'react-query';
+import { useQuery } from '@tanstack/react-query';
+import Loder from '../Components/Loder/Loder';
 export const Category=createContext()
 const CategoryContext = ({children}) => {
     const [modalData,setMOdalData] = useState([])
     const [categoryName, setCategoryName]=useState("")
-    const [storeProduct, setStoreProduct]=useState([])
-   
   const { data: storeProduct = [], isLoading } = useQuery({
     queryKey: ["allProduct", categoryName],
     queryFn: async () => {
