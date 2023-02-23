@@ -8,6 +8,7 @@ const PurchaseModal = () => {
   const [size, setSize]=useState('')
   const [quantity, setQuantity]=useState()
   const [quantityProduct, setQuantityProduct]=useState(0)
+  // const [customerMessage, setCustomerMessage] = useState('')
   const message=useRef()
 
   const handlePlus=()=>{
@@ -15,11 +16,9 @@ const PurchaseModal = () => {
       alert(`our product quantity only ${quantity}`)
     }
     else{
-
       const newValue=quantityProduct+1;
       setQuantityProduct(newValue)
     }
-
   }
 
   const handleMinus=()=>{
@@ -31,10 +30,7 @@ const PurchaseModal = () => {
         const newValue=quantityProduct-1;
         setQuantityProduct(newValue)
       }
-
 }
-
-
 
   const {
     category,
@@ -52,6 +48,12 @@ const PurchaseModal = () => {
     title,
     _id,
   } = modalData;
+
+  const handleCustomerMessage= ()=>{
+    const customerMessage = message.current.value;
+    console.log(customerMessage);
+
+  }
 
   return (
     <div>
@@ -126,8 +128,7 @@ const PurchaseModal = () => {
                   <button onClick={handlePlus} className="px-2 py-1 text-gray-400 border">+</button>
                 </div>
                 <div className="mt-3 flex items-center gap-3">
-                  <button className="btn modalButton bg-black text-white">Add To Cart</button>
-                  <button className="btn modalButton bg-black text-white">Buy It Now</button>
+                  <button className="btn modalButton bg-black text-white" onClick={handleCustomerMessage}>Add To Cart</button>
                 </div>
               </div>
             </div>

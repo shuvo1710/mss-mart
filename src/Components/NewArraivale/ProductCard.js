@@ -20,8 +20,7 @@ const ProductCard = ({ Products }) => {
   } = Products;
   // console.log(images);
 
-const {setMOdalData} = useContext(Category)
-
+const {setMOdalData} = useContext(Category);
   return (
     <div>
       <div className="relative image-parent border">
