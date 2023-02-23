@@ -1,36 +1,29 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Pagination, Autoplay } from "swiper";
 
-import { EffectFade, Navigation, Pagination } from "swiper";
 
 const ModalSlider = ({images}) => {
     return (
-        <>
         <Swiper
-          spaceBetween={30}
-          effect={"fade"}
-          navigation={true}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[EffectFade, Navigation, Pagination]}
-          className="mySwiper"
-        >
-         {
-            images?.map(image=> <SwiperSlide>
-            <img className="w-full" src={image.i} />
-          </SwiperSlide>)
-         }
-          
-        </Swiper>
-      </>
+        loop={true}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+        }}
+        
+        modules={[Pagination,Autoplay]}
+        className="mySwiper bannerSwiper">
+       
+        {
+            images?.map(image=>  <SwiperSlide>
+           <img className='w-full' src={image.i} alt=''/>
+           
+           </SwiperSlide>)
+        }
+    </Swiper>
     );
 };
 

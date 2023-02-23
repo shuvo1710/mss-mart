@@ -26,6 +26,7 @@ const Banner = () => {
                 <SwiperSlide>
                     <div className='relative'>
                         <div className=''>
+                        
                             <img alt='' src={banner1} className="z-0"/>
                         </div>
                         <div className='absolute top-1/4 left-60 w-full z-10'>
