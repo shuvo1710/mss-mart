@@ -16,9 +16,7 @@ import { Link } from 'react-router-dom';
 
 const Gallery = () => {
     const {setCategoryName, storeProduct}=useContext(Category);
-    const setLocalStore=()=>{
-        
-    }
+    
     return (
         <div className='my-20'>
             <div className='container mx-auto'>
@@ -27,7 +25,7 @@ const Gallery = () => {
                     <h3 className='headerStyle text-lg md:text-2xl font-medium'>Shop Our Best-Selling Styles and Find Your New Favorite Outfit</h3>
                 </div>
                 <div className='grid lg:grid-cols-2 grid-cols-1 mb-2 gap-3'>
-                    <Link to="/check"  onClick={()=> setCategoryName("womanLawn")}  className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories"  onClick={()=> setCategoryName("womanLawn")}  className='overflow-hidden relative items'>
                         <img alt='' src={ethnics} className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">
@@ -35,7 +33,7 @@ const Gallery = () => {
                             </p>
                         </div>
                     </Link>
-                    <Link to="/check" onClick={()=> setCategoryName("panjabi")}  className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories" onClick={()=> setCategoryName("panjabi")}  className='overflow-hidden relative items'>
                         <img alt='' src={panjabi} className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">
@@ -45,7 +43,7 @@ const Gallery = () => {
                     </Link>
                 </div>
                 <div  className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2'>
-                    <Link to="/check" onClick={()=> setCategoryName("coupleTShirt")} className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories" onClick={()=> setCategoryName("coupleTShirt")} className='overflow-hidden relative items'>
                         <img src={couple} alt='' className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-3xl text-line-height font-medium text-gray-100">
@@ -53,7 +51,7 @@ const Gallery = () => {
                             </p>
                         </div>
                     </Link>
-                    <Link to="/check" onClick={()=> setCategoryName("femaleTShirt")} className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories" onClick={()=> setCategoryName("femaleTShirt")} className='overflow-hidden relative items'>
                         <img src={femaleTshirt} alt='' className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-3xl text-line-height font-medium text-gray-100">
@@ -61,7 +59,7 @@ const Gallery = () => {
                             </p>
                         </div>
                     </Link>
-                    <Link to="/check"   onClick={()=> setCategoryName("femaleOnePiece")} className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories"   onClick={()=> setCategoryName("femaleOnePiece")} className='overflow-hidden relative items'>
                         <img src={femaleOnePis} alt='' className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-3xl text-line-height font-medium text-gray-100">
@@ -69,7 +67,7 @@ const Gallery = () => {
                             </p>
                         </div>
                     </Link>
-                    <Link to="/check"   onClick={()=> setCategoryName("kidsTShirt")} className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories"   onClick={()=> setCategoryName("kidsTShirt")} className='overflow-hidden relative items'>
                         <img src={kidsTshirt} alt='' className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-3xl text-line-height font-medium text-gray-100">
@@ -77,7 +75,7 @@ const Gallery = () => {
                             </p>
                         </div>
                     </Link>
-                    <Link to="/check"   onClick={()=> setCategoryName("casualShirt")} className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories"   onClick={()=> setCategoryName("casualShirt")} className='overflow-hidden relative items'>
                         <img src={mansShirt} alt='' className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-3xl text-line-height font-medium text-gray-100">
@@ -85,7 +83,7 @@ const Gallery = () => {
                             </p>
                         </div>
                     </Link>
-                    <Link to="/check"   onClick={()=> setCategoryName("poloTShirt")}  className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories"   onClick={()=> setCategoryName("poloTShirt")}  className='overflow-hidden relative items'>
                         <img src={mansPolo} alt='' className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-3xl text-line-height font-medium text-gray-100">
@@ -95,7 +93,7 @@ const Gallery = () => {
                     </Link>
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 mt-2 gap-2'>
-                    <Link to="/check" onClick={()=> setCategoryName("western")} className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories" onClick={()=> setCategoryName("western")} className='overflow-hidden relative items'>
                         <img src={western1} alt='' className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">
@@ -103,7 +101,7 @@ const Gallery = () => {
                             </p>
                         </div>
                     </Link>
-                    <Link to="/check" onClick={()=> setCategoryName("western")}  className='overflow-hidden relative items'>
+                    <Link to="/SeeLoveCategories" onClick={()=> setCategoryName("western")}  className='overflow-hidden relative items'>
                         <img src={western2} alt='' className="img-animation" />
                         <div className=" absolute inset-0 flex flex-col justify-center text-center transition-opacity duration-300 bg-black bg-opacity-40 opacity-0 hover:opacity-100">
                             <p className="mb-1 text-5xl text-line-height font-medium text-gray-100">

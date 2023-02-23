@@ -14,9 +14,6 @@ const DetailsPage = () => {
           alt=""
         />
         </div>
-        
-
-
         <div className=''>
             <h1 className="text-3xl font-bold">{title}</h1>
             <div className='my-4 flex items-center gap-4'>

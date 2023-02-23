@@ -4,6 +4,7 @@ import DetailsPage from "../Components/DetailsPage/DetailsPage";
 import Main from "../Components/Layout/Main";
 import FoundProduct from "../Components/Pages/FoundProduct";
 import Home from "../Components/Pages/Home";
+import SeeLoveCategories from "../Components/Pages/SeeLoveCategories";
 
 
 export const router = createBrowserRouter([
@@ -16,8 +17,8 @@ export const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path:"/check",
-                element:<FoundProduct/>
+                path:"/SeeLoveCategories",
+                element:<SeeLoveCategories/>
             },
             {
                 path:"/details/:id",
