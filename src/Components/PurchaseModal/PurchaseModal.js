@@ -3,6 +3,9 @@ import "./PurchaseModal.css";
 import { Category } from "../../CategoryContext/CategoryContext";
 import ModalSlider from "./ModalSlider"
 import { toast } from "react-hot-toast";
+import { Pagination } from 'swiper';
+import Rating from "../Rating/Rating";
+
 
 
 const PurchaseModal = () => {
@@ -72,7 +75,10 @@ const PurchaseModal = () => {
               <h4>{title}</h4>
               <h3>Price ${price}</h3>
               <div>
-                <p>{rating}</p>
+                <p className="flex items-center gap-4"> 
+                Rating: 
+                  <Rating rating={rating}></Rating>
+                </p>
               </div>
               <div className="mt-5">
                 <div className="flex my-2">
