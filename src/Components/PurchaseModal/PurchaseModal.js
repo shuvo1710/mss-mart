@@ -10,10 +10,11 @@ import Rating from "../Rating/Rating";
 
 const PurchaseModal = () => {
   const { modalData } = useContext(Category);
-  const [size, setSize] = useState('S')
+  const [size, setSize] = useState('')
+  
   const [quantity, setQuantity] = useState()
   const [quantityProduct, setQuantityProduct] = useState(1)
-  // const [customerMessage, setCustomerMessage] = useState('')
+  
   const message = useRef()
 
   const handlePlus = () => {
@@ -82,8 +83,20 @@ const PurchaseModal = () => {
               </div>
               <div className="mt-5">
                 <div className="flex my-2">
-                  <p className="rightInfo">availabilaty:</p>
-                  <p className="text-green-500">Out Stock { }</p>
+                  <p className="rightInfo">Availability:</p>
+                  {
+                    size===''? <>
+                    <p>Please Select any size to See Product Stocks</p> 
+                    </>
+                    :
+                    <>
+                    {
+                    quantity===0 ? <p className="text-red-500">Out Stock</p>
+                    :
+                    <p className="text-green-500">In Stock</p>
+                  }
+                    </>
+                  }
                 </div>
                 <div className="flex my-2">
                   <p className="rightInfo">Product Name:</p>
@@ -106,9 +119,12 @@ const PurchaseModal = () => {
 
                 <div className="flex gap-4 mt-4">
                   {productSizes?.map((product) => (
-                    <p onClick={() => { (setSize(product.size))(setQuantity(product.quantity)) }} className="py-1 px-2 bg-white text-black border border-black hover:bg-black hover:text-white duration-300 hover:border hover:border-black">
+                   <>
+                   <p onClick={() => { (setSize(product.size))(setQuantity(product.quantity))  }} className="py-1 px-2 bg-white text-black border border-black hover:bg-black hover:text-white duration-300 hover:border hover:border-black">
                       {product.size}
                     </p>
+                    
+                   </>
                   ))}
                 </div>
 
@@ -121,11 +137,15 @@ const PurchaseModal = () => {
                   ></textarea>
                 </div>
                 <p className="my-2">QUANTITY:</p>
+               {
+                size==='' ? <p>Please Select any size to enable quantity</p> 
+                :
                 <div className="flex items-center">
                   <button  onClick={handleMinus} className="px-2 py-1 text-gray-400 border">-</button>
                   <p className="py-1 px-2 border bg-gray-300">{quantityProduct}</p>
                   <button onClick={handlePlus} className="px-2 py-1 text-gray-400 border">+</button>
-                </div>
+                </div> 
+               }
                 <div className="mt-3 flex items-center gap-3">
                   <button className="btn modalButton bg-black text-white" onClick={handleCustomerMessage}>Add To Cart</button>
                 </div>
