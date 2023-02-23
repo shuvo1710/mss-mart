@@ -1,6 +1,7 @@
 import React, { useContext, useRef, useState } from "react";
 import "./PurchaseModal.css";
 import { Category } from "../../CategoryContext/CategoryContext";
+import ModalSlider from "./ModalSlider"
 
 
 const PurchaseModal = () => {
@@ -64,11 +65,7 @@ const PurchaseModal = () => {
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
             <div>
               <div className="">
-                {
-                    images?.map(image=> (
-                        <img className="w-full h-full" src={image.i} alt="" />
-                    ))
-                }
+                <ModalSlider images={images}></ModalSlider>
               </div>
             </div>
             <div className="">
