@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Banner from '../Banner/Banner';
 import BestSale from '../BestSale/BestSale';
+import Bloge from '../Bloge/Bloge';
 import Card from '../Card/Card';
 import Discount from '../Discount/Discount';
 import Gallery from '../Gallery/Gallery';
@@ -24,7 +25,9 @@ const Home = () => {
             <Discount/>
             <PayementMethod/>
             <PurchaseModal/>
+            <Bloge/>
             <NewsLetter/>
+            
         </div>
     );
 };
