@@ -36,6 +36,7 @@ const Banner = () => {
                             <h6 className='text-lg'>The Biggest Spring/Summer 2023 Trends</h6>
                             <div className="my-10">
                                 <button className="btn rounded-none text-black border-black bg-white">Shop Now</button>
+                                
                             </div>
                         </div>
                     </div>
@@ -44,6 +45,7 @@ const Banner = () => {
                 <SwiperSlide>
                     <div className='relative'>
                         <div className=''>
+                        
                             <img alt='' src={banner2} className="z-0"/>
                         </div>
                         <div className='absolute top-1/4 left-60 w-full z-10'>
