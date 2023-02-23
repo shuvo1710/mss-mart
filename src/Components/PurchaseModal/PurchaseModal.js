@@ -2,38 +2,39 @@ import React, { useContext, useRef, useState } from "react";
 import "./PurchaseModal.css";
 import { Category } from "../../CategoryContext/CategoryContext";
 import ModalSlider from "./ModalSlider"
+import { toast } from "react-hot-toast";
 import { Pagination } from 'swiper';
 import Rating from "../Rating/Rating";
 
 
+
 const PurchaseModal = () => {
   const { modalData } = useContext(Category);
-  const [size, setSize]=useState('')
-  const [quantity, setQuantity]=useState()
-  const [quantityProduct, setQuantityProduct]=useState(0)
+  const [size, setSize] = useState('S')
+  const [quantity, setQuantity] = useState()
+  const [quantityProduct, setQuantityProduct] = useState(1)
   // const [customerMessage, setCustomerMessage] = useState('')
-  const message=useRef()
+  const message = useRef()
 
-  const handlePlus=()=>{
-    if(quantityProduct>=quantity){
-      alert(`our product quantity only ${quantity}`)
+  const handlePlus = () => {
+    if (quantityProduct >= quantity) {
+      toast.success(`our product quantity only ${quantity}`);
     }
-    else{
-      const newValue=quantityProduct+1;
+    else {
+      const newValue = quantityProduct + 1;
       setQuantityProduct(newValue)
     }
   }
 
-  const handleMinus=()=>{
-      if(quantityProduct===0){
-        alert("you can't select minus product")
-      }
-      else{
-
-        const newValue=quantityProduct-1;
-        setQuantityProduct(newValue)
-      }
-}
+  const handleMinus = () => {
+    if (quantityProduct === 1) {
+      toast.success("you can't select minus product")
+    }
+    else {
+      const newValue = quantityProduct - 1;
+      setQuantityProduct(newValue)
+    }
+  }
 
   const {
     category,
@@ -52,7 +53,7 @@ const PurchaseModal = () => {
     _id,
   } = modalData;
 
-  const handleCustomerMessage= ()=>{
+  const handleCustomerMessage = () => {
     const customerMessage = message.current.value;
     console.log(customerMessage);
 
@@ -82,7 +83,7 @@ const PurchaseModal = () => {
               <div className="mt-5">
                 <div className="flex my-2">
                   <p className="rightInfo">availabilaty:</p>
-                  <p className="text-green-500">Out Stock {}</p>
+                  <p className="text-green-500">Out Stock { }</p>
                 </div>
                 <div className="flex my-2">
                   <p className="rightInfo">Product Name:</p>
@@ -96,36 +97,32 @@ const PurchaseModal = () => {
                   <p>Details: {details}</p>
                 </div>
                 <p>
-                  Size: <span>{size}</span>
+                  Size:<span>{size}</span>
                 </p>
 
                 <p>
                   Quantity: <span>{quantity}</span>
                 </p>
 
-                <div  className="flex gap-4 mt-4">
+                <div className="flex gap-4 mt-4">
                   {productSizes?.map((product) => (
-                   
-                      
-                      <p onClick={()=>{(setSize(product.size)) (setQuantity(product.quantity))}} className="py-1 px-2 bg-white text-black border border-black hover:bg-black hover:text-white duration-300 hover:border hover:border-black">
-                        {product.size}
-                      </p>
-                      
-                    
+                    <p onClick={() => { (setSize(product.size))(setQuantity(product.quantity)) }} className="py-1 px-2 bg-white text-black border border-black hover:bg-black hover:text-white duration-300 hover:border hover:border-black">
+                      {product.size}
+                    </p>
                   ))}
                 </div>
 
                 <p className="my-2">note</p>
                 <div>
                   <textarea
-                  ref={message}
+                    ref={message}
                     className="textarea border border-gray-500 w-full"
                     placeholder="Bio"
                   ></textarea>
                 </div>
                 <p className="my-2">QUANTITY:</p>
                 <div className="flex items-center">
-                  <button onClick={handleMinus} className="px-2 py-1 text-gray-400 border">-</button>
+                  <button  onClick={handleMinus} className="px-2 py-1 text-gray-400 border">-</button>
                   <p className="py-1 px-2 border bg-gray-300">{quantityProduct}</p>
                   <button onClick={handlePlus} className="px-2 py-1 text-gray-400 border">+</button>
                 </div>
