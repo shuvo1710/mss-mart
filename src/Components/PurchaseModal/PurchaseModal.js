@@ -8,7 +8,7 @@ const PurchaseModal = () => {
   const [size, setSize]=useState('S')
   const {
     category,
-    cutomerReview,
+    customerReview,
     deliveryPolicy,
     description,
     details,
@@ -48,7 +48,7 @@ const PurchaseModal = () => {
               <div className="mt-5">
                 <div className="flex my-2">
                   <p className="rightInfo">availabilaty:</p>
-                  <p className="text-green-500">In Stock {}</p>
+                  <p className="text-green-500">Out Stock {}</p>
                 </div>
                 <div className="flex my-2">
                   <p className="rightInfo">Product Name:</p>
