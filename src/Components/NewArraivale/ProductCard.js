@@ -5,6 +5,7 @@ import { BiHeart } from "react-icons/bi";
 import { BsStar } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { Category } from "../../CategoryContext/CategoryContext";
+import Rating from "../Rating/Rating";
 const ProductCard = ({ Products }) => {
 
   const {
@@ -52,21 +53,7 @@ const {setMOdalData} = useContext(Category);
           <div className="flex justify-between items-center pt-2">
             <p className="font-semibold">Tk: {price}</p>
             <div className="flex gap-1">
-              <p>
-                <BsStar />
-              </p>
-              <p>
-                <BsStar />
-              </p>
-              <p>
-                <BsStar />
-              </p>
-              <p>
-                <BsStar />
-              </p>
-              <p>
-                <BsStar />
-              </p>
+              <Rating rating={rating}></Rating>
             </div>
           </div>
         </div>
