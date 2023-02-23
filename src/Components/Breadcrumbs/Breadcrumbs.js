@@ -2,7 +2,7 @@ import React from 'react';
 
 const Breadcrumbs = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <div className="text-sm breadcrumbs">
                 <ul>
                     <li><a>Home</a></li>

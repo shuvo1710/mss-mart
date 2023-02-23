@@ -15,7 +15,6 @@ const PurchaseModal = () => {
   const [quantityProduct, setQuantityProduct] = useState(1)
   // const [customerMessage, setCustomerMessage] = useState('')
   const message = useRef()
-
   const handlePlus = () => {
     if (quantityProduct >= quantity) {
       toast.success(`our product quantity only ${quantity}`);
