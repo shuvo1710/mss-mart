@@ -63,8 +63,6 @@ const DetailsPage = () => {
             <p>{rating}</p>
             </div>
             <p>{details}</p>
-        </div>
-
 
 
             <div className='flex gap-4 items-center'>
@@ -111,18 +109,23 @@ const DetailsPage = () => {
            <div>
             <button className='btn w-full bg-black text-white font-bold text-center'>Buy It Now</button>
            </div>
+
            <div>
             <h1 className='text-lg font-semibold'>
               QUARANTEED SAFE CHECKOUT:
             </h1>
             <img src='https://cdn.shopify.com/s/files/1/0256/4594/0810/files/payment_700x.png?v=1616050837' alt=''/>
+         
            </div>
            <div className='flex items-center gap-4'>
             <button><FaRegHeart/></button>
             <h1 className='text-lg font-semibold'>
               ADD TO WISHLIST
             </h1>
+
            </div>
+
+
            <div className='flex items-center gap-4'>
            <button><FaShareAlt/></button>
            <p>Share:</p>
@@ -130,19 +133,31 @@ const DetailsPage = () => {
            <button><FaTwitter/></button>
            <button><FaShareAlt/></button>
            </div>
+
+
            <div className='flex items-center gap-4'>
             <button><FaClock/></button>
             <h1 className=''>
             Orders ship within 5 to 10 business days.
             </h1>
+
            </div>
+
+
+
            <div className='flex items-center gap-4'>
             <button><FaClock/></button>
             <h1 className=''>
             Hoorey ! This item ships free to the US
             </h1>
+
            </div>
+            
         </div>
+
+        
+
+
        </div>
     );
 };
