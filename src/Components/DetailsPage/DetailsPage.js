@@ -21,10 +21,7 @@ const DetailsPage = () => {
             <p>{rating}</p>
             </div>
             <p>{details}</p>
-            
         </div>
-
-
        </div>
     );
 };
