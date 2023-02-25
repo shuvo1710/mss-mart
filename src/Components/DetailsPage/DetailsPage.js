@@ -11,7 +11,6 @@ const DetailsPage = () => {
     console.log(img)
 
     const handlePlus = () => {
-     
         const newValue = quantityProduct + 1;
         setQuantityProduct(newValue)
      
