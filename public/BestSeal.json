@@ -1,0 +1,119 @@
+[
+  {
+    "firstImages": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/X8rNHR0/bestSale.webp"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/cJtkrpj/panjabi01.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/X8rNHR0/bestSale.webp"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/cJtkrpj/panjabi01.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/X8rNHR0/bestSale.webp"
+      }
+    ],
+    "secondImage": [
+      {
+        "id": 1,
+        "i": "https://i.ibb.co/jzjQZZ1/best-Sale2.webp"
+      },
+      {
+        "id": 2,
+        "i": "https://i.ibb.co/cJtkrpj/panjabi01.jpg"
+      },
+      {
+        "id": 3,
+        "i": "https://i.ibb.co/jzjQZZ1/best-Sale2.webp"
+      },
+      {
+        "id": 4,
+        "i": "https://i.ibb.co/cJtkrpj/panjabi01.jpg"
+      },
+      {
+        "id": 5,
+        "i": "https://i.ibb.co/jzjQZZ1/best-Sale2.webp"
+      }
+    ],
+
+    "fistCategory": "Woman",
+    "secondCategory": "Woman",
+    "fistProductType": "MiniDress",
+    "secondProductType": "MiniDress",
+    "fistPrice": "3,590",
+    "secondPrice": "4,590",
+    "fistTitle": "Woman's Denim mini dress",
+    "secondTitle": "Woman's Denim mini dress",
+    "fistRating": "4",
+    "secondRating": "5",
+    "fistDetails": "Does it get any more summertime than a classic summer dress? This wardrobe icon has earned its rightful place on our list of sunshine must-haves for a good reason.",
+    "secondDetails": "Does it get any more summertime than a classic summer dress? This wardrobe icon has earned its rightful place on our list of sunshine must-haves for a good reason.",
+    "fistDeliveryPolicy": "Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "secondDeliveryPolicy": "Shipping destinations: Clothing websites should clearly indicate which countries or regions they ship to. Some websites may only offer domestic shipping, while others may offer international shipping. The website should also provide information on any restrictions or limitations on shipping, such as certain countries that may not be able to receive certain products due to customs or other regulations.",
+    "fistReturnAndExchangePolicy": "The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "secondReturnAndExchangePolicy": "The website should specify how long customers have to return or exchange items. This could range from 14 days to 30 days or more, depending on the website's policy.",
+    "secondCustomerReview": [
+      {
+        "name": "mahedi",
+        "date": "2-6-2017",
+        "reviewDescription": "This product is very comfortable and easy to buy",
+        "rating": "4"
+      }
+    ],
+
+    "fistProductSizes": [
+      {
+        "size": "S",
+        "quantity": 20
+      },
+      {
+        "size": "M",
+        "quantity": 24
+      },
+      {
+        "size": "L",
+        "quantity": 19
+      },
+      {
+        "size": "XL",
+        "quantity": 25
+      },
+      {
+        "size": "XXL",
+        "quantity": 1
+      }
+    ],
+    "secondProductSizes": [
+      {
+        "size": "S",
+        "quantity": 20
+      },
+      {
+        "size": "M",
+        "quantity": 24
+      },
+      {
+        "size": "L",
+        "quantity": 19
+      },
+      {
+        "size": "XL",
+        "quantity": 25
+      },
+      {
+        "size": "XXL",
+        "quantity": 1
+      }
+    ]
+  }
+  
+]
