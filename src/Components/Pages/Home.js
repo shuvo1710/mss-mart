@@ -26,6 +26,7 @@ const Home = () => {
             <PayementMethod/>
             <PurchaseModal/>
             <Bloge/>
+            
             <NewsLetter/>
             
         </div>

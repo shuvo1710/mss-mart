@@ -8,6 +8,8 @@ import Kids from '../NewArraivale/Kids';
 import Mens from '../NewArraivale/Mens';
 import Womens from '../NewArraivale/Womens';
 import Rating from '../Rating/Rating';
+import RelatedProduct from '../RelatedProduct/RelatedProduct';
+
 
 const DetailsPage = () => {
     const data=useLoaderData();
@@ -142,8 +144,6 @@ const DetailsPage = () => {
            </div>
         </div>
        </div>
-
-
        <div className="container mx-auto">
       <div className="justify-center items-center text-center text-3xl my-16">
         
@@ -176,6 +176,11 @@ const DetailsPage = () => {
       </div>
 
     </div>
+
+       <div>
+        <RelatedProduct category={category} productType={productType}/>
+       </div>
+
        </>
     );
 };
