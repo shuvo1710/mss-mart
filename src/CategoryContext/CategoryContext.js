@@ -17,7 +17,7 @@ const CategoryContext = ({children}) => {
   if (isLoading) {
     return <Loder />;
   }
-  console.log(storeProduct);
+
 
   const userCategory = {
     setCategoryName,

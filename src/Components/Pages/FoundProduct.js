@@ -4,7 +4,7 @@ import ProductCard from "../NewArraivale/ProductCard";
 
 const FoundProduct = () => {
   const { storeProduct } = useContext(Category);
-  console.log(storeProduct);
+
   
   return (
     <div>

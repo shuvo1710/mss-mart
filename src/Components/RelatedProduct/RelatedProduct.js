@@ -25,7 +25,7 @@ const RelatedProduct = ({ productType }) => {
     if (isLoading) {
         return <Loder />
     }
-    console.log(RelatedProduct)
+   
     return (
         <div className='grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 gap-x-2 gap-y-4'>
         {
