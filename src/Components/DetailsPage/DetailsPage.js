@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { toast } from 'react-hot-toast';
-import { FaCarSide, FaClock, FaFacebookF, FaHeart, FaRegClock, FaRegHeart, FaShareAlt, FaTwitter } from 'react-icons/fa';
+import React, {  useState } from 'react';
+
+import { FaCarSide,  FaFacebookF,  FaRegClock, FaRegHeart, FaShareAlt, FaTwitter } from 'react-icons/fa';
 import { useLoaderData } from 'react-router-dom';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
-import Active from '../NewArraivale/Active';
-import Kids from '../NewArraivale/Kids';
-import Mens from '../NewArraivale/Mens';
-import Womens from '../NewArraivale/Womens';
 import Rating from '../Rating/Rating';
 import RelatedProduct from '../RelatedProduct/RelatedProduct';
 
