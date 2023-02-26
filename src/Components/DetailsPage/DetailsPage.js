@@ -176,6 +176,7 @@ const DetailsPage = () => {
       </div>
 
     </div>
+    
        </>
     );
 };
