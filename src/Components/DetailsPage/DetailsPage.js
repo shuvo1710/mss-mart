@@ -1,11 +1,4 @@
-
-import React, { useState } from 'react';
-import { FaCarSide, FaFacebookF, FaRegClock, FaRegHeart, FaShareAlt, FaTwitter } from 'react-icons/fa';
-import { useLoaderData } from 'react-router-dom';
-import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
-import Rating from '../Rating/Rating';
-import RelatedProduct from '../RelatedProduct/RelatedProduct';
-
+import React, { useEffect, useState } from "react";
 
 import {
   FaCarSide,
@@ -17,10 +10,6 @@ import {
 } from "react-icons/fa";
 import { useLoaderData } from "react-router-dom";
 import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
-import Active from "../NewArraivale/Active";
-import Kids from "../NewArraivale/Kids";
-import Mens from "../NewArraivale/Mens";
-import Womens from "../NewArraivale/Womens";
 import Rating from "../Rating/Rating";
 import RelatedProduct from "../RelatedProduct/RelatedProduct";
 import ActiveCustomerReview from "./ActiveCustomerReview";
