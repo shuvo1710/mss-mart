@@ -3,6 +3,7 @@ import { toast } from 'react-hot-toast';
 import { FaClock, FaFacebookF, FaHeart, FaRegHeart, FaShareAlt, FaTwitter } from 'react-icons/fa';
 import { useLoaderData } from 'react-router-dom';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
+import RelatedProduct from '../RelatedProduct/RelatedProduct';
 
 const DetailsPage = () => {
     const data=useLoaderData();
@@ -128,6 +129,9 @@ const DetailsPage = () => {
             </h1>
            </div>
         </div>
+       </div>
+       <div>
+        <RelatedProduct category={category} productType={productType}/>
        </div>
        </>
     );
