@@ -1,6 +1,6 @@
-import React, {  useState } from 'react';
+import React, { useState } from 'react';
 
-import { FaCarSide,  FaFacebookF,  FaRegClock, FaRegHeart, FaShareAlt, FaTwitter } from 'react-icons/fa';
+import { FaCarSide, FaFacebookF, FaRegClock, FaRegHeart, FaShareAlt, FaTwitter } from 'react-icons/fa';
 import { useLoaderData } from 'react-router-dom';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import Rating from '../Rating/Rating';

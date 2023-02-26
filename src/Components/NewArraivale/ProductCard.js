@@ -21,7 +21,7 @@ const ProductCard = ({ Products }) => {
   } = Products;
   // console.log(images);
 
-const {setMOdalData} = useContext(Category);
+  const { setMOdalData } = useContext(Category);
   return (
     <div>
       <div className="relative image-parent border">
@@ -35,7 +35,7 @@ const {setMOdalData} = useContext(Category);
             <p className="bg-white p-2 rounded-full">
               <BsCartPlus className="cart duration-300 hover:scale-125 cursor-pointer" />
             </p>
-            <label className="bg-white p-2 rounded-full" htmlFor="purchaseNow"  onClick={()=>setMOdalData(Products)}>
+            <label className="bg-white p-2 rounded-full" htmlFor="purchaseNow" onClick={() => setMOdalData(Products)}>
               <BsImages className="cart duration-300 hover:scale-125 cursor-pointer" />
             </label>
           </div>
@@ -58,7 +58,7 @@ const {setMOdalData} = useContext(Category);
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 };
