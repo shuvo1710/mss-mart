@@ -108,13 +108,25 @@ const PurchaseModal = () => {
                 <div className="my-2">
                   <p>Details: {details}</p>
                 </div>
-                <p>
+                {
+                  size.length ? <p>
                   Size:<span>{size}</span>
                 </p>
-
+                :
                 <p>
+                  Size:<span> please select any size.</span>
+                </p>
+                }
+
+                {
+                  size.length ? <p>
                   Quantity: <span>{quantity}</span>
                 </p>
+                :
+                <p>
+                  Quantity: <span> Please select size for quantity.</span>
+                </p>
+                }
 
                 <div className="flex gap-4 mt-4">
                   {productSizes?.map((product) => (
