@@ -144,6 +144,9 @@ const DetailsPage = () => {
            </div>
         </div>
        </div>
+
+       <div className='pb-10'>
+
        <div className="container mx-auto">
       <div className="justify-center items-center text-center text-3xl my-16">
         

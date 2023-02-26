@@ -14,7 +14,7 @@ const RelatedProduct = ({ productType }) => {
     const { releted, setRelated } = useState([])
     const { setMOdalData } = useContext(Category);
 
-    const { data: ReletedProduct = [], isLoading } = useQuery({
+    const { data: RelatedProduct = [], isLoading } = useQuery({
         queryKey: [],
         queryFn: async () => {
             const res = await fetch(`http://localhost:5000/allProduct?productType=${productType}`);
@@ -25,11 +25,11 @@ const RelatedProduct = ({ productType }) => {
     if (isLoading) {
         return <Loder />
     }
-    console.log(ReletedProduct)
+    console.log(RelatedProduct)
     return (
         <div className='grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 gap-x-2 gap-y-4'>
         {
-        ReletedProduct.map(products=>
+        RelatedProduct.map(products=>
             <RelatedProductCard RelatedProduct={products}/>
             )
         }
