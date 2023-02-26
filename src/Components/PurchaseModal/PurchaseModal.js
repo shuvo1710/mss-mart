@@ -55,7 +55,7 @@ const PurchaseModal = () => {
 
   const handleCustomerMessage = () => {
     const customerMessage = message.current.value;
-    console.log(customerMessage);
+   
 
   }
 

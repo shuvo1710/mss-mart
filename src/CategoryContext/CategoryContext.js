@@ -24,7 +24,6 @@ const {data:bestSeals = [], isLoading: bestSealLoad} = useQuery({
   }
 })
 
-
   if (isLoading) {
     return <Loder />;
   }
@@ -33,10 +32,7 @@ const {data:bestSeals = [], isLoading: bestSealLoad} = useQuery({
     return <Loder/>
   }
 
-  // console.log(bestSeals);
  
-
-
 
   const userCategory = {
     setCategoryName,

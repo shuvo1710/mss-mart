@@ -31,13 +31,10 @@ const MainBlogDesign = ({ blog }) => {
                     {title.slice(0.20)}
                 </a>
                 <p className="mb-2 text-gray-700">
-                    {description.slice(0, 150)}
+                    {description.slice(0, 100)}.....
                 </p>
 
-                <div className='flex  justify-between'>
-                    <button className='shadow-md p-2'> <Link to={`/blogdetails/${_id} `}   >Details</Link> </button>
-                    <button className='shadow-md  p-2'> <Link to='/allblog'>See more</Link> </button>
-                </div>
+                
             </div>
 
         </div>

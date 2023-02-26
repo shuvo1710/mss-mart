@@ -19,7 +19,7 @@ const ProductCard = ({ Products }) => {
     title,
     _id
   } = Products;
-  // console.log(images);
+
 
   const { setMOdalData } = useContext(Category);
   return (
