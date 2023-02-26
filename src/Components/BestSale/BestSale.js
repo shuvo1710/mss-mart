@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Category } from '../../CategoryContext/CategoryContext';
+import BestSealCard from './BestSealCard';
 import bestsale from "../../resource/bestSale.jpg"
 import bestSale2 from "../../resource/bestSale2.jpg"
 
 const BestSale = () => {
+const {bestSeals} = useContext(Category);
+console.log(bestSeals[0])
+const {firstImages,secondImage,fistCategory,fistPrice,secondPrice,fistTitle,secondTitle,fistDetails,secondDetails} = bestSeals[0];
+
+// console.log(firstImages,secondImage)
+
+   
     return (
         <div className='container mx-auto'>
             <div className='text-center pb-10'>
@@ -11,29 +20,24 @@ const BestSale = () => {
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
                 <div>
-                    <img src={bestsale} alt='' />
+                    <img src={firstImages[0].i} alt=''/>
                 </div>
                 <div className='px-20 py-4 lg:py-0'>
-                    <h2 className='text-lg md:text-3xl font-semibold mb-2'>Woman's Denim mini
-                        dress</h2>
-                    <p className='text-md md:text-lg'>Does it get any more summertime than a classic summer dress? This
-                        wardrobe icon has earned its rightful place on our list of sunshine
-                        must-haves for a good reason.
+                    <h2 className='text-lg md:text-3xl font-semibold mb-2'>{fistTitle}</h2>
+                    <p className='text-md md:text-lg'>{fistDetails}
                     </p>
-                    <button className="btn mt-10 rounded bg-white text-black px-6 hover:text-white">Button</button>
+                    <button className="btn mt-10 rounded bg-white text-black px-6 hover:text-white">Details</button>
                 </div>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
                 <div className='px-20 py-4 lg:py-0'>
-                    <h2 className='text-lg md:text-3xl font-semibold mb-2'>Handbag With a Chain</h2>
-                    <p className='text-md md:text-lg'>Does it get any more summertime than a classic summer dress? This
-                        wardrobe icon has earned its rightful place on our list of sunshine
-                        must-haves for a good reason.
+                    <h2 className='text-lg md:text-3xl font-semibold mb-2'>{secondTitle}</h2>
+                    <p className='text-md md:text-lg'>{secondDetails}
                     </p>
-                    <button className="btn mt-10 rounded bg-white text-black px-6 hover:text-white">Button</button>
+                    <button className="btn mt-10 rounded bg-white text-black px-6 hover:text-white">Details</button>
                 </div>
                 <div>
-                    <img src={bestSale2} alt='' />
+                    <img src={secondImage[0].i} alt=''/>
                 </div>
             </div>
         </div>

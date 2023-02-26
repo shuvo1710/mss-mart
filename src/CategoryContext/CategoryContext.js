@@ -14,16 +14,32 @@ const CategoryContext = ({children}) => {
       return data;
     },
   });
+
+const {data:bestSeals = [], isLoading: bestSealLoad} = useQuery({
+  queryKey:["bestSeals"],
+  queryFn: async ()=>{
+    const res = await fetch('http://localhost:5000/bestSeal');
+    const data = await res.json()
+    return data;
+  }
+})
+
   if (isLoading) {
     return <Loder />;
   }
 
+  if(bestSealLoad){
+    return <Loder/>
+  }
+
+ 
 
   const userCategory = {
     setCategoryName,
     storeProduct,
     setMOdalData,
     modalData,
+    bestSeals
   };
 
   return <Category.Provider value={userCategory}>{children}</Category.Provider>;

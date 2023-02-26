@@ -1,4 +1,11 @@
-import React, { useEffect, useState } from "react";
+
+import React, { useState } from 'react';
+import { FaCarSide, FaFacebookF, FaRegClock, FaRegHeart, FaShareAlt, FaTwitter } from 'react-icons/fa';
+import { useLoaderData } from 'react-router-dom';
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
+import Rating from '../Rating/Rating';
+import RelatedProduct from '../RelatedProduct/RelatedProduct';
+
 
 import {
   FaCarSide,
