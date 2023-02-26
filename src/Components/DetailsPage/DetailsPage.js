@@ -130,7 +130,7 @@ const DetailsPage = () => {
            </div>
         </div>
        </div>
-       <div>
+       <div className='pb-10'>
         <RelatedProduct category={category} productType={productType}/>
        </div>
        </>
