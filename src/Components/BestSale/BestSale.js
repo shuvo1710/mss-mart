@@ -20,7 +20,7 @@ const {firstImages,secondImage,fistCategory,fistPrice,secondPrice,fistTitle,seco
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
                 <div>
-                    <img src={firstImages[0].i} alt=''/>
+                    <img src={firstImages[0]?.i} alt=''/>
                 </div>
                 <div className='px-20 py-4 lg:py-0'>
                     <h2 className='text-lg md:text-3xl font-semibold mb-2'>{fistTitle}</h2>
@@ -37,7 +37,7 @@ const {firstImages,secondImage,fistCategory,fistPrice,secondPrice,fistTitle,seco
                     <button className="btn mt-10 rounded bg-white text-black px-6 hover:text-white">Details</button>
                 </div>
                 <div>
-                    <img src={secondImage[0].i} alt=''/>
+                    <img src={secondImage[0]?.i} alt=''/>
                 </div>
             </div>
         </div>
