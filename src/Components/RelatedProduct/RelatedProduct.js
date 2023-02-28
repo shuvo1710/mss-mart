@@ -9,7 +9,7 @@ import img from "../../resource/mans-polo.jpg"
 import Loder from '../Loder/Loder';
 import RelatedProductCard from './RelatedProductCard';
 
-const RelatedProduct = ({ productType }) => {
+const RelatedProduct = ({ productType, setImg}) => {
 
     const { releted, setRelated } = useState([])
     const { setMOdalData } = useContext(Category);
@@ -30,7 +30,7 @@ const RelatedProduct = ({ productType }) => {
         <div className='grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 gap-x-2 gap-y-4'>
         {
         RelatedProduct.map(products=>
-            <RelatedProductCard RelatedProduct={products}/>
+            <RelatedProductCard RelatedProduct={products} setImg={setImg}/>
             )
         }
         </div>

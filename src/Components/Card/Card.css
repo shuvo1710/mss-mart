@@ -73,6 +73,8 @@ opacity: 1;
   transition: ease-in-out 0.3s;
   border-bottom: 1px solid rgb(71, 151, 71);
   font-weight: 600;
+  font-size: 22px;
+  
 }
 
 .notComponentDesign{
@@ -108,4 +110,56 @@ opacity: 1;
 .hover-image:hover .hidden-div {
   opacity: 1;
  
+}
+
+@media only screen and (max-width: 320px) {
+  .notComponentDesign{
+    font-size: 10px;
+    font-weight: 600;
+   
+  }
+  
+  .componentDesign{
+    font-size: 10px;
+    transition: 1s;
+    font-weight: 600;
+    border-bottom: 1px solid green;
+  
+  }
+
+  
+}
+
+@media only screen and (min-width: 321px) and (max-width: 420px) {
+  .notComponentDesign{
+    font-size: 12px;
+    font-weight: 600;
+   
+  }
+  
+  .componentDesign{
+    font-size: 12px;
+    transition: 1s;
+    font-weight: 600;
+    border-bottom: 1px solid green;
+  
+  }
+  
+}
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  .notComponentDesign{
+    font-size: 12px;
+    font-weight: 600;
+   
+  }
+  
+  .componentDesign{
+    font-size: 12px;
+    transition: 1s;
+    font-weight: 600;
+    border-bottom: 1px solid green;
+  
+  }
+  
 }

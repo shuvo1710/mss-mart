@@ -20,6 +20,12 @@ const ProductCard = ({ Products }) => {
     _id
   } = Products;
 
+  const balance=parseFloat(price)
+  const discountPrice=(discount/100)*balance;
+  const discountValue=price-discountPrice
+
+ 
+
 
   const { setMOdalData } = useContext(Category);
   return (
@@ -51,10 +57,11 @@ const ProductCard = ({ Products }) => {
             {title}
           </a>
           <div className="flex justify-between items-center pt-2">
-            <p className="font-semibold">Tk: {price}</p>
-            <div className="flex gap-1">
-              <Rating rating={rating}></Rating>
+          <div className="flex gap-1">
+              <p className="font-semibold">TK: {discountValue}</p>
             </div>
+            <p className="font-semibold line-through">Tk: {price}</p>
+            
           </div>
         </div>
       </div>

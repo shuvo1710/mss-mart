@@ -4,7 +4,7 @@ const ReturnAndExchangePolicy = ({returns}) => {
     if(returns.length){
         return (
             <div className='text-justify height'>
-           <p>{returns}</p>
+           <p className='text-xs md:text-md lg:text-lg'>{returns}</p>
             
         </div>
         );

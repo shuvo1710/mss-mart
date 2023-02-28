@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Category } from '../../CategoryContext/CategoryContext';
 import Rating from '../Rating/Rating';
 
-const RelatedProductCard = ({ RelatedProduct }) => {
+const RelatedProductCard = ({ RelatedProduct,setImg}) => {
     const {
         category,
         description,
@@ -36,8 +36,8 @@ const RelatedProductCard = ({ RelatedProduct }) => {
                         </label>
                     </div>
                 </div>
-                <Link to={`/details/${_id}`} className="hiddenButton justify-center text-center">
-                    <button className="bg-black p-2 text-white rounded font-medium text-sm  hover:bg-white hover:text-black">
+                <Link onClick={()=> setImg(images[0].i)} to={`/details/${_id}`} className="hiddenButton justify-center text-center">
+                    <button  className="bg-black p-2 text-white rounded font-medium text-sm  hover:bg-white hover:text-black">
                         Order Now
                     </button>
                 </Link>
