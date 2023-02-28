@@ -4,7 +4,7 @@ const ActiveCustomerReview = ({active}) => {
     if(active.length){
         return (
             <div className='text-justify height'>
-           <p>{active}</p>
+           <p className="text-xs md:text-md lg:text-lg">{active}</p>
             
         </div>
         );

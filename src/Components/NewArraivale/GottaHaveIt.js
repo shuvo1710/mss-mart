@@ -4,12 +4,15 @@ import Active from './Active';
 import '../Card/Card.css'
 import Womens from './Womens';
 import Kids from './Kids';
+import { useNavigation } from 'react-router-dom';
+import Loder from '../Loder/Loder';
 
 const GottaHaveIt = () => {
   const [man, setMan] = useState([]);
   const [woman, setWoman] = useState([]);
   const [Kid, setKid] = useState([]);
   const [active, setActive] = useState([]);
+  const navigation=useNavigation();
 
 
   useEffect(() => {
@@ -57,6 +60,9 @@ const GottaHaveIt = () => {
  
 
   let designClass = "design";
+  if(navigation.state === 'loading'){
+    return  <Loder/>
+  }
 
   return (
     <div className="">

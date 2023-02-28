@@ -3,7 +3,6 @@ import "./PurchaseModal.css";
 import { Category } from "../../CategoryContext/CategoryContext";
 import ModalSlider from "./ModalSlider"
 import { toast } from "react-hot-toast";
-import { Pagination } from 'swiper';
 import Rating from "../Rating/Rating";
 
 
@@ -55,9 +54,13 @@ const PurchaseModal = () => {
 
   const handleCustomerMessage = () => {
     const customerMessage = message.current.value;
-   
-
+  
   }
+
+  const balance=parseFloat(price)
+  const discountPrice=(discount/100)*balance;
+  const discountValue=price-discountPrice
+
 
   return (
     <div>
@@ -73,7 +76,7 @@ const PurchaseModal = () => {
             </div>
             <div className="">
               <h4>{title}</h4>
-              <h3>Price ${price}</h3>
+              <h3>Price ${discountValue}</h3>
               <div>
                 <p className="flex items-center gap-4"> 
                 Rating: 

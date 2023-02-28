@@ -4,7 +4,7 @@ const CustomerReview = ({customer}) => {
     if(customer.length){
         return (
             <div className='text-justify height'>
-           <p>{customer}</p>
+           <p className='text-xs md:text-md lg:text-lg'>{customer}</p>
             
         </div>
         );
