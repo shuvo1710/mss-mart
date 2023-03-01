@@ -5,11 +5,11 @@ import Bloge from '../Bloge/Bloge';
 import Card from '../Card/Card';
 import Discount from '../Discount/Discount';
 import Gallery from '../Gallery/Gallery';
-import LogInModal from '../LogInModal/LogInModal';
 import GottaHaveIt from '../NewArraivale/GottaHaveIt';
 import NewsLetter from '../NewsLetter/NewsLetter';
 import PayementMethod from '../PayementMethod/PayementMethod';
 import PurchaseModal from '../PurchaseModal/PurchaseModal';
+
 
 
 
@@ -26,7 +26,8 @@ const Home = () => {
             <Discount/>
             <PayementMethod/>
             <PurchaseModal/>
-            <LogInModal/>
+            {/* <LogInModal/> */}
+            {/* <RegisterModal/> */}
             <Bloge/>
             <NewsLetter/>
         </div>
