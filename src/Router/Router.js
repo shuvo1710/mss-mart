@@ -8,6 +8,7 @@ import BuyNow from "../Components/Pages/BuyNow";
 import FoundProduct from "../Components/Pages/FoundProduct";
 import Home from "../Components/Pages/Home";
 import SeeLoveCategories from "../Components/Pages/SeeLoveCategories";
+import Register from "../Components/Register/Register";
 
 
 export const router = createBrowserRouter([
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
             {
                 path:"/allblog",
                 element: <AllBlog/>
+            },
+            {
+                path:"/register",
+                element: <Register/>
             },
             {
                 path:"/details/:id",
