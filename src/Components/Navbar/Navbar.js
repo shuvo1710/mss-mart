@@ -48,7 +48,7 @@ const Navbar = () => {
 
             <div className='bg-white  text-white flex lg:justify-between justify-around  w-full items-center space-x-0  md:py-3 md:px-5 h-16 border-b:rgba(255,255,255,0)  border-b-[1px] border-solid'>
                 <div>
-                    <ul className={`md:flex absolute z-50 md:static md:mt-0 mt-7 md:w-full w-full  bg-white left-0 md:pl-0 pl-8  text-black transition-all duration-500 ease-in ${open ? 'top-18 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0'}`}>
+                    <ul className={`md:flex absolute md:-ml-16 lg:-md-0 z-50 md:static md:mt-0 mt-7 md:w-full w-full  bg-white left-0 md:pl-0 pl-8  text-black transition-all duration-500 ease-in ${open ? 'top-18 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0'}`}>
                         {Menu
                             // Links.map((link) => (
                             //     <li className='md:ml-8 text-xs md:my-0 my-7  ' key={link.name}  > <a className='text-gray-800 hover:underline duration-500' href={link.link}>{link.name} </a> </li>
@@ -58,7 +58,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className=' '>
-                    <h1 className='font-bold text-black md:ml-0 ml-[-80px]'>Logo</h1>
+                    <h1 className='font-bold text-black '>Logo</h1>
                 </div>
                 <div className='flex text-black justify-center gap-x-2'>
                     <div className='flex items-center text-xs  tracking-widest'>
@@ -96,9 +96,9 @@ const Navbar = () => {
                             <li><p>Log Out</p></li>
                         </ul>
                     </div>
-                    <div onClick={() => setOpen(!open)} className='md:hidden mr-0'> {/* <BiMenu name='menu' onClick={()=> setOpen(!open)}/>  <GrFormClose name={open? 'close': 'menu'}/>  */}
+                    <div onClick={() => setOpen(!open)} className='md:hidden mr-0 mt-4 md:mt-0'> {/* <BiMenu name='menu' onClick={()=> setOpen(!open)}/>  <GrFormClose name={open? 'close': 'menu'}/>  */}
                         {
-                            open ? <GrFormClose /> : <FcMenu />
+                            open ? <GrFormClose className=''/> : <FcMenu />
                         }
                     </div>
                 </div>
