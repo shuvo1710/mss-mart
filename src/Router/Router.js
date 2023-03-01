@@ -4,6 +4,7 @@ import AllBlog from "../Components/Bloge/AllBlog";
 import BlogeDetails from "../Components/Bloge/BlogeDetails";
 import DetailsPage from "../Components/DetailsPage/DetailsPage";
 import Main from "../Components/Layout/Main";
+import Login from "../Components/Login/Login";
 import BuyNow from "../Components/Pages/BuyNow";
 import FoundProduct from "../Components/Pages/FoundProduct";
 import Home from "../Components/Pages/Home";
@@ -44,8 +45,11 @@ export const router = createBrowserRouter([
                 path:"/details/:id",
                 loader:({params})=> fetch(`http://localhost:5000/allProduct/${params.id}`),
                 element:<DetailsPage/>
-            }
-
+            },
         ]
+    },
+    {
+        path:"login",
+        element:<Login/>
     }
 ])
