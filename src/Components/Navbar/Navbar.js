@@ -64,21 +64,27 @@ const Navbar = () => {
                                     <BiSearch className='w-8 h-4'></BiSearch>
                                 </span>
                             </div>
-                            <div className='flex items-center lg:block text-xs tracking-widest'>
-                                {/* <span className='m-auto'>CART</span> */}
-                                <span className=' text-green-800 m-auto '>
-                                    <BsBag className='w-8 h-4'></BsBag>
-                                </span>
-                                <span className='m-auto'>0</span>
+
+                           
+
+                            <div className='flex items-center lg:block text-xs tracking-widest mt-0 lg:mt-4'>
+                                <div className='flex tracking-widest'>
+                                    <span className=' text-green-800 m-auto '>
+                                        <BsBag className='w-8 h-4 ml-0'></BsBag>
+                                    </span>
+                                    <span className='m-auto -mt-3 -ml-2'>0</span>
+                                </div>
                             </div>
-                            <div className='flex items-center lg:block text-xs tracking-widest'>
+
+                            <div className='flex items-center lg:block text-xs tracking-widest mt-0 lg:mt-4'>
                                 <div className='flex tracking-widest'>
                                     <span className=' text-green-800 m-auto '>
                                         <MdFavoriteBorder className='w-8 h-4 ml-0'></MdFavoriteBorder>
                                     </span>
-                                    <span className='m-auto'>0</span>
+                                    <span className='m-auto -mt-3 -ml-2'>0</span>
                                 </div>
                             </div>
+
                             <div className="dropdown dropdown-end disActive">
                                 <label tabIndex={0} className="btn  bg-transparent border-none hover:bg-transparent">
                                     <span className=' text-green-800 m-auto '>

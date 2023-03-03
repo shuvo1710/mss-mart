@@ -233,6 +233,11 @@ const DetailsPage = () => {
                }
               </>
              }
+
+             <div>
+              <button className="btn w-1/4 mx-auto bg-black text-white font-semibold my-4">Order Now</button>
+             </div>
+
           <div className="mt-6 mb-10">
             <h1 className="text-lg font-semibold mb-4">
               QUARANTEED SAFE CHECKOUT:
