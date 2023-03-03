@@ -8,11 +8,10 @@ const Card = () => {
     const {data:recommendation = [], isLoading} = useQuery({
         queryKey: ['recommendation'],
         queryFn: async ()=>{
-            const res = await fetch('http://localhost:5000/recommendation')
+            const res = await fetch('http://localhost:5000/allProducts?category=man')
             const data = await res.json()
             return data;
         }
- 
     })
      if(isLoading){
         return <Loder/>;
@@ -25,7 +24,7 @@ const Card = () => {
             </div>
             <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-2  container mx-auto my-4">
                 {
-                    recommendation.map(product=> <RecommendationCard key={[product._id]} product={product}/>
+                    recommendation.map(products=> <RecommendationCard key={[products._id]} products={products}/>
                         )
                 }
             </div>

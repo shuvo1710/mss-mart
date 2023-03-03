@@ -5,8 +5,14 @@ import { RxHome } from 'react-icons/rx'
 import { Link } from 'react-router-dom';
 import { UserContext } from '../../CategoryContext/AuthContext';
 import { toast } from 'react-hot-toast';
+import { FcGoogle } from 'react-icons/fc';
+import { FaFacebookF } from 'react-icons/fa';
+import { AiFillGithub } from 'react-icons/ai';
+
 const Login = () => {
-    const {logInWithEmailAndPassword} = useContext(UserContext)
+    const { logInWithEmailAndPassword ,googleLogIn,FaceBookLogin,githubLogIn} = useContext(UserContext)
+    
+
 
     const handleLogin = (event) => {
         event.preventDefault()
@@ -15,17 +21,53 @@ const Login = () => {
         const password = form.password.value;
         console.log(password, UserEmail);
 
-        logInWithEmailAndPassword(UserEmail,password)
-        .then(result =>{
-            const user = result.user;
-            toast.success('Log in SuccessFull')
-            form.reset()
-            console.log(user)
+        logInWithEmailAndPassword(UserEmail, password)
+            .then(result => {
+                const user = result.user;
+                toast.success('Log in SuccessFull')
+                form.reset()
+                console.log(user)
+            })
+            .catch(error => {
+                toast.error(error.message)
+                console.error(error)
+            })
+    }
+
+    
+
+    const handleGoogle =()=>{
+        googleLogIn()
+        .then(result=>{
+            console.log(result.user)
+            toast.success("LogIn Successfull by Gooogle")
         })
         .catch(error=>{
-            toast.error(error.message)
-            console.error(error)})
-    }
+            console.error(error)
+        })
+    } 
+
+    const handlefaceBook =()=>{
+        FaceBookLogin()
+        .then(result=>{
+            console.log(result.user)
+            toast.success("LogIn Successfull by FaceBook")
+        })
+        .catch(error=>{
+            console.error(error)
+        })
+    } 
+
+    const handlegitHub =()=>{
+        githubLogIn()
+        .then(result=>{
+            console.log(result.user)
+            toast.success("LogIn Successfull by Github")
+        })
+        .catch(error=>{
+            console.error(error)
+        })
+    } 
 
     return (
         <div className=''>
@@ -56,6 +98,18 @@ const Login = () => {
                                     <button className='py-2 px-6 text-black bg-white rounded-md hover:text-white hover:bg-black duration-300'>Sign In</button>
                                 </div>
                             </form>
+
+                            <div className='flex gap-3 pt-4 justify-center items-center'>
+                                <div onClick={handleGoogle} className='p-2 bg-white rounded-sm cursor-pointer'>
+                                    <FcGoogle className='text-2xl'/>
+                                </div>
+                                <div onClick={handlefaceBook} className='p-2 bg-white text-blue-600 rounded-sm cursor-pointer'>
+                                    <FaFacebookF className='text-2xl' />
+                                </div>
+                                <div onClick={handlegitHub} className='p-2 bg-white rounded-sm cursor-pointer'>
+                                    <AiFillGithub className='text-2xl' />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
