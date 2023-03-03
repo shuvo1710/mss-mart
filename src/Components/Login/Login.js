@@ -9,7 +9,6 @@ const Login = () => {
         const form = event.target;
         const UserEmail = form.userEmail.value;
         const password = form.password.value;
-
         console.log(password, UserEmail);
     }
 
@@ -26,7 +25,7 @@ const Login = () => {
                 <div className="hero-content text-neutral-content">
                     <div className=''>
                         <h2 className='text-2xl font-bold text-center'>Log In</h2>
-                        <p className='py-2'>New To MSS-MART? <span className='underline'>Please Sign Up.</span></p>
+                        <p className='py-2'>New To MSS-MART? <Link to={'/register'}>Please Sign Up.</Link></p>
                         <form className='' onSubmit={handleLogin}>
                             <div className='pt-2 UserEmail'>
                                 <label className='text-base'>Enter Your Email</label>
