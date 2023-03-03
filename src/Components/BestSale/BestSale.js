@@ -1,17 +1,11 @@
 import React, { useContext } from 'react';
 import { Category } from '../../CategoryContext/CategoryContext';
-import BestSealCard from './BestSealCard';
-import bestsale from "../../resource/bestSale.jpg"
-import bestSale2 from "../../resource/bestSale2.jpg"
+
 
 const BestSale = () => {
 const {bestSeals} = useContext(Category);
-// console.log(bestSeals[0])
 const {firstImages,secondImage,fistCategory,fistPrice,secondPrice,fistTitle,secondTitle,fistDetails,secondDetails} = bestSeals[0];
 
-// console.log(firstImages,secondImage)
-
-   
     return (
         <div className='container mx-auto'>
             <div className='text-center pb-10'>
