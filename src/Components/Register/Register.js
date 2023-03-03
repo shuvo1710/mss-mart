@@ -1,59 +1,65 @@
 import React from 'react';
+import { RxHome } from 'react-icons/rx';
+import { Link } from 'react-router-dom';
+import logIn from "../../resource/loginPage.jpg"
 
 const Register = () => {
-    const handleRegister = (event) => {
+    const handleLogin = (event) => {
         event.preventDefault()
         const form = event.target;
-        const name = form.userName.value;
-        const email = form.userEmail.value;
+        const UserEmail = form.userEmail.value;
         const password = form.password.value;
-        const confirmPass = form.userConPass.value;
-        const male = form.gender.value;
-        const userPhoto = form.userImg.files[0];
-        console.log(name, email, password, confirmPass, male, userPhoto);
+        console.log(password, UserEmail);
     }
+
     return (
-        <div className='w-6/12 mx-auto border my-16 p-4 rounded'>
-            <form onSubmit={handleRegister}>
-                                <div className='pt-2'>
-                                    <label className='text-base'>Enter Your Name</label>
-                                    <input type="text" name='userName' placeholder="enter your name" className='p-2 border mt-1 h-full w-full' required />
-                                </div>
-
-                                <div className='pt-2'>
-                                    <label className='text-base'>Enter Your Email</label>
-                                    <input type="email" name='userEmail' placeholder="enter your Email" className='p-2 border mt-1 h-full w-full' required />
-                                </div>
-
-                                <div className='pt-2'>
-                                    <label className='text-base'>Choose Image</label>
-                                    <input name='userImg' type="file" placeholder="enter your name" className='p-2  mt-1 h-full w-full' required />
-                                </div>
-
-                                <div className='pt-2'>
-                                    <label className='text-base'>Please Select Your Gender</label>
-                                    <select name='gender' className="select w-full border" required>
-                                        <option defaultValue value="Male">Male</option>
-                                        <option value="Female">Female</option>
-                                        <option value="under 18">Under 18</option>
-                                    </select>
-                                </div>
-
-                                <div className='pt-2'>
-                                    <label className='text-base'>Enter Your password</label>
-                                    <input type="password" name='password' placeholder="enter your name" className='p-2 border mt-1 h-full w-full' required />
-                                </div>
-
-                                <div className='pt-2'>
-                                    <label className='text-base'>Enter Confirm password</label>
-                                    <input type="password" name='userConPass' placeholder="enter your password" className='p-2 border mt-1 h-full w-full' required />
-                                </div>
-
-                                <div className='flex justify-center items-center lg:pt-4 md:pt-2'>
-                                    <button className='py-2 px-6 text-white bg-primary rounded-md'>Sign Up</button>
-                                </div>
-                            </form>
+        <div className=''>
+        <div className="hero min-h-screen" style={{ backgroundImage: `url(${logIn})` }}>
+        
+            <div className="hero-overlay bg-opacity-60 relative"></div>
+            <div className='absolute top-1/4 right-0'>
+                <div className='h-10 w-10 bg-white flex justify-center items-center'>
+                <Link to="/"><RxHome className='text-red-600'></RxHome></Link>
+                </div>
+            </div>
+            <div className="hero-content text-neutral-content">
+                <div className=''>
+                    <h2 className='text-2xl font-bold text-center'>Register Now</h2>
+                 
+                    <form className='' onSubmit={handleLogin}>
+                    <div className='pt-2 '>
+                            <label className='text-base'>Enter Your First Name</label>
+                            <input type="text" name='firstName' placeholder="Enter your First Name" className='p-2 border mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent' required />
+                        </div>
+                        <div className='pt-2 '>
+                            <label className='text-base'>Enter Your Last Name</label>
+                            <input type="text" name='lastName' placeholder="Enter your First Name" className='p-2 border mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent' required />
+                        </div>
+                        <div className='pt-2 UserEmail'>
+                            <label className='text-base'>Enter Your Email</label>
+                            <input type="email" name='userEmail' placeholder="Enter your Email" className='p-2 border mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent' required />
+                        </div>
+                        <div className='pt-2'>
+                            <label className='text-base'>Enter Your Image</label>
+                            <input type="file" name='image' placeholder="Enter your First Name" className='p-2 border mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent' required />
+                        </div>
+                        <div className='pt-4'>
+                            <label className='text-base'>Enter Your password</label>
+                            <input type="password" name='password' placeholder="Enter your password" className='p-2 border mt-1 h-full w-full bg-transparent focus:outline-none' required />
+                        </div>
+                        <div className='pt-4'>
+                            <label className='text-base'>Enter Your confirm password</label>
+                            <input type="password" name='confirmPassword' placeholder="Enter your password" className='p-2 border mt-1 h-full w-full bg-transparent focus:outline-none' required />
+                        </div>
+                        <p className='py-2'>Already Have An Account <Link to='/login' className=''>Please LogIn.</Link></p>
+                        <div className='flex justify-center items-center lg:pt-4 md:pt-2'>
+                            <button className='py-2 px-6 text-white bg-primary rounded-md bg-transparent border border-white'>Sign In</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
+    </div>
     );
 };
 
