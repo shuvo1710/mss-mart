@@ -5,8 +5,12 @@ import { Link } from 'react-router-dom';
 import { UserContext } from '../../CategoryContext/AuthContext';
 import logIn from "../../resource/loginPage.jpg"
 
+import { FcGoogle } from 'react-icons/fc';
+import { FaFacebookF } from 'react-icons/fa';
+import { AiFillGithub } from 'react-icons/ai';
+
 const Register = () => {
-    const { registerWithEmailPass,updateUser} = useContext(UserContext)
+    const { registerWithEmailPass, updateUser, googleLogIn, FaceBookLogin, githubLogIn } = useContext(UserContext)
     const handleLogin = (event) => {
         event.preventDefault()
         const form = event.target;
@@ -15,8 +19,8 @@ const Register = () => {
         const email = form.email.value;
         const newPassword = form.newPassword.value;
         const confirmPassword = form.confirmPassword.value;
-        const fullName = firstName+' '+ lastName
-        
+        const fullName = firstName + ' ' + lastName
+
         const image = form.image.files[0];
 
         if (newPassword !== confirmPassword) {
@@ -38,24 +42,51 @@ const Register = () => {
             .then(res => res.json())
             .then(imageData => {
                 toast.success('image post')
-               
+
                 registerWithEmailPass(email, confirmPassword)
                     .then(result => {
                         const user = result.user;
                         toast.success('register SuccessFull')
-                        updateUser(fullName,imageData.display_url)
+                        updateUser(fullName, imageData.display_url)
                         form.reset()
                     })
 
                     .catch(error => console.error(error))
             })
 
+    }
 
+    const handleGoogle = () => {
+        googleLogIn()
+            .then(result => {
+                console.log(result.user)
+                toast.success("LogIn Successfull by Gooogle")
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
 
+    const handlefaceBook = () => {
+        FaceBookLogin()
+            .then(result => {
+                console.log(result.user)
+                toast.success("LogIn Successfull by FaceBook")
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
 
-
-
-
+    const handlegitHub = () => {
+        githubLogIn()
+            .then(result => {
+                console.log(result.user)
+                toast.success("LogIn Successfull by Github")
+            })
+            .catch(error => {
+                console.error(error)
+            })
     }
 
     return (
@@ -106,6 +137,17 @@ const Register = () => {
                                 <button className='py-2 px-6 text-white hover:bg-gray-500 font-semibold rounded-md bg-transparent border border-white'>Register Now</button>
                             </div>
                         </form>
+                        <div className='flex gap-3 pt-4 justify-center items-center'>
+                            <div onClick={handleGoogle} className='p-2 bg-white rounded-sm cursor-pointer'>
+                                <FcGoogle className='text-2xl' />
+                            </div>
+                            <div onClick={handlefaceBook} className='p-2 bg-white text-blue-600 rounded-sm cursor-pointer'>
+                                <FaFacebookF className='text-2xl' />
+                            </div>
+                            <div onClick={handlegitHub} className='p-2 bg-white text-black rounded-sm cursor-pointer'>
+                                <AiFillGithub className='text-2xl' />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

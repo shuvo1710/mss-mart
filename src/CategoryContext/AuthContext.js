@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, FacebookAuthProvider, getAuth, GithubAuthProvider, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, updateProfile } from "firebase/auth";
 import app from '../Components/firebase.confiq';
 
 
@@ -8,6 +8,9 @@ const auth = getAuth(app);
 const AuthContext = ({ children }) => {
     const [user,SetUser] = useState('')
     const [loader,SetLoader] = useState(true)
+    const GoogleProvider = new GoogleAuthProvider();
+    const FaceBookProvider = new FacebookAuthProvider();
+    const githubProvider = new GithubAuthProvider();
 
     const registerWithEmailPass = (email, password) => {
         return createUserWithEmailAndPassword(auth, email, password)
@@ -16,22 +19,23 @@ const AuthContext = ({ children }) => {
         return signInWithEmailAndPassword(auth, email, password)
     }
 
+    const googleLogIn = ()=>{
+        return signInWithPopup(auth,GoogleProvider)
+    }
+
+    const FaceBookLogin=()=>{
+        return signInWithPopup(auth,FaceBookProvider)
+    }
+    const githubLogIn=()=>{
+        return signInWithPopup(auth,githubProvider)
+    }
+
     const updateUser = (userName, userPhoto) => {
         return updateProfile(auth.currentUser,{
             displayName: userName,
             photoURL: userPhoto
         })
     }
-
-    // useEffect(()=>{
-    //     const unsubscribed = onAuthStateChanged(auth,currentUser=>{
-    //         setUser(currentUser)
-    //         setLoading(false)
-            
-    //     })
-
-    //     return ()=>unsubscribed();
-    // },[])
 
     useEffect(()=>{
         const unsubscribed = onAuthStateChanged(auth,currentUser=>{
@@ -49,7 +53,10 @@ const AuthContext = ({ children }) => {
     const userInfo = {
         registerWithEmailPass,
         logInWithEmailAndPassword,
-        updateUser
+        updateUser,
+        googleLogIn,
+        FaceBookLogin,
+        githubLogIn
 
     }
     return (

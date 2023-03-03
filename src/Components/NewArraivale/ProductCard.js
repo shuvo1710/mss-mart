@@ -24,10 +24,9 @@ const ProductCard = ({ Products }) => {
   const discountPrice=(discount/100)*balance;
   const discountValue=price-discountPrice
 
- 
-
 
   const { setMOdalData } = useContext(Category);
+
   return (
     <div>
       <div className="relative image-parent border">
