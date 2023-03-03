@@ -9,6 +9,7 @@ import BuyNow from "../Components/Pages/BuyNow";
 import FoundProduct from "../Components/Pages/FoundProduct";
 import Home from "../Components/Pages/Home";
 import SeeLoveCategories from "../Components/Pages/SeeLoveCategories";
+import Profile from "../Components/Profile/Profile";
 import Register from "../Components/Register/Register";
 
 
@@ -52,5 +53,9 @@ export const router = createBrowserRouter([
     {
         path:"/register",
         element: <Register/>
+    },
+    {
+        path:"/profile",
+        element: <Profile/>
     }
 ])
