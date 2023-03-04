@@ -122,22 +122,22 @@ const Register = () => {
               <form className="" onSubmit={handleLogin}>
                 <div className="md:flex items-center gap-4 w-full">
                   <div className="pt-2 w-full">
-                    <label className="text-base">Enter Your First Name</label>
+                    <label className="text-base text-white">Enter Your First Name</label>
                     <input
                       type="text"
                       name="firstName"
                       placeholder="Enter your First Name"
-                      className="p-2 border mt-1 h-full w-full  focus:outline-none "
+                      className="p-2 border text-white mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent "
                       required
                     />
                   </div>
                   <div className="pt-2 w-full">
-                    <label className="text-base">Enter Your Last Name</label>
+                    <label className="text-base text-white">Enter Your Last Name</label>
                     <input
                       type="text"
                       name="lastName"
                       placeholder="Enter your last Name"
-                      className="p-2 border mt-1 h-full w-full  focus:outline-none "
+                      className="p-2 border text-white mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent"
                       required
                     />
                   </div>
@@ -145,22 +145,22 @@ const Register = () => {
 
                 <div className="md:flex items-center gap-4 w-full">
                   <div className="pt-2 UserEmail w-full">
-                    <label className="text-base">Enter Your Email</label>
+                    <label className="text-base text-white">Enter Your Email</label>
                     <input
                       type="email"
                       name="email"
                       placeholder="Enter your Email"
-                      className="p-2 border mt-1 h-full w-full  focus:outline-none "
+                      className="p-2 border text-white mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent "
                       required
                     />
                   </div>
                   <div className="pt-2 w-full">
-                    <label className="text-base">Enter Your Image</label>
+                    <label className="text-base text-white">Enter Your Image</label>
                     <input
                       type="file"
                       name="image"
                       placeholder="Enter your First Name"
-                      className="p-2 border mt-1 h-full w-full  focus:outline-none "
+                      className="p-2 border text-white mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent"
                       required
                     />
                   </div>
@@ -168,67 +168,67 @@ const Register = () => {
 
                 <div className="md:flex items-center gap-4">
                   <div className="pt-2 w-full">
-                    <label className="text-base">Enter Your New password</label>
+                    <label className="text-base text-white">Enter Your New password</label>
                     <input
                       type="password"
                       name="newPassword"
                       placeholder="Enter your New password"
-                      className="p-2 border mt-1 h-full w-full  focus:outline-none"
+                      className="p-2 border text-white mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent"
                       required
                     />
                   </div>
                   <div className="pt-2 w-full">
-                    <label className="text-base">
+                    <label className="text-base text-white">
                       Enter Your confirm password
                     </label>
                     <input
                       type="password"
                       name="confirmPassword"
                       placeholder="Enter your Confirm password"
-                      className="p-2 border mt-1 h-full w-full  focus:outline-none"
+                      className="p-2 border text-white mt-1 h-full w-full bg-transparent focus:outline-none active:bg-transparent"
                       required
                     />
                   </div>
                 </div>
 
-                <div className="w-full  my-4">
-                  <label className="text-base mb-4">Select Your Gender</label>
+                <div className="w-full my-4">
+                  <label className="text-base text-white mb-4">Select Your Gender</label>
                   <div className="flex gap-4 mt-4">
                     <div className="flex gap-4 items-center">
-                      <label className="text-base">Male</label>
+                      <label className="text-base text-white">Male</label>
                       <input
                         type="radio"
                         name="gender"
-                        className="radio"
+                        className="radio radio-border"
                         value="male"
                       />
                     </div>
 
                     <div className="flex gap-4 items-center">
-                      <label className="text-base">Female</label>
+                      <label className="text-base text-white">Female</label>
                       <input
                         type="radio"
                         name="gender"
-                        className="radio"
+                        className="radio radio-border"
                         value="woman"
                       />
                     </div>
 
                     <div className="flex gap-4 items-center">
-                      <label className="text-base">Under-12</label>
+                      <label className="text-base text-white">Under-12</label>
                       <input
                         type="radio"
                         name="gender"
-                        className="radio"
+                        className="radio radio-border"
                         value="kid"
                       />
                     </div>
                   </div>
                 </div>
 
-                <p className="py-2">
+                <p className="py-2 text-white">
                   Already Have An Account?{" "}
-                  <Link to="/login" className="">
+                  <Link to="/login" className="underline">
                     Please LogIn.
                   </Link>
                 </p>
