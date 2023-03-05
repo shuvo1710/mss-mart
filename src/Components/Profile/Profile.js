@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 
 
 const Profile = () => {
-
-
     const [file, setFile] = useState(null);
-
     const handleSubmit = (e) => {
         e.preventDefault();
         const form = e.target
@@ -14,7 +11,6 @@ const Profile = () => {
         const email = form.email.value
         const password = form.password.value
         const confirmPassword = form.confirmPassword.value
-
         console.log('just something', form, profilePicture, username, email, password, confirmPassword);
     };
 
@@ -22,7 +18,6 @@ const Profile = () => {
         const selectedFile = e.target.files[0];
         setFile(selectedFile);
     };
-
     return (
         
         <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-10">

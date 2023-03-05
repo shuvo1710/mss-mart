@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 // import logIn from "../../resource/loginPage.jpg"
 import logIn from "../../resource/login2.jpg"
 import { RxHome } from 'react-icons/rx'
@@ -8,10 +8,13 @@ import { toast } from 'react-hot-toast';
 import { FcGoogle } from 'react-icons/fc';
 import { FaFacebookF } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
+import UseToken from '../UseToken/UseToken';
 
 const Login = () => {
-    const { logInWithEmailAndPassword ,googleLogIn,FaceBookLogin,githubLogIn} = useContext(UserContext)
-    
+    const [userEmail, setUserEmail] = useState('')
+    const [token] = UseToken(userEmail)
+    const { logInWithEmailAndPassword, googleLogIn, FaceBookLogin } = useContext(UserContext)
+
 
 
     const handleLogin = (event) => {
@@ -24,9 +27,10 @@ const Login = () => {
         logInWithEmailAndPassword(UserEmail, password)
             .then(result => {
                 const user = result.user;
+                console.log(user);
                 toast.success('Log in SuccessFull')
+                setUserEmail(user.email)
                 form.reset()
-                console.log(user)
             })
             .catch(error => {
                 toast.error(error.message)
@@ -34,41 +38,51 @@ const Login = () => {
             })
     }
 
-    
 
-    const handleGoogle =()=>{
+
+    const handleGoogle = () => {
         googleLogIn()
-        .then(result=>{
-            console.log(result.user)
-            toast.success("LogIn Successfull by Gooogle")
-        })
-        .catch(error=>{
-            console.error(error)
-        })
-    } 
+            .then(result => {
+                const user = result.user;
+                // console.log(user)
+                toast.success("LogIn Successfull by Gooogle")
+                setUserEmail(user.email)
+                toast.success(user.email)
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
 
-    const handlefaceBook =()=>{
+    // const handlefaceBook = () => {
+    //     FaceBookLogin()
+    //         .then(result => {
+    //             const user = result.user;
+    //             // console.log(user.UserImpl.email);
+    //             const email = user.email;
+    //             console.log(email);
+    //             setUserEmail(user.email)
+    //             toast.success("LogIn Successfull by FaceBook")
+    //             toast.success(user.email)
+                
+    //         })
+    //         .catch(error => {
+    //             console.error(error)
+    //         })
+    // }
+
+    const handlefaceBook = () => {
         FaceBookLogin()
-        .then(result=>{
-            console.log(result.user)
-            toast.success("LogIn Successfull by FaceBook")
-        })
-        .catch(error=>{
-            console.error(error)
-        })
-    } 
-
-    const handlegitHub =()=>{
-        githubLogIn()
-        .then(result=>{
-            console.log(result.user)
-            toast.success("LogIn Successfull by Github")
-        })
-        .catch(error=>{
-            console.error(error)
-        })
-    } 
-
+          .then((result) => {
+            const user = result.user;
+            setUserEmail(user.email)
+            toast.success("LogIn Successfull by FaceBook");
+            toast.success(user.email)
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      };
     return (
         <div className=''>
             <div className=" min-h-screen bg-base-200 relative">
@@ -101,14 +115,12 @@ const Login = () => {
 
                             <div className='flex gap-3 pt-4 justify-center items-center'>
                                 <div onClick={handleGoogle} className='p-2 bg-white rounded-sm cursor-pointer'>
-                                    <FcGoogle className='text-2xl'/>
+                                    <FcGoogle className='text-2xl' />
                                 </div>
                                 <div onClick={handlefaceBook} className='p-2 bg-white text-blue-600 rounded-sm cursor-pointer'>
                                     <FaFacebookF className='text-2xl' />
                                 </div>
-                                <div onClick={handlegitHub} className='p-2 bg-white rounded-sm cursor-pointer'>
-                                    <AiFillGithub className='text-2xl' />
-                                </div>
+
                             </div>
                         </div>
                     </div>

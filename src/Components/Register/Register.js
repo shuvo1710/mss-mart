@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { toast } from "react-hot-toast";
 import { RxHome } from "react-icons/rx";
 import { Link } from "react-router-dom";
@@ -7,15 +7,18 @@ import logIn from "../../resource/loginPage.jpg";
 
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebookF } from "react-icons/fa";
-import { AiFillGithub } from "react-icons/ai";
+import UseToken from "../UseToken/UseToken";
+
 
 const Register = () => {
+  const [userEmail,setUserEmail] = useState('')
+  const [token] = UseToken(userEmail)
   const {
     registerWithEmailPass,
     updateUser,
     googleLogIn,
     FaceBookLogin,
-    githubLogIn,
+
   } = useContext(UserContext);
   const handleLogin = (event) => {
     event.preventDefault();
@@ -26,10 +29,10 @@ const Register = () => {
     const newPassword = form.newPassword.value;
     const confirmPassword = form.confirmPassword.value;
     const gender = form.gender.value;
-
     const fullName = firstName + " " + lastName;
-
     const image = form.image.files[0];
+
+
 
     if (newPassword !== confirmPassword) {
       return toast.error("password not matched", {
@@ -50,6 +53,8 @@ const Register = () => {
     })
       .then((res) => res.json())
       .then((imageData) => {
+       
+        const imageUrl = imageData.data.display_url;
         toast.success("image post");
 
         registerWithEmailPass(email, confirmPassword)
@@ -57,9 +62,10 @@ const Register = () => {
             const user = result.user;
             toast.success("register SuccessFull");
             updateUser(fullName, imageData.display_url);
+            saveUser(fullName, email, imageUrl, gender);
+            setUserEmail(email)
             form.reset();
           })
-
           .catch((error) => console.error(error));
       });
   };
@@ -67,8 +73,11 @@ const Register = () => {
   const handleGoogle = () => {
     googleLogIn()
       .then((result) => {
-        console.log(result.user);
-        toast.success("LogIn Successfull by Gooogle");
+        const user = result.user;
+        toast.success("LogIn Successfull by Google");
+        setUserEmail(user.email)
+        saveUser(user.displayName, user.email, user.photoURL, ' ')
+          toast.success(user.email)
       })
       .catch((error) => {
         console.error(error);
@@ -78,24 +87,32 @@ const Register = () => {
   const handlefaceBook = () => {
     FaceBookLogin()
       .then((result) => {
-        console.log(result.user);
+        const user = result.user;
+        setUserEmail(user.email)
+        saveUser(user.displayName, user.email, user.photoURL, ' ')
         toast.success("LogIn Successfull by FaceBook");
+        toast.success(user.email)
       })
       .catch((error) => {
         console.error(error);
       });
   };
 
-  const handlegitHub = () => {
-    githubLogIn()
-      .then((result) => {
-        console.log(result.user);
-        toast.success("LogIn Successfull by Github");
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  };
+
+
+  const saveUser = (fullName, email, imageUrl, gender) => {
+    const userInfo = {
+      fullName, email, imageUrl, gender
+    }
+    fetch('http://localhost:5000/userInfo', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json'
+      },
+      body: JSON.stringify(userInfo)
+    })
+
+  }
 
   return (
     <div className="">
@@ -251,12 +268,6 @@ const Register = () => {
                   className="p-2 bg-white text-blue-600 rounded-sm cursor-pointer"
                 >
                   <FaFacebookF className="text-2xl" />
-                </div>
-                <div
-                  onClick={handlegitHub}
-                  className="p-2 bg-white rounded-sm cursor-pointer"
-                >
-                  <AiFillGithub className="text-2xl" />
                 </div>
               </div>
             </div>
