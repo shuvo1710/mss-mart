@@ -1,8 +1,28 @@
-import React, { useState } from 'react';
+import { async } from '@firebase/util';
+import { useQuery } from '@tanstack/react-query';
+import React, { useContext, useState } from 'react';
+import { UserContext } from '../../CategoryContext/AuthContext';
+import Loder from '../Loder/Loder';
 
 
 const Profile = () => {
     const [file, setFile] = useState(null);
+    // const [user,setUser] = useState('')
+    const {user} = useContext(UserContext)
+   
+     const {data:userInfo, isLoading} = useQuery({
+        queryKey:['user', user?.email],
+        queryFn: async ()=>{
+            const res = await fetch(`http://localhost:5000/user?email=${user?.email}`)
+            const data = await res.json();
+            return data;
+        }
+     })
+
+     if(isLoading){
+        return <Loder/>
+     }
+
     const handleSubmit = (e) => {
         e.preventDefault();
         const form = e.target
@@ -18,6 +38,10 @@ const Profile = () => {
         const selectedFile = e.target.files[0];
         setFile(selectedFile);
     };
+
+    
+
+
     return (
         
         <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-10">
@@ -28,12 +52,8 @@ const Profile = () => {
                     Profile Picture
                 </label>
                 <div className="flex items-center justify-center w-full">
-                    {file ? (
-                        <img className="h-32 w-32 rounded-lg object-cover" src={URL.createObjectURL(file)} alt="Profile"   
+                        <img className="h-32 w-32 rounded-lg object-cover" src={userInfo?.imageUrl} alt="Profile"   
                         />
-                    ) : (
-                        <div className="h-20 w-20 rounded-full bg-gray-200"></div>
-                    )}
                 </div>
                 <div className="mt-2">
                     <label className="w-full flex items-center justify-center px-4 py-2 bg-blue-500 rounded-md text-white font-bold focus:outline-none focus:shadow-outline hover:bg-blue-700">
@@ -58,6 +78,7 @@ const Profile = () => {
                 Username
             </label>
             <input
+            defaultValue={userInfo?.fullName}
                 className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="username"
                 type="text"
@@ -69,32 +90,11 @@ const Profile = () => {
                 Email
             </label>
             <input
+            defaultValue={userInfo?.email}
                 className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="email"
                 type="email"
                 placeholder="Email"
-            />
-        </div>
-        <div className="mb-4">
-            <label className="block text-gray-700 font-bold mb-2" htmlFor="password">
-                Password
-            </label>
-            <input
-                className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                name="password"
-                type="password"
-                placeholder="Password"
-            />
-        </div>
-        <div className="mb-4">
-            <label className="block text-gray-700 font-bold mb-2" htmlFor="confirmPassword">
-                Confirm Password
-            </label>
-            <input
-                className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                name="confirmPassword"
-                type="password"
-                placeholder="Confirm Password"
             />
         </div>
         <div className="flex items-center justify-between">

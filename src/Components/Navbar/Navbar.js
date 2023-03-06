@@ -9,6 +9,8 @@ import { GrFormClose } from "react-icons/gr"
 import { RiArrowUpSLine } from 'react-icons/ri'
 import { MdFavoriteBorder } from 'react-icons/md';
 import { UserContext } from '../../CategoryContext/AuthContext';
+import { Category } from '../../CategoryContext/CategoryContext';
+
 
 
 
@@ -21,32 +23,13 @@ const Navbar = () => {
             }
         );
     }
-
-
-
-
-
-    // Check for menu
-    // const Links = [
-    //     { name: "HOME", link: '/' },
-    //     { name: "PAGES", link: '/' },
-    //     { name: "SHOP", link: '/' },
-    //     { name: "PORTFOLIO", link: '/' },
-    //     { name: "BLOG", link: '/' }
-    // ]
-
-
-    const Menu =
-        <>
-            <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/' className='text-gray-800 hover:underline duration-500' >HOME</Link> </li>
-            <li className='md:ml-8 text-xs md:my-0 my-7'> <Link to='/home' className='text-gray-800 hover:underline duration-500'  >PAGES</Link></li>
-            <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >SHOP</Link></li>
-            <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >PORTFOLIO</Link></li>
-            <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >BLOG</Link></li>
-        </>
+   
 
     let [open, setOpen] = useState(false)
-    const {user,loader,logOut} = useContext(UserContext)
+    const {user,loader,logOut, } = useContext(UserContext)
+    const {productInfo} = useContext(Category)
+
+
 
     const handleLogOut = ()=>{
         logOut()
@@ -55,6 +38,21 @@ const Navbar = () => {
             console.error(error.message)
         })
     }
+
+
+
+
+
+
+
+    const Menu =
+    <>
+        <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/' className='text-gray-800 hover:underline duration-500' >HOME</Link> </li>
+        <li className='md:ml-8 text-xs md:my-0 my-7'> <Link to='/home' className='text-gray-800 hover:underline duration-500'  >PAGES</Link></li>
+        <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >SHOP</Link></li>
+        <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >PORTFOLIO</Link></li>
+        <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >BLOG</Link></li>
+    </>
 
     
     return (
@@ -90,7 +88,7 @@ const Navbar = () => {
                                 <span className=' text-green-800 m-auto '>
                                     <BsBag className='w-8 h-4 ml-0'></BsBag>
                                 </span>
-                                <span className='m-auto -mt-3 -ml-2'>0</span>
+                                <span className='m-auto -mt-3 -ml-2'>{productInfo?.length}</span>
                             </div>
                         </div>
 

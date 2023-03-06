@@ -1,11 +1,20 @@
 
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import Loder from '../Components/Loder/Loder';
+import { toast } from 'react-hot-toast';
+import { UserContext } from './AuthContext';
+
+
+
 export const Category=createContext()
 const CategoryContext = ({children}) => {
     const [modalData,setMOdalData] = useState([])
     const [categoryName, setCategoryName]=useState("")
+    const {user} = useContext(UserContext)
+
+    
+    
   const { data: storeProduct = [], isLoading } = useQuery({
     queryKey: ["allProduct", categoryName],
     queryFn: async () => {
@@ -24,6 +33,39 @@ const {data:bestSeals = [], isLoading: bestSealLoad} = useQuery({
   }
 })
 
+
+
+
+
+
+const {data:productInfo = [], isLoading:emailVerifyLoading,refetch} = useQuery({
+
+  queryKey: ['addGetCart', user?.email],
+  queryFn: async () => {
+      const res = await fetch(`http://localhost:5000/addGetCart?email=${user?.email}`)
+      const data = await res.json();
+      return data;
+  }
+})
+
+const handlePostProductInfo=(email,products)=>{
+  const postProductInfo={email,products}
+  fetch('http://localhost:5000/addToCart',{
+    method:"POST",
+    headers:{
+      'content-type':'application/json'
+    },
+    body:JSON.stringify(postProductInfo)
+  })
+  .then(res=>res.json())
+  .then(data=>{
+    refetch()
+    toast.success('successFully data post addTo cart')
+    
+  })
+}
+
+
   if (isLoading) {
     return <Loder />;
   }
@@ -32,6 +74,8 @@ const {data:bestSeals = [], isLoading: bestSealLoad} = useQuery({
     return <Loder/>
   }
 
+
+
  
 
   const userCategory = {
@@ -39,7 +83,9 @@ const {data:bestSeals = [], isLoading: bestSealLoad} = useQuery({
     storeProduct,
     setMOdalData,
     modalData,
-    bestSeals
+    bestSeals,
+    handlePostProductInfo,
+    productInfo
   };
 
   return <Category.Provider value={userCategory}>{children}</Category.Provider>;

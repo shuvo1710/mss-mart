@@ -44,7 +44,6 @@ const Login = () => {
         googleLogIn()
             .then(result => {
                 const user = result.user;
-                // console.log(user)
                 toast.success("LogIn Successfull by Gooogle")
                 setUserEmail(user.email)
                 toast.success(user.email)
@@ -53,24 +52,6 @@ const Login = () => {
                 console.error(error)
             })
     }
-
-    // const handlefaceBook = () => {
-    //     FaceBookLogin()
-    //         .then(result => {
-    //             const user = result.user;
-    //             // console.log(user.UserImpl.email);
-    //             const email = user.email;
-    //             console.log(email);
-    //             setUserEmail(user.email)
-    //             toast.success("LogIn Successfull by FaceBook")
-    //             toast.success(user.email)
-                
-    //         })
-    //         .catch(error => {
-    //             console.error(error)
-    //         })
-    // }
-
     const handlefaceBook = () => {
         FaceBookLogin()
           .then((result) => {
