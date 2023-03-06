@@ -4,7 +4,7 @@ import PurchaseModal from '../PurchaseModal/PurchaseModal';
 import ProductCard from './ProductCard';
 
 const Mens = ({man}) => {
-   if(man.length){
+   if(man?.length){
     return (
         <div className='grid md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-x-2 gap-y-5 container mx-auto'>
             {
