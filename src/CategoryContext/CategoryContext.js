@@ -33,11 +33,6 @@ const {data:bestSeals = [], isLoading: bestSealLoad} = useQuery({
   }
 })
 
-
-
-
-
-
 const {data:productInfo = [], isLoading:emailVerifyLoading,refetch} = useQuery({
 
   queryKey: ['addGetCart', user?.email],
@@ -66,6 +61,38 @@ const handlePostProductInfo=(email,products)=>{
 }
 
 
+const handleLoveCard =(email,products)=>{
+  const product ={
+    email,
+    products
+  }
+  fetch('http://localhost:5000/loveProduct',{
+    method:'POST',
+    headers:{
+      'content-type':'application/json'
+    },
+    body:JSON.stringify(product)
+  })
+  .then(res=>res.json())
+  .then(data=>{
+    loveRefetch()
+    toast.success('love product add successFull')
+  })
+}
+
+const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
+  queryKey:['loveProduct', user?.email],
+  queryFn: async ()=>{
+    const res = await fetch (`http://localhost:5000/loveProduct?email=${user?.email}`)
+    const data = await res.json()
+    return data;
+  }
+})
+
+
+
+
+
   if (isLoading) {
     return <Loder />;
   }
@@ -74,7 +101,11 @@ const handlePostProductInfo=(email,products)=>{
     return <Loder/>
   }
 
- 
+
+  if(loveLoad){
+    return <Loder/>
+  }
+
 
 
  
@@ -86,7 +117,9 @@ const handlePostProductInfo=(email,products)=>{
     modalData,
     bestSeals,
     handlePostProductInfo,
-    productInfo
+    productInfo,
+    handleLoveCard,
+    loveProduct
   };
 
   return <Category.Provider value={userCategory}>{children}</Category.Provider>;

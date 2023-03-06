@@ -27,7 +27,7 @@ const Navbar = () => {
 
     let [open, setOpen] = useState(false)
     const {user,loader,logOut, } = useContext(UserContext)
-    const {productInfo} = useContext(Category)
+    const {productInfo,loveProduct} = useContext(Category)
 
     console.log(productInfo)
 
@@ -99,7 +99,7 @@ const Navbar = () => {
                                 <span className=' text-green-800 m-auto '>
                                     <MdFavoriteBorder className='w-8 h-4 ml-0'></MdFavoriteBorder>
                                 </span>
-                                <span className='m-auto -mt-3 -ml-2'>0</span>
+                                <span className='m-auto -mt-3 -ml-2'>{loveProduct?.length}</span>
                             </div>
                         </div>
 
