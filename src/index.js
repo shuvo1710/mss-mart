@@ -10,6 +10,7 @@ import {
 } from '@tanstack/react-query'
 import AuthContext from './CategoryContext/AuthContext';
 
+
 // Create a client
 const queryClient = new QueryClient()
 
@@ -17,15 +18,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <React.StrictMode>
-    
-      <QueryClientProvider client={queryClient}>
-      <CategoryContext>
-        <AuthContext>
-        <App />
-        </AuthContext>
+
+    <QueryClientProvider client={queryClient}>
+      <AuthContext>
+        <CategoryContext>
+          <App />
         </CategoryContext>
-      </QueryClientProvider>
-    
+      </AuthContext>
+    </QueryClientProvider>
   </React.StrictMode>
 );
 

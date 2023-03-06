@@ -2,9 +2,15 @@ import React, { useContext } from 'react';
 import { BiHeart } from 'react-icons/bi';
 import { BsCartPlus, BsImages, BsStar } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import { UserContext } from '../../../CategoryContext/AuthContext';
 import { Category } from '../../../CategoryContext/CategoryContext';
 
 const RecommendationCard = ({ products }) => {
+
+  const {user} = useContext(UserContext)
+  const { setMOdalData,handlePostProductInfo } = useContext(Category);
+  const email = user?.email;
+
     const {
         category,
         description,
@@ -14,14 +20,36 @@ const RecommendationCard = ({ products }) => {
         productSizes,
         rating,
         title,
-        _id
+        _id,
     } = products;
+
+
+
     const balance=parseFloat(price)
     const discountPrice=(discount/100)*balance;
     const discountValue=price-discountPrice
 
-    
-  const { setMOdalData } = useContext(Category);
+    // const postProductInfo={email,products}
+
+    // const handlePostProductInfo=()=>{
+    //   const postProductInfo={email,products}
+    //   fetch('http://localhost:5000/addToCart',{
+    //     method:"POST",
+    //     headers:{
+    //       'content-type':'application/json'
+    //     },
+    //     body:JSON.stringify(postProductInfo)
+    //   })
+    //   .then(res=>res.json())
+    //   .then(data=>{
+    //     console.log(data)
+    //   })
+    // }
+
+const handleProductCard =()=>{
+  handlePostProductInfo(email,products)
+}
+  
     
     return (
 
@@ -33,9 +61,6 @@ const RecommendationCard = ({ products }) => {
             <div className="flex flex-col gap-y-2">
               <p className="bg-white p-2 rounded-full">
                 <BiHeart className="heart duration-300 hover:scale-125 cursor-pointer" />
-              </p>
-              <p className="bg-white p-2 rounded-full">
-                <BsCartPlus className="cart duration-300 hover:scale-125 cursor-pointer" />
               </p>
               <label className="bg-white p-2 rounded-full" htmlFor="purchaseNow" onClick={() => setMOdalData(products)}>
                 <BsImages className="cart duration-300 hover:scale-125 cursor-pointer" />

@@ -4,16 +4,21 @@ import { Category } from "../../CategoryContext/CategoryContext";
 import ModalSlider from "./ModalSlider"
 import { toast } from "react-hot-toast";
 import Rating from "../Rating/Rating";
+import { UserContext } from "../../CategoryContext/AuthContext";
+
 
 
 
 const PurchaseModal = () => {
-  const { modalData } = useContext(Category);
+  const { modalData, handlePostProductInfo } = useContext(Category);
+
+  const { user } = useContext(UserContext)
   const [size, setSize] = useState('')
-  
+  const email = user?.email;
+
   const [quantity, setQuantity] = useState()
   const [quantityProduct, setQuantityProduct] = useState(1)
-  
+
   const message = useRef()
   const handlePlus = () => {
     if (quantityProduct >= quantity) {
@@ -35,6 +40,8 @@ const PurchaseModal = () => {
     }
   }
 
+
+
   const {
     category,
     customerReview,
@@ -52,14 +59,37 @@ const PurchaseModal = () => {
     _id,
   } = modalData;
 
-  const handleCustomerMessage = () => {
-    const customerMessage = message.current.value;
-  
+  const handleProductCard = () => {
+    const product = {
+      category,
+      customerReview,
+      deliveryPolicy,
+      description,
+      details,
+      discount,
+      images,
+      price,
+      productSizes,
+      productType,
+      rating,
+      returnAndExchange,
+      title,
+      _id,
+      customerMessage:message.current.value,
+      quantityProduct:quantityProduct,
+      size:size
+    }
+
+    handlePostProductInfo(email,product)
+    
+
   }
 
-  const balance=parseFloat(price)
-  const discountPrice=(discount/100)*balance;
-  const discountValue=price-discountPrice
+
+
+  const balance = parseFloat(price)
+  const discountPrice = (discount / 100) * balance;
+  const discountValue = price - discountPrice
 
 
   return (
@@ -78,8 +108,8 @@ const PurchaseModal = () => {
               <h4>{title}</h4>
               <h3>Price ${discountValue}</h3>
               <div>
-                <p className="flex items-center gap-4"> 
-                Rating: 
+                <p className="flex items-center gap-4">
+                  Rating:
                   <Rating rating={rating}></Rating>
                 </p>
               </div>
@@ -87,17 +117,17 @@ const PurchaseModal = () => {
                 <div className="flex my-2">
                   <p className="rightInfo">Availability:</p>
                   {
-                    size===''? <>
-                    <p>Please Select any size to See Product Stocks</p> 
+                    size === '' ? <>
+                      <p>Please Select any size to See Product Stocks</p>
                     </>
-                    :
-                    <>
-                    {
-                    quantity===0 ? <p className="text-red-500">Out Stock</p>
-                    :
-                    <p className="text-green-500">In Stock</p>
-                  }
-                    </>
+                      :
+                      <>
+                        {
+                          quantity === 0 ? <p className="text-red-500">Out Stock</p>
+                            :
+                            <p className="text-green-500">In Stock</p>
+                        }
+                      </>
                   }
                 </div>
                 <div className="flex my-2">
@@ -113,32 +143,32 @@ const PurchaseModal = () => {
                 </div>
                 {
                   size.length ? <p>
-                  Size:<span>{size}</span>
-                </p>
-                :
-                <p>
-                  Size:<span> please select any size.</span>
-                </p>
+                    Size:<span>{size}</span>
+                  </p>
+                    :
+                    <p>
+                      Size:<span> please select any size.</span>
+                    </p>
                 }
 
                 {
                   size.length ? <p>
-                  Quantity: <span>{quantity}</span>
-                </p>
-                :
-                <p>
-                  Quantity: <span> Please select size for quantity.</span>
-                </p>
+                    Quantity: <span>{quantity}</span>
+                  </p>
+                    :
+                    <p>
+                      Quantity: <span> Please select size for quantity.</span>
+                    </p>
                 }
 
                 <div className="flex gap-4 mt-4">
                   {productSizes?.map((product) => (
-                   <>
-                   <p onClick={() => { (setSize(product.size))(setQuantity(product.quantity))  }} className="py-1 px-2 bg-white text-black border border-black hover:bg-black hover:text-white duration-300 hover:border hover:border-black">
-                      {product.size}
-                    </p>
-                    
-                   </>
+                    <>
+                      <p onClick={() => { (setSize(product.size))(setQuantity(product.quantity)) }} className="py-1 px-2 bg-white text-black border border-black hover:bg-black hover:text-white duration-300 hover:border hover:border-black">
+                        {product.size}
+                      </p>
+
+                    </>
                   ))}
                 </div>
 
@@ -151,17 +181,17 @@ const PurchaseModal = () => {
                   ></textarea>
                 </div>
                 <p className="my-2">QUANTITY:</p>
-               {
-                size==='' ? <p>Please Select any size to enable quantity</p> 
-                :
-                <div className="flex items-center">
-                  <button  onClick={handleMinus} className="px-2 py-1 text-gray-400 border">-</button>
-                  <p className="py-1 px-2 border bg-gray-300">{quantityProduct}</p>
-                  <button onClick={handlePlus} className="px-2 py-1 text-gray-400 border">+</button>
-                </div> 
-               }
+                {
+                  size === '' ? <p>Please Select any size to enable quantity</p>
+                    :
+                    <div className="flex items-center">
+                      <button onClick={handleMinus} className="px-2 py-1 text-gray-400 border">-</button>
+                      <p className="py-1 px-2 border bg-gray-300">{quantityProduct}</p>
+                      <button onClick={handlePlus} className="px-2 py-1 text-gray-400 border">+</button>
+                    </div>
+                }
                 <div className="mt-3 flex items-center gap-3">
-                  <button className="btn modalButton bg-black text-white" onClick={handleCustomerMessage}>Add To Cart</button>
+                  <button className="btn modalButton bg-black text-white" onClick={handleProductCard}>Add To Cart</button>
                 </div>
               </div>
             </div>
