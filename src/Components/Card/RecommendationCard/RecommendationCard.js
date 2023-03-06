@@ -8,7 +8,8 @@ import { Category } from '../../../CategoryContext/CategoryContext';
 const RecommendationCard = ({ products }) => {
 
   const {user} = useContext(UserContext)
-  const { setMOdalData,handlePostProductInfo } = useContext(Category);
+  const { setMOdalData,handleLoveCard, } = useContext(Category);
+
   const email = user?.email;
 
     const {
@@ -23,34 +24,15 @@ const RecommendationCard = ({ products }) => {
         _id,
     } = products;
 
-
-
     const balance=parseFloat(price)
     const discountPrice=(discount/100)*balance;
     const discountValue=price-discountPrice
 
-    // const postProductInfo={email,products}
+    const handlePostLove=()=>{
+      handleLoveCard(email,products)
+    }
 
-    // const handlePostProductInfo=()=>{
-    //   const postProductInfo={email,products}
-    //   fetch('http://localhost:5000/addToCart',{
-    //     method:"POST",
-    //     headers:{
-    //       'content-type':'application/json'
-    //     },
-    //     body:JSON.stringify(postProductInfo)
-    //   })
-    //   .then(res=>res.json())
-    //   .then(data=>{
-    //     console.log(data)
-    //   })
-    // }
-
-const handleProductCard =()=>{
-  handlePostProductInfo(email,products)
-}
   
-    
     return (
 
         <div>
@@ -60,7 +42,7 @@ const handleProductCard =()=>{
           <div className="icons top-4 right-4">
             <div className="flex flex-col gap-y-2">
               <p className="bg-white p-2 rounded-full">
-                <BiHeart className="heart duration-300 hover:scale-125 cursor-pointer" />
+                <BiHeart onClick={handlePostLove} className="heart duration-300 hover:scale-125 cursor-pointer" />
               </p>
               <label className="bg-white p-2 rounded-full" htmlFor="purchaseNow" onClick={() => setMOdalData(products)}>
                 <BsImages className="cart duration-300 hover:scale-125 cursor-pointer" />
