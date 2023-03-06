@@ -29,6 +29,8 @@ const Navbar = () => {
     const {user,loader,logOut, } = useContext(UserContext)
     const {productInfo,loveProduct} = useContext(Category)
 
+    console.log(productInfo)
+
 
 
     const handleLogOut = ()=>{
@@ -48,9 +50,9 @@ const Navbar = () => {
     const Menu =
     <>
         <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/' className='text-gray-800 hover:underline duration-500' >HOME</Link> </li>
-        <li className='md:ml-8 text-xs md:my-0 my-7'> <Link to='/home' className='text-gray-800 hover:underline duration-500'  >PAGES</Link></li>
-        <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >SHOP</Link></li>
-        <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >PORTFOLIO</Link></li>
+        <li className='md:ml-8 text-xs md:my-0 my-7'> <Link to='/man' className='text-gray-800 hover:underline duration-500'  >Man</Link></li>
+        <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >Woman</Link></li>
+        <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >Kids</Link></li>
         <li className='md:ml-8 text-xs md:my-0 my-7'><Link to='/home' className='text-gray-800 hover:underline duration-500' >BLOG</Link></li>
     </>
 
