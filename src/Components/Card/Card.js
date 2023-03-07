@@ -15,6 +15,7 @@ const Card = () => {
      if(isLoading){
         return <Loader/>;
      }
+
     return (
         <div className='py-20'>
             <div className='text-center my-10'>
@@ -25,6 +26,7 @@ const Card = () => {
                 {
                     recommendation.slice(0,15).map(products=> <RecommendationCard key={[products._id]} products={products}/>
                         )
+
                 }
             </div>
 

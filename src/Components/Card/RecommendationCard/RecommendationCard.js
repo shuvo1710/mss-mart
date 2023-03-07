@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { BiHeart } from 'react-icons/bi';
-import { BsCartPlus, BsImages, BsStar } from 'react-icons/bs';
+import { BsImages } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../../../CategoryContext/AuthContext';
 import { Category } from '../../../CategoryContext/CategoryContext';
