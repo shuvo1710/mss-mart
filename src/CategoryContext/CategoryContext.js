@@ -102,9 +102,9 @@ const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
   }
 
 
-  if(loveLoad){
-    return <Loder/>
-  }
+  // if(loveLoad){
+  //   return <Loder/>
+  // }
 
 
 
