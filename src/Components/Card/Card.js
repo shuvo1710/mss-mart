@@ -16,6 +16,7 @@ const Card = () => {
      if(isLoading){
         return <Loder/>;
      }
+
     return (
         <div className='py-20'>
             <div className='text-center my-10'>
@@ -24,8 +25,7 @@ const Card = () => {
             </div>
             <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-2  container mx-auto my-4">
                 {
-                    recommendation.map(products=> <RecommendationCard key={[products._id]} products={products}/>
-                        )
+                    recommendation?.map(products=> <RecommendationCard key={[products._id]} products={products}/>)
                 }
             </div>
 

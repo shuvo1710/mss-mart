@@ -175,7 +175,7 @@ const Navbar = () => {
             <div className="flex items-center lg:block text-xs tracking-widest mt-0 lg:mt-4">
               <div className="flex tracking-widest">
                 <span className=" text-green-800 m-auto ">
-                  <BsBag className="w-8 h-4 ml-0"></BsBag>
+                  <Link to="/cart"><BsBag className="w-8 h-4 ml-0"></BsBag></Link>
                 </span>
                 <span className="m-auto -mt-3 -ml-2">
                   {productInfo?.length}
