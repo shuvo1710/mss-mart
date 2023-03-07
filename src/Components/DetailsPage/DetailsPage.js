@@ -18,6 +18,7 @@ import CustomerReview from "./CustomerReview";
 import DeliveryPolicy from "./DeliveryPolicy";
 import ReturnAndExchangePolicy from "./ReturnAndExchangePolicy";
 import Loder from '../Loder/Loder'
+import Top from "../Top/Top";
 
 const DetailsPage = () => {
   const data = useLoaderData();
@@ -76,12 +77,7 @@ const DetailsPage = () => {
         setActive('');
     
   };
-  
-
   let designClass = "componentDesign";
-
-  
-  
   const message = useRef()
   const handlePlus = () => {
     if (quantityProduct >= quantity) {
@@ -102,24 +98,13 @@ const DetailsPage = () => {
       setQuantityProduct(newValue)
     }
   }
-
-  
-  
-
-
     if(navigation.state === 'loading'){
       return  <Loder/>
     }
 
-
-
-
-
-
-
-
   return (
     <div className="p-4 md:p-2">
+      <Top/>
       <div>
         <Breadcrumbs />
       </div>
