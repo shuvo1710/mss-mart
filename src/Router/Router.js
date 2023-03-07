@@ -1,5 +1,6 @@
 
 import { createBrowserRouter } from "react-router-dom";
+import AddToCart from "../Components/AddToCart/AddToCart";
 import AllBlog from "../Components/Bloge/AllBlog";
 import BlogeDetails from "../Components/Bloge/BlogeDetails";
 import DetailsPage from "../Components/DetailsPage/DetailsPage";
@@ -7,6 +8,7 @@ import Main from "../Components/Layout/Main";
 import Login from "../Components/Login/Login";
 import Mens from "../Components/NewArraivale/Mens";
 import BuyNow from "../Components/Pages/BuyNow";
+import CartPage from "../Components/Pages/CartPage/CartPage";
 import Home from "../Components/Pages/Home";
 import SeeLoveCategories from "../Components/Pages/SeeLoveCategories";
 import Profile from "../Components/Profile/Profile";
@@ -62,5 +64,15 @@ export const router = createBrowserRouter([
     {
         path:"/profile",
         element: <Profile/>
+    },
+    {
+        path:'/cart',
+        element:<CartPage/>,
+        children:[
+            {
+                path:"/cart",
+                element:<AddToCart/>
+            }
+        ]
     }
 ])

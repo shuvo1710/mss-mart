@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
-// import "./ProductCard.css"
-import { BsCartPlus, BsImages } from "react-icons/bs";
+import {  BsImages } from "react-icons/bs";
 import { BiHeart } from "react-icons/bi";
-import { BsStar } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { Category } from "../../CategoryContext/CategoryContext";
-import Rating from "../Rating/Rating";
+import { UserContext } from "../../CategoryContext/AuthContext";
 const ProductCard = ({ Products }) => {
+  const {user} = useContext(UserContext)
+  const email = user?.email;
 
   const {
     category,
@@ -25,7 +25,11 @@ const ProductCard = ({ Products }) => {
   const discountValue=price-discountPrice
 
 
-  const { setMOdalData } = useContext(Category);
+  const { setMOdalData,handleLoveCard } = useContext(Category);
+
+  const handlePostLove=()=>{
+    handleLoveCard(email,Products)
+  }
 
   return (
     <div>
@@ -35,10 +39,7 @@ const ProductCard = ({ Products }) => {
         <div className="icons top-4 right-4">
           <div className="flex flex-col gap-y-2">
             <p className="bg-white p-2 rounded-full">
-              <BiHeart className="heart duration-300 hover:scale-125 cursor-pointer" />
-            </p>
-            <p className="bg-white p-2 rounded-full">
-              <BsCartPlus className="cart duration-300 hover:scale-125 cursor-pointer" />
+              <BiHeart onClick={handlePostLove} className="heart duration-300 hover:scale-125 cursor-pointer" />
             </p>
             <label className="bg-white p-2 rounded-full" htmlFor="purchaseNow" onClick={() => setMOdalData(Products)}>
               <BsImages className="cart duration-300 hover:scale-125 cursor-pointer" />
