@@ -235,8 +235,23 @@ const DetailsPage = () => {
              }
 
              <div>
-              <button className="btn w-1/4 mx-auto bg-black text-white font-semibold my-4">Order Now</button>
+              
              </div>
+             <div className="">
+                  {size === "" ? (
+                    <>
+                      <p>Please Select any size to enable Add To Card Button</p>
+                    </>
+                  ) : (
+                    <>
+                      {quantity === 0 ? (
+                        <button className="btn modalButton text-black my-4" disabled >Add To Cart</button>
+                      ) : (
+                        <button className="btn w-1/4 mx-auto bg-black text-white font-semibold my-4">Order Now</button>
+                      )}
+                    </>
+                  )}
+                </div>
 
           <div className="mt-6 mb-10">
             <h1 className="text-lg font-semibold mb-4">
