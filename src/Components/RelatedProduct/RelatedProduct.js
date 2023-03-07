@@ -4,9 +4,9 @@ import { BiHeart } from 'react-icons/bi';
 import { BsCartPlus, BsImages } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { Category } from '../../CategoryContext/CategoryContext';
-// import Rating from '../Rating/Rating';
-import img from "../../resource/mans-polo.jpg"
-import Loder from '../Loder/Loder';
+import Loader from '../Loder/Loader';
+
+
 import RelatedProductCard from './RelatedProductCard';
 
 const RelatedProduct = ({ productType, setImg}) => {
@@ -23,7 +23,7 @@ const RelatedProduct = ({ productType, setImg}) => {
         }
     })
     if (isLoading) {
-        return <Loder />
+        return <Loader />
     }
    
     return (

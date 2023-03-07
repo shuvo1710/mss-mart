@@ -1,9 +1,10 @@
 
 import React, { createContext, useContext, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import Loder from '../Components/Loder/Loder';
+
 import { toast } from 'react-hot-toast';
 import { UserContext } from './AuthContext';
+import Loader from '../Components/Loder/Loader';
 
 
 
@@ -94,16 +95,16 @@ const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
 
 
   if (isLoading) {
-    return <Loder />;
+    return <Loader />;
   }
 
   if(bestSealLoad){
-    return <Loder/>
+    return <Loader/>
   }
 
 
   // if(loveLoad){
-  //   return <Loder/>
+  //   return <Loader/>
   // }
 
 

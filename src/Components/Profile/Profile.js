@@ -2,7 +2,8 @@ import { async } from '@firebase/util';
 import { useQuery } from '@tanstack/react-query';
 import React, { useContext, useState } from 'react';
 import { UserContext } from '../../CategoryContext/AuthContext';
-import Loder from '../Loder/Loder';
+import Loader from '../Loder/Loader';
+
 
 
 const Profile = () => {
@@ -20,7 +21,7 @@ const Profile = () => {
      })
 
      if(isLoading){
-        return <Loder/>
+        return <Loader/>
      }
 
     const handleSubmit = (e) => {
