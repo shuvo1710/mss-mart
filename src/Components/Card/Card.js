@@ -1,9 +1,8 @@
 import React from 'react';
 import './Card.css'
-
-import Loder from '../Loder/Loder';
 import RecommendationCard from './RecommendationCard/RecommendationCard';
 import { useQuery } from '@tanstack/react-query';
+import Loader from '../Loder/Loader';
 const Card = () => {
     const {data:recommendation = [], isLoading} = useQuery({
         queryKey: ['recommendation'],
@@ -14,7 +13,7 @@ const Card = () => {
         }
     })
      if(isLoading){
-        return <Loder/>;
+        return <Loader/>;
      }
 
     return (
@@ -25,7 +24,9 @@ const Card = () => {
             </div>
             <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-2  container mx-auto my-4">
                 {
-                    recommendation?.map(products=> <RecommendationCard key={[products._id]} products={products}/>)
+                    recommendation.slice(0,15).map(products=> <RecommendationCard key={[products._id]} products={products}/>
+                        )
+
                 }
             </div>
 
