@@ -17,8 +17,8 @@ import ActiveCustomerReview from "./ActiveCustomerReview";
 import CustomerReview from "./CustomerReview";
 import DeliveryPolicy from "./DeliveryPolicy";
 import ReturnAndExchangePolicy from "./ReturnAndExchangePolicy";
-import Loder from '../Loder/Loder'
 import Top from "../Top/Top";
+import Loader from "../Loder/Loader";
 
 const DetailsPage = () => {
   const data = useLoaderData();
@@ -99,7 +99,7 @@ const DetailsPage = () => {
     }
   }
     if(navigation.state === 'loading'){
-      return  <Loder/>
+      return  <Loader/>
     }
 
   return (

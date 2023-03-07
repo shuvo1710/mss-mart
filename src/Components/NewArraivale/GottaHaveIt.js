@@ -5,7 +5,8 @@ import '../Card/Card.css'
 import Womens from './Womens';
 import Kids from './Kids';
 import { useNavigation } from 'react-router-dom';
-import Loder from '../Loder/Loder';
+import Loader from '../Loder/Loader';
+
 
 const GottaHaveIt = () => {
   const [man, setMan] = useState([]);
@@ -61,7 +62,7 @@ const GottaHaveIt = () => {
 
   let designClass = "design";
   if(navigation.state === 'loading'){
-    return  <Loder/>
+    return  <Loader/>
   }
 
   return (
