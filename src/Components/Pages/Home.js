@@ -18,7 +18,6 @@ const Home = () => {
     return (
         <div>
             <Banner/>
-            {/* <Valentine/> */}
             <Card/>
             <GottaHaveIt/>
             <Gallery/>
@@ -26,8 +25,6 @@ const Home = () => {
             <Discount/>
             <PayementMethod/>
             <PurchaseModal/>
-            {/* <LogInModal/> */}
-            {/* <RegisterModal/> */}
             <Bloge/>
             <NewsLetter/>
         </div>
