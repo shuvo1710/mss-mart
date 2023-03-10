@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { toast } from "react-hot-toast";
 import { RxHome } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { UserContext } from "../../CategoryContext/AuthContext";
 import logIn from "../../resource/loginPage.jpg";
 
@@ -13,6 +13,10 @@ import UseToken from "../UseToken/UseToken";
 const Register = () => {
   const [userEmail,setUserEmail] = useState('')
   const [token] = UseToken(userEmail)
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
+
   const {
     registerWithEmailPass,
     updateUser,
@@ -64,6 +68,7 @@ const Register = () => {
             updateUser(fullName, imageData.display_url);
             saveUser(fullName, email, imageUrl, gender);
             setUserEmail(email)
+            navigate(from, { replace: true });
             form.reset();
           })
           .catch((error) => console.error(error));
@@ -76,6 +81,7 @@ const Register = () => {
         const user = result.user;
         toast.success("LogIn Successfull by Google");
         setUserEmail(user.email)
+        navigate(from, { replace: true });
         saveUser(user.displayName, user.email, user.photoURL, ' ')
           toast.success(user.email)
       })
@@ -89,6 +95,7 @@ const Register = () => {
       .then((result) => {
         const user = result.user;
         setUserEmail(user.email)
+        navigate(from, { replace: true });
         saveUser(user.displayName, user.email, user.photoURL, ' ')
         toast.success("LogIn Successfull by FaceBook");
         toast.success(user.email)

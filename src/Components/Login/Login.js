@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 // import logIn from "../../resource/loginPage.jpg"
 import logIn from "../../resource/login2.jpg"
 import { RxHome } from 'react-icons/rx'
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { UserContext } from '../../CategoryContext/AuthContext';
 import { toast } from 'react-hot-toast';
 import { FcGoogle } from 'react-icons/fc';
@@ -15,7 +15,9 @@ const Login = () => {
     const [token] = UseToken(userEmail)
     const { logInWithEmailAndPassword, googleLogIn, FaceBookLogin } = useContext(UserContext)
 
-
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || "/";
 
     const handleLogin = (event) => {
         event.preventDefault()
@@ -30,6 +32,7 @@ const Login = () => {
                 console.log(user);
                 toast.success('Log in SuccessFull')
                 setUserEmail(user.email)
+                navigate(from, { replace: true });
                 form.reset()
             })
             .catch(error => {
@@ -46,6 +49,7 @@ const Login = () => {
                 const user = result.user;
                 toast.success("LogIn Successfull by Gooogle")
                 setUserEmail(user.email)
+                navigate(from, { replace: true });
                 toast.success(user.email)
             })
             .catch(error => {
@@ -57,6 +61,7 @@ const Login = () => {
           .then((result) => {
             const user = result.user;
             setUserEmail(user.email)
+            navigate(from, { replace: true });
             toast.success("LogIn Successfull by FaceBook");
             toast.success(user.email)
           })

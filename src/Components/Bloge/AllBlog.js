@@ -13,7 +13,7 @@ const AllBlog = () => {
 
 
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="container mx-auto">
         <div className='text-center pb-10'>
             <h1 className='headerStyle text-xl md:text-4xl font-medium mb-4'>Fashion Blog</h1>
             <h3 className='headerStyle text-lg md:text-2xl font-medium'>Dress Trend With Confidence and Style Tips
