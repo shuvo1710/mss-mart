@@ -15,8 +15,6 @@ const PrivateRouter = ({children}) => {
     if(user?.uid){
         return children;
     }
-
-
    else{
     return <Navigate to="/login" state={{from:location}} replace></Navigate>
    }
