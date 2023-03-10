@@ -52,6 +52,13 @@ const PurchaseModal = () => {
     _id,
   } = modalData;
 
+ 
+
+  const balance = parseFloat(price);
+  const discountPrice = (discount / 100) * balance;
+  const discountValue = price - discountPrice;
+
+
   const handleProductCard = () => {
     const product = {
       category,
@@ -71,14 +78,10 @@ const PurchaseModal = () => {
       customerMessage: message.current.value,
       quantityProduct: quantityProduct,
       size: size,
+      discountValue: discountValue
     };
-
     handlePostProductInfo(email, product);
   };
-
-  const balance = parseFloat(price);
-  const discountPrice = (discount / 100) * balance;
-  const discountValue = price - discountPrice;
 
   return (
     <div>
