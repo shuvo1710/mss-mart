@@ -48,7 +48,7 @@ const LoveProductCard = ({ product }) => {
 
                 <div className="mb-1">
                   <p className="">
-                    <span className="font-bold">Detail: {description}</span> .
+                    <span className="font-medium">Detail: {description}</span> .
                   </p>
                 </div>
 
