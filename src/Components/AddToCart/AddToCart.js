@@ -24,10 +24,10 @@ const AddToCart = () => {
                         </tr>
                     </thead>
                     {
-                        productInfo.map(productCart => <tbody key={productCart._id}>
+                        productInfo.map((productCart,i) => <tbody key={productCart._id}>
                             <tr>
                                 <th>
-                                    1
+                                    {i+1}
                                 </th>
                                 <td>
                                     <div className="flex items-center space-x-3">

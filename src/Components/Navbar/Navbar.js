@@ -33,10 +33,10 @@ const Navbar = () => {
 
   const navItem = (
     <>
-      <li className=" md:ml-4  text-xs md:my-0 ">
+      <li className=" md:ml-4 text-xs md:my-0 ">
         <Link
           to="/"
-          className="text-gray-800 hover:underline duration-500 text-md font-semibold"
+          className="text-gray-800 hover:underline duration-500 text-md font-semibold hover:bg-transparent"
         >
           HOME
         </Link>{" "}
@@ -44,7 +44,7 @@ const Navbar = () => {
       <li className="md:ml-4 text-xs md:my-0 " tabIndex={0}>
         <Link
           to=""
-          className="text-gray-800 hover:underline duration-500 text-md font-semibold"
+          className="text-gray-800 hover:underline duration-500 text-md font-semibold hover:bg-transparent"
         >
           Man
         </Link>
@@ -52,13 +52,13 @@ const Navbar = () => {
           <li className="text-md font-semibold">
             <Link to="">Panjabi</Link>
           </li>
-          <li className="text-md font-semibold">
+          <li className="text-md font-semibold ">
             <Link to="">T-Shirt</Link>
           </li>
-          <li className="text-md font-semibold">
+          <li className="text-md font-semibold ">
             <Link to="">Polo-T-Shirt</Link>
           </li>
-          <li className="text-md font-semibold">
+          <li className="text-md font-semibold ">
             <Link to="">Casual-Shirt</Link>
           </li>
           <li className="text-md font-semibold">
@@ -70,7 +70,7 @@ const Navbar = () => {
       <li className="md:ml-4 text-xs md:my-0 " tabIndex={0}>
         <Link
           to=""
-          className="text-gray-800 hover:underline duration-500 text-md font-semibold"
+          className="text-gray-800 hover:underline duration-500 text-md font-semibold hover:bg-transparent"
         >
           Woman
         </Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
       <li className="md:ml-4 text-xs md:my-0 " tabIndex={0}>
         <Link
           to="/"
-          className="text-gray-800 hover:underline duration-500 text-md font-semibold"
+          className="text-gray-800 hover:underline duration-500 text-md font-semibold hover:bg-transparent"
         >
           Kids
         </Link>
@@ -117,7 +117,7 @@ const Navbar = () => {
       <li className="md:ml-4 text-xs md:my-0 ">
         <Link
           to="/home"
-          className="text-gray-800 hover:underline duration-500 text-md font-semibold"
+          className="text-gray-800 hover:underline duration-500 text-md font-semibold hover:bg-transparent"
         >
           BLOG
         </Link>
