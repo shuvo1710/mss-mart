@@ -161,21 +161,14 @@ const Navbar = () => {
         </Link>
         <div className="navbar-end mr-0 lg:mr-6">
           <div className="flex text-black justify-center gap-x-2">
-            <div className="flex items-center text-xs  tracking-widest">
-              <span className="m-auto  text-black font-semibold hidden md:block">
-                SEARCH
-              </span>
-              <span className=" text-green-800 m-auto ">
-               
-                  <BiSearch className="w-8 h-4 cursor-pointer"></BiSearch>
-                
-              </span>
-            </div>
+        
 
             <div className="flex items-center lg:block text-xs tracking-widest mt-0 lg:mt-4">
               <div className="flex tracking-widest">
                 <span className=" text-green-800 m-auto ">
-                  <Link to="/cart"><BsBag className="w-8 h-4 ml-0"></BsBag></Link>
+                  <Link to="/cart">
+                    <BsBag className="w-8 h-4 ml-0"></BsBag>
+                  </Link>
                 </span>
                 <span className="m-auto -mt-3 -ml-2">
                   {productInfo?.length}
@@ -185,7 +178,7 @@ const Navbar = () => {
 
             <div className="flex items-center lg:block text-xs tracking-widest mt-0 lg:mt-4">
               <div className="flex tracking-widest">
-                <Link to='/loveProduct' className=" text-green-800 m-auto ">
+                <Link to="/loveProduct" className=" text-green-800 m-auto ">
                   <MdFavoriteBorder className="w-8 h-4 ml-0"></MdFavoriteBorder>
                 </Link>
                 <span className="m-auto -mt-3 -ml-2">
