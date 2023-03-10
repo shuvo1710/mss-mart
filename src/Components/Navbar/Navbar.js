@@ -166,9 +166,9 @@ const Navbar = () => {
                 SEARCH
               </span>
               <span className=" text-green-800 m-auto ">
-                <label htmlFor="searchModal" className="">
+               
                   <BiSearch className="w-8 h-4 cursor-pointer"></BiSearch>
-                </label>
+                
               </span>
             </div>
 
@@ -185,9 +185,9 @@ const Navbar = () => {
 
             <div className="flex items-center lg:block text-xs tracking-widest mt-0 lg:mt-4">
               <div className="flex tracking-widest">
-                <span className=" text-green-800 m-auto ">
+                <Link to='/loveProduct' className=" text-green-800 m-auto ">
                   <MdFavoriteBorder className="w-8 h-4 ml-0"></MdFavoriteBorder>
-                </span>
+                </Link>
                 <span className="m-auto -mt-3 -ml-2">
                   {loveProduct?.length}
                 </span>

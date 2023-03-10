@@ -6,6 +6,7 @@ import BlogeDetails from "../Components/Bloge/BlogeDetails";
 import DetailsPage from "../Components/DetailsPage/DetailsPage";
 import Main from "../Components/Layout/Main";
 import Login from "../Components/Login/Login";
+import LoveProduct from "../Components/LoveProduct/LoveProduct";
 import Mens from "../Components/NewArraivale/Mens";
 import BuyNow from "../Components/Pages/BuyNow";
 import CartPage from "../Components/Pages/CartPage/CartPage";
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
             {
                 path:"/man",
                 element:<Mens></Mens>
+            },
+            {
+                path:'/loveProduct',
+                element:<LoveProduct/>
             }
         ]
     },
