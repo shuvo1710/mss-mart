@@ -1,20 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import Mens from './Mens';
-import Active from './Active';
-import '../Card/Card.css'
-import Womens from './Womens';
-import Kids from './Kids';
-import { useNavigation } from 'react-router-dom';
-import Loader from '../Loder/Loader';
-
+import React, { useEffect, useState } from "react";
+import Mens from "./Mens";
+import Active from "./Active";
+import "../Card/Card.css";
+import Womens from "./Womens";
+import Kids from "./Kids";
+import { useNavigation } from "react-router-dom";
+import Loader from "../Loder/Loader";
 
 const GottaHaveIt = () => {
   const [man, setMan] = useState([]);
   const [woman, setWoman] = useState([]);
   const [Kid, setKid] = useState([]);
   const [active, setActive] = useState([]);
-  const navigation=useNavigation();
-
+  const navigation = useNavigation();
 
   useEffect(() => {
     fetch("http://localhost:5000/allProducts?category=man")
@@ -58,19 +56,20 @@ const GottaHaveIt = () => {
       });
   };
 
- 
-
   let designClass = "design";
-  if(navigation.state === 'loading'){
-    return  <Loader/>
+  if (navigation.state === "loading") {
+    return <Loader />;
   }
 
   return (
-    <div className="">
+    <div className=" container mx-auto">
       <div className="justify-center items-center text-center text-3xl my-16">
-        <div className='text-center pb-4'>
-          <h1 className='headerStyle text-4xl font-semibold'>New Arrivals</h1>
-          <h3 className='headerStyle text-2xl font-medium'>Stay Ahead of the Fashion Game with Our Latest Collection of Trendy Outfits</h3>
+        <div className="text-center pb-4">
+          <h1 className="headerStyle text-4xl font-semibold">New Arrivals</h1>
+          <h3 className="headerStyle text-2xl font-medium">
+            Stay Ahead of the Fashion Game with Our Latest Collection of Trendy
+            Outfits
+          </h3>
         </div>
         <div className="flex gap-4 justify-center items-center">
           <button
@@ -94,10 +93,20 @@ const GottaHaveIt = () => {
         </div>
       </div>
 
-      <Kids kids={Kid}/>
-      <Womens woman={woman}/>
-      <Active active={active}/>
-      <Mens man={man}/>
+      <div className="justify-end items-end text-end mb-10 -mt-14">
+        <select className="select select-bordered w-full max-w-xs ">
+          <option disabled selected>
+            Sorting  Price
+          </option>
+          <option className="">Low</option>
+          <option>High</option>
+        </select>
+      </div>
+
+      <Kids kids={Kid} />
+      <Womens woman={woman} />
+      <Active active={active} />
+      <Mens man={man} />
     </div>
   );
 };
