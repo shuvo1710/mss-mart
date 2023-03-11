@@ -161,7 +161,6 @@ const Navbar = () => {
         </Link>
         <div className="navbar-end mr-0 lg:mr-6">
           <div className="flex text-black justify-center gap-x-2">
-        
 
             <div className="flex items-center lg:block text-xs tracking-widest mt-0 lg:mt-4">
               <div className="flex tracking-widest">
