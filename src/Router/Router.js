@@ -12,6 +12,7 @@ import BuyNow from "../Components/Pages/BuyNow";
 import CartPage from "../Components/Pages/CartPage/CartPage";
 import Home from "../Components/Pages/Home";
 import SeeLoveCategories from "../Components/Pages/SeeLoveCategories";
+import PrivateRouter from "../Components/PrivateRouter/PrivateRouter";
 import Profile from "../Components/Profile/Profile";
 import Register from "../Components/Register/Register";
 
@@ -28,11 +29,11 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/SeeLoveCategories",
-                element:<SeeLoveCategories/>
+                element:<PrivateRouter><SeeLoveCategories/></PrivateRouter>
             },
             {
                 path:"/buyNow",
-                element:<BuyNow/>
+                element:<PrivateRouter><BuyNow/></PrivateRouter>
             },
             {
                 path: "/blogdetails/:id",
@@ -40,7 +41,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:"/allblog",
-                element: <AllBlog/>
+                element: <PrivateRouter><AllBlog/></PrivateRouter>
             },
             
             {
@@ -54,7 +55,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/loveProduct',
-                element:<LoveProduct/>
+                element:<PrivateRouter><LoveProduct/></PrivateRouter>
             }
         ]
     },
@@ -76,7 +77,7 @@ export const router = createBrowserRouter([
         children:[
             {
                 path:"/cart",
-                element:<AddToCart/>
+                element:<PrivateRouter><AddToCart/></PrivateRouter>
             }
         ]
     }

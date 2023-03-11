@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   let [open, setOpen] = useState(false);
-  const { user, loader, logOut } = useContext(UserContext);
+  const { user, logOut } = useContext(UserContext);
   const { productInfo, loveProduct } = useContext(Category);
 
   const handleLogOut = () => {

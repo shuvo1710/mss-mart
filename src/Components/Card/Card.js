@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Card.css'
 import RecommendationCard from './RecommendationCard/RecommendationCard';
 import { useQuery } from '@tanstack/react-query';
 import Loader from '../Loder/Loader';
+
 const Card = () => {
+    // const {user} = useContext(UserContext)
+    // const gender = user;
+    // console.log(user);
+
     const {data:recommendation = [], isLoading} = useQuery({
         queryKey: ['recommendation'],
         queryFn: async ()=>{

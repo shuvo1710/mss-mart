@@ -19,10 +19,10 @@ const Home = () => {
         <div>
             <Banner/>
             <Card/>
+            <Discount/>
             <GottaHaveIt/>
             <Gallery/>
             <BestSale/>
-            <Discount/>
             <PayementMethod/>
             <PurchaseModal/>
             <Bloge/>
