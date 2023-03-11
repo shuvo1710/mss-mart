@@ -4,6 +4,7 @@ import AddToCart from "../Components/AddToCart/AddToCart";
 import AllBlog from "../Components/Bloge/AllBlog";
 import BlogeDetails from "../Components/Bloge/BlogeDetails";
 import DashBoard from "../Components/DashBoard/DashBoard";
+import Users from "../Components/DashBoard/Users";
 import DetailsPage from "../Components/DetailsPage/DetailsPage";
 import Main from "../Components/Layout/Main";
 import Login from "../Components/Login/Login";
@@ -84,6 +85,10 @@ export const router = createBrowserRouter([
     },
     {
         path:'/dashBoard',
-        element:<DashBoard/>
+        element:<DashBoard/>,
+        children:[{
+            path:'/dashBoard/users',
+            element:<Users/>
+        }]
     }
 ])
