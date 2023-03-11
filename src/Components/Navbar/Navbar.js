@@ -10,6 +10,7 @@ import { RiArrowUpSLine } from "react-icons/ri";
 import { MdFavoriteBorder } from "react-icons/md";
 import { UserContext } from "../../CategoryContext/AuthContext";
 import { Category } from "../../CategoryContext/CategoryContext";
+import UseAdmin from "../Hooks/UseAdmin";
 
 const Navbar = () => {
   const scrollTop = () => {
@@ -22,6 +23,8 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
   const { user, logOut } = useContext(UserContext);
   const { productInfo, loveProduct } = useContext(Category);
+  const [isAdmin] = UseAdmin(user?.email);
+  console.log(isAdmin)
 
   const handleLogOut = () => {
     logOut()
@@ -206,6 +209,13 @@ const Navbar = () => {
                         <p>My Profile</p>
                       </li>
                     </Link>
+                    {
+                      isAdmin &&
+                      <li>
+                        <p>DashBoard</p>
+                      </li>
+
+                    }
                     <li onClick={handleLogOut}>
                       <p>Log Out</p>
                     </li>
