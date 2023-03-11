@@ -211,9 +211,12 @@ const Navbar = () => {
                     </Link>
                     {
                       isAdmin &&
+                      <Link to='/dashBoard'>
                       <li>
                         <p>DashBoard</p>
                       </li>
+
+                      </Link>
 
                     }
                     <li onClick={handleLogOut}>
