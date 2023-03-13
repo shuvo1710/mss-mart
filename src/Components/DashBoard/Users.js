@@ -19,25 +19,26 @@ const Users = () => {
   }
 
   return (
-    <div className="my-10 ">
-     
-      <table className="w-full">
-        <thead className="text-start">
-          <tr className="text-start">
-            <th>Picture</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-
-        <tbody className="w-full">
+    <div className="overflow-x-auto">
+    <table className="table w-full">
+      {/* head*/}
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Picture</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+    
         
-        {users?.map((user) => <UsersCard key={user?._id} user={user}></UsersCard>)}
-      
-        </tbody>
-      </table>
-    </div>
+        {users?.map((userInfo, i) => <UsersCard key={userInfo?._id} userInfo={userInfo} i={i}></UsersCard>)}
+        
+      </tbody>
+    </table>
+  </div>
   );
 };
 
