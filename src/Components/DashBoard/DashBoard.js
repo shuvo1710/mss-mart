@@ -4,10 +4,12 @@ import Navbar from "../Navbar/Navbar";
 
 const DashBoard = () => {
   return (
-    <div>
-    <Navbar/>
+    <div className="px-4">
+      <Navbar />
       <div className="drawer drawer-mobile">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+
+
         <div className="drawer-content">
           <Outlet />
         </div>
