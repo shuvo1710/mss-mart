@@ -11,7 +11,7 @@ import Loader from '../Components/Loder/Loader';
 export const Category=createContext()
 const CategoryContext = ({children}) => {
     const [modalData,setMOdalData] = useState([])
-    const [categoryName, setCategoryName]=useState("")
+    const [categoryName, setCategoryName]=useState('')
     const {user} = useContext(UserContext)
 
     
