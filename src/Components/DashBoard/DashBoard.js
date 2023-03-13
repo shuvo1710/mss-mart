@@ -13,23 +13,20 @@ const DashBoard = () => {
         <div className="drawer-content">
           <Outlet />
         </div>
-
-        <div className="bg-blue-400 ">
-          <div className="drawer-side">
-            <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-            <ul className="menu p-4 text-base-content">
-              <li>
-                <Link to="/dashBoard/users">All Users</Link>
-              </li>
-              <li>
-                <Link to='/dashBoard/allProduct'>All Product</Link>
-              </li>
-            </ul>
-          </div>
+        <div className="drawer-side">
+          <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
+          <ul className="menu p-4 w-80 bg-base-100 text-base-content">
+            <li>
+              <Link to="/dashBoard/users">All Users</Link>
+            </li>
+            <li>
+              <Link to='/dashBoard/allProduct'>All Product</Link>
+            </li>
+            <li>
+              <Link to='/dashBoard/addProduct'>Add Product</Link>
+            </li>
+          </ul>
         </div>
-
-
-
       </div>
     </div>
   );
