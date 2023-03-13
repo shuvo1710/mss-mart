@@ -12,9 +12,19 @@ export const Category=createContext()
 const CategoryContext = ({children}) => {
     const [modalData,setMOdalData] = useState([])
     const [categoryName, setCategoryName]=useState('')
+    const [productSlice, setProductSlice] = useState(10)
     const {user} = useContext(UserContext)
 
     
+  const {data: allProducts = [], isLoading:allProductsLoader} = useQuery({
+    queryKey:["allProducts", ],
+    queryFn: async ()=>{
+      const res = await fetch('http://localhost:5000/allProducts');
+      const data = await res.json();
+      return data;
+    }
+  })
+
     
   const { data: storeProduct = [], isLoading } = useQuery({
     queryKey: ["allProduct", categoryName],
@@ -107,9 +117,9 @@ const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
   }
 
 
-  // if(loveLoad){
-  //   return <Loader/>
-  // }
+  if(allProductsLoader){
+    return <Loader/>
+  }
 
 
 
@@ -124,7 +134,11 @@ const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
     handlePostProductInfo,
     productInfo,
     handleLoveCard,
-    loveProduct
+    loveProduct,
+    allProducts,
+    productSlice,
+    // setProductSlice,
+    // allProductsLoader
   };
 
   return <Category.Provider value={userCategory}>{children}</Category.Provider>;
