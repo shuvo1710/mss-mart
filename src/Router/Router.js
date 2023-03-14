@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import AddToCart from "../Components/AddToCart/AddToCart";
 import AllBlog from "../Components/Bloge/AllBlog";
 import BlogeDetails from "../Components/Bloge/BlogeDetails";
-import AddProducts from "../Components/DashBoard/AddProducts";
+import AddProduct from "../Components/DashBoard/AddProduct";
 import AllProduct from "../Components/DashBoard/AllProduct";
 import DashBoard from "../Components/DashBoard/DashBoard";
 import Users from "../Components/DashBoard/Users";
@@ -99,7 +99,7 @@ export const router = createBrowserRouter([
         },
         {
             path:'/dashBoard/addProduct', 
-            element:<AddProducts/>
+            element:<AddProduct/>
         }
     ]
     }

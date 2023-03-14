@@ -8,8 +8,8 @@
   :root {
     --color-primary: #ebe8e2;
     --color-secondary: #ebe8e22b;
-    /* --color-ternary: #618a8d;
-    --color-white: #fff;
+    --color-ternary: #94b6ea;
+    /* --color-white: #fff;
     --color-black: #17494d;
     --color-dark: #0b363d; */
   }
@@ -54,5 +54,12 @@
   }
   .radio-border:focus-visible{
     outline: none;
+  }
+  .menuItems:hover{
+    background-color: var(--color-ternary);
+    color: white;
+  }
+  .borderSecondary{
+    border: 1px solid rgb(22 163 74);
   }
 }

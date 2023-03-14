@@ -32,7 +32,7 @@ const LoveProductCard = ({ product }) => {
     const agree = window.confirm(`are you sure to delete ${product?.products?.title}`)
     if (agree) {
       fetch(`http://localhost:5000/loveProductDelete/${products?._id}`, {
-        method: "DElete",
+        method: "Delete",
       })
         .then(res => res.json())
         .then(data => {
