@@ -23,9 +23,9 @@ const UsersCard = ({ userInfo, i }) => {
       {
         isAdmin ? <p className="text-xl font-semibold text-black">Admin</p> 
         :
-        <div className="flex  items-center gap-8">
-          <button className="btn bg-white text-black hover:bg-green-600 hover:text-white border-none hover:duration-300">Make Admin</button>
-          <button className="btn bg-white text-black hover:bg-green-600 hover:text-white border-none hover:duration-300">
+        <div className="flex items-center gap-8">
+          <button className="btn bg-white text-black borderSecondary hover:bg-green-600  hover:text-white hover:borderSecondary hover:duration-300">Make Admin</button>
+          <button className="btn bg-white text-black borderSecondary hover:bg-green-600 hover:text-white hover:borderSecondary  hover:duration-300">
             <MdDelete className="" />
           </button>
         </div>
