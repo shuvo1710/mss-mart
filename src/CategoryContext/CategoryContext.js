@@ -101,6 +101,19 @@ const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
 })
 
 
+const {data: allProduct = [], isLoading:allProductsLoading, refetch:allProductRefetch} = useQuery({
+  queryKey:["allProducts",productSlice ],
+  queryFn: async ()=>{
+    const res = await fetch('http://localhost:5000/Products');
+    const data = await res.json();
+    return data;
+  }
+})
+
+if(allProductsLoading){
+  return <Loader></Loader>
+}
+
 
 
 
@@ -137,6 +150,8 @@ const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
     loveProduct,
     allProducts,
     productSlice,
+    allProduct,
+    allProductRefetch
     // setProductSlice,
     // allProductsLoader
   };

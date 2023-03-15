@@ -7,7 +7,7 @@ import Loader from '../Loder/Loader';
 const Card = () => {
     // const {user} = useContext(UserContext)
     // const gender = user;
-    // console.log(user);
+  
 
     const {data:recommendation = [], isLoading} = useQuery({
         queryKey: ['recommendation'],

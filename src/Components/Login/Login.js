@@ -24,12 +24,12 @@ const Login = () => {
         const form = event.target;
         const UserEmail = form.userEmail.value;
         const password = form.password.value;
-        console.log(password, UserEmail);
+     
 
         logInWithEmailAndPassword(UserEmail, password)
             .then(result => {
                 const user = result.user;
-                console.log(user);
+                
                 toast.success('Log in SuccessFull')
                 setUserEmail(user.email)
                 navigate(from, { replace: true });
