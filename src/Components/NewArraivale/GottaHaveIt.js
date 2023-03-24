@@ -62,11 +62,11 @@ const GottaHaveIt = () => {
   }
 
   return (
-    <div className=" container mx-auto">
-      <div className="justify-center items-center text-center text-3xl my-16">
-        <div className="text-center pb-4">
-          <h1 className="headerStyle text-4xl font-semibold">New Arrivals</h1>
-          <h3 className="headerStyle text-2xl font-medium">
+    <div className=" container mx-auto pt-28">
+      <div className="justify-center items-center text-center">
+        <div className="text-center pb-10">
+          <h1 className="headerStyle xl:text-4xl lg:text-3xl font-medium pb-2">New Arrivals</h1>
+          <h3 className="headerStyle xl:text-2xl lg:text-xl font-medium">
             Stay Ahead of the Fashion Game with Our Latest Collection of Trendy
             Outfits
           </h3>

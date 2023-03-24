@@ -7,11 +7,11 @@ import {VscGistSecret} from 'react-icons/vsc'
 
 const PayementMethod = () => {
     return (
-        <div className="my-10 container mx-auto">
+        <div className="pt-28 container mx-auto">
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="card w-full  border-r-2 rounded-none ">
             <figure className="px-10 pt-10">
-              <AiOutlineCar className="text-6xl" />
+              <AiOutlineCar className="text-6xl"/>
             </figure>
             <div className="card-body items-center text-center -mt-4">
               <h2 className="card-title">FREE SHIPPING & RETURN</h2>
