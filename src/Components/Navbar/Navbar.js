@@ -24,7 +24,7 @@ const Navbar = () => {
   const { user, logOut } = useContext(UserContext);
   const { productInfo, loveProduct } = useContext(Category);
   const [isAdmin] = UseAdmin(user?.email);
-  console.log(isAdmin)
+  
 
   const handleLogOut = () => {
     logOut()

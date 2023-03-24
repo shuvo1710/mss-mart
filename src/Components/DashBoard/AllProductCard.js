@@ -6,28 +6,30 @@ import { Category } from '../../CategoryContext/CategoryContext';
 
 
 const AllproductsCard = (products) => {
+  const {allProductRefetch}=useContext(Category)
 
   const product = products.products;
 
-  const handleDelete = (product) => {
-    console.log(product);
-    const agree = window.confirm(`are you sure to delete ${product?.title}`)
+  const handleDelete = (_id) => {
+  
+    const agree = window.confirm(`are you sure to delete ${_id}`)
     if (agree) {
-      fetch(`http://localhost:5000/productsDelete/${products?._id}`, {
+      fetch(`http://localhost:5000/productsDelete/${_id}`, {
         method: "Delete",
       })
         .then(res => res.json())
         .then(data => {
-          console.log(data);
-          toast.success(`Your product has been deletes by ${product?.title}`)
+          
+          toast.success(`Deleted Successfully`)
+          allProductRefetch()
         })
         .catch(error=>{
           toast.error(error.message)
-          console.log(error.message);
+         
         })
     }
   }
-  // console.log(product);
+
   return (
     <div>
       <div className='border pb-2'>
@@ -38,7 +40,7 @@ const AllproductsCard = (products) => {
           <h1 className="text-md font-semibold">{product?.title}</h1>
           <h1 className="text-md font-semibold">Price: {product?.price}</h1>
           <div className="flex mx-auto justify-center items-center text-center gap-4">
-            <div onClick={()=> handleDelete(product)} className='p-3 border cursor-pointer hover:bg-red-500 hover:text-white rounded duration-300'>
+            <div onClick={()=> handleDelete(product?._id)} className='p-3 border cursor-pointer hover:bg-red-500 hover:text-white rounded duration-300'>
               <MdDelete className="text-2xl" />
             </div>
             <div className='p-3 border cursor-pointer hover:bg-red-500 hover:text-white rounded duration-300'>
