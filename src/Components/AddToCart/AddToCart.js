@@ -7,7 +7,7 @@ import Top from '../Top/Top';
 
 const AddToCart = () => {
     const { productInfo } = useContext(Category)
-    console.log(productInfo);
+    
 
     return (
         <>

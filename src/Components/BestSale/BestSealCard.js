@@ -3,7 +3,7 @@
 // import bestSale2 from "../../resource/bestSale2.jpg"
 
 // const BestSealCard = ({ bestSealProduct }) => {
-//     console.log(bestSealProduct);
+//     
 //     const {category,customerReview,images,productSizes,productType,returnAndExchangePolicy,title}= bestSealProduct;
 //     return (
 //         <div className='container mx-auto'>

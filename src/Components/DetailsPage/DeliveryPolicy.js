@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DeliveryPolicy = ({delivery}) => {
-    console.log(delivery)
+  
     if(delivery?.length){
         return (
             <div className='text-justify height'>

@@ -6,6 +6,7 @@ import Loader from '../Loder/Loader';
 
 const Card = () => {
 
+
     const {data:recommendation = [], isLoading} = useQuery({
         queryKey: ['recommendation'],
         queryFn: async ()=>{
