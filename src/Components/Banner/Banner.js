@@ -26,15 +26,14 @@ const Banner = () => {
                 <SwiperSlide>
                     <div className='relative'>
                         <div className=''>
-
                             <img alt='' src={banner1} className="z-0" />
                         </div>
-                        <div className='absolute top-1/4 left-60 w-full z-10'>
-                            <h4 className="text-2xl font-medium uppercase">Fashion Trends</h4>
-                            <h3 className='text-4xl font-semibold my-2 uppercase'>The hoslist of </h3>
-                            <h1 className='text-5xl font-bold my-2 uppercase'>Summer</h1>
+                        <div className='absolute top-1/4 lg:left-60 left-10 w-full z-10 '>
+                            <h4 className="lg:text-2xl text-sm font-medium uppercase">Fashion Trends</h4>
+                            <h3 className='lg:text-4xl text-base font-semibold my-2 uppercase'>The hoslist of </h3>
+                            <h1 className='lg:text-5xl text-lg font-bold py-2 uppercase'>Summer</h1>
                             <h6 className='text-lg'>The Biggest Spring/Summer 2023 Trends</h6>
-                            <div className="my-10">
+                            <div className="py-10">
                                 <button className="btn rounded-none border-none text-black border-black bg-white hover:bg-black hover:text-white duration-300">Shop Now</button>
                             </div>
                         </div>
@@ -46,12 +45,12 @@ const Banner = () => {
 
                             <img alt='' src={banner2} className="z-0" />
                         </div>
-                        <div className='absolute top-1/4 left-60 w-full z-10'>
-                            <h4 className="text-2xl font-medium uppercase">Fashion Trends</h4>
-                            <h3 className='text-4xl font-semibold my-2 uppercase'>The hoslist of </h3>
-                            <h1 className='text-5xl font-bold my-2 uppercase'>Summer</h1>
+                        <div className='absolute top-1/4 lg:left-60 left-10 w-full z-10 '>
+                            <h4 className="lg:text-2xl text-sm  font-medium uppercase">Fashion Trends</h4>
+                            <h3 className='lg:text-4xl text-base font-semibold my-2 uppercase'>The hoslist of </h3>
+                            <h1 className='lg:text-5xl text-lg font-bold py-2 uppercase'>Summer</h1>
                             <h6 className='text-lg'>The Biggest Spring/Summer 2023 Trends</h6>
-                            <div className="my-10">
+                            <div className="py-10">
                                 <button className="btn rounded-none border-none text-black border-black bg-white hover:bg-black hover:text-white duration-300">Shop Now</button>
                             </div>
                         </div>
@@ -62,12 +61,12 @@ const Banner = () => {
                         <div className=''>
                             <img alt='' src={banner3} className="z-0" />
                         </div>
-                        <div className='absolute top-1/4 left-60 w-full z-10'>
-                            <h4 className="text-2xl font-medium uppercase">New Collection</h4>
-                            <h3 className='text-4xl font-semibold my-2 uppercase'>Fashion </h3>
-                            <h1 className='text-5xl font-bold my-2 uppercase'>Glasses</h1>
+                        <div className='absolute top-1/4 lg:left-60 left-10 w-full z-10'>
+                            <h4 className="lg:text-2xl text-sm  font-medium uppercase">New Collection</h4>
+                            <h3 className='lg:text-4xl text-base font-semibold my-2 uppercase'>Fashion </h3>
+                            <h1 className='lg:text-5xl text-lg py-2 uppercase'>Glasses</h1>
                             <h6 className='text-lg'>Best eyeglasses for woman to channel your inner clark kent</h6>
-                            <div className="my-10">
+                            <div className="py-10">
                                 <button className="btn rounded-none border-none text-black border-black bg-white hover:bg-black hover:text-white duration-300">Shop Now</button>
                             </div>
                         </div>

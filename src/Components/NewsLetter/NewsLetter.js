@@ -5,9 +5,8 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 const NewsLetter = () => {
   return (
-    <div className="">
+    <div className="pt-28">
       <div className="container mx-auto bgSecondary">
-       
           <div className="md:flex my-4 md:my-0 justify-between items-center p-6">
             <h3 className="text-md xl:text-xl font-bold">SUBSCRIBE TO FOLLOW FASHION TRENDS</h3>
             <div className="flex rounded overflow-hidden">

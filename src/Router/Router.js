@@ -14,6 +14,7 @@ import LoveProduct from "../Components/LoveProduct/LoveProduct";
 import Mens from "../Components/NewArraivale/Mens";
 import BuyNow from "../Components/Pages/BuyNow";
 import CartPage from "../Components/Pages/CartPage/CartPage";
+import DiscountPage from "../Components/Pages/DiscountPage/DiscountPage";
 import Home from "../Components/Pages/Home";
 import SeeLoveCategories from "../Components/Pages/SeeLoveCategories";
 import PrivateRouter from "../Components/PrivateRouter/PrivateRouter";
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
             {
                 path:'/loveProduct',
                 element:<PrivateRouter><LoveProduct/></PrivateRouter>
+            },
+            {
+                path:"/offers",
+                element:<DiscountPage></DiscountPage>
             }
         ]
     },

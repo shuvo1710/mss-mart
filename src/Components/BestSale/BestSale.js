@@ -7,9 +7,9 @@ const {bestSeals} = useContext(Category);
 const {firstImages,secondImage,fistCategory,fistPrice,secondPrice,fistTitle,secondTitle,fistDetails,secondDetails} = bestSeals[0];
 
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto pt-28'>
             <div className='text-center pb-10'>
-                <h1 className='headerStyle text-xl md:text-4xl font-medium pb-4'>Best Sale of This Week</h1>
+                <h1 className='headerStyle text-xl md:text-4xl font-medium pb-2'>Best Sale of This Week</h1>
                 <h3 className='text-lg md:text-2xl headerStyle'>Don't Miss Out on Our Limited Time Offers and Huge Discounts</h3>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>

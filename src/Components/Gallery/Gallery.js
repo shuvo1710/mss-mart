@@ -18,10 +18,10 @@ const Gallery = () => {
     const {setCategoryName, storeProduct}=useContext(Category);
     
     return (
-        <div className='my-20'>
+        <div className='pt-28'>
             <div className='container mx-auto'>
                 <div className='text-center pb-10'>
-                    <h1 className='headerStyle text-xl md:text-4xl font-medium mb-4'>Most Loved Categories</h1>
+                    <h1 className='headerStyle text-xl md:text-4xl font-medium pb-2'>Most Loved Categories</h1>
                     <h3 className='headerStyle text-lg md:text-2xl font-medium'>Shop Our Best-Selling Styles and Find Your New Favorite Outfit</h3>
                 </div>
                 <div className='grid lg:grid-cols-2 grid-cols-1 mb-2 gap-3'>

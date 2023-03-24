@@ -15,9 +15,9 @@ const Bloge = () => {
     },[])
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto pt-28">
             <div className='text-center pb-10'>
-                <h1 className='headerStyle text-xl md:text-4xl font-medium mb-4'>Fashion Blog</h1>
+                <h1 className='headerStyle text-xl md:text-4xl font-medium pb-2'>Fashion Blog</h1>
                 <h3 className='headerStyle text-lg md:text-2xl font-medium'>Dress Trend With Confidence and Style Tips
                 </h3>
             </div>
@@ -26,8 +26,8 @@ const Bloge = () => {
             blogData?.map(blog=><MainBlogDesign key={blog._id} blog={blog}></MainBlogDesign>)
             }
             </div>
-            <div className='flex justify-center items-center text-center mt-4'>
-            <button className='shadow-md  p-2'> <Link to='/allblog'>See more</Link> </button>
+            <div className='flex justify-center items-center text-center pt-6'>
+            <button className='shadow-md p-2'> <Link to='/allblog'>See more</Link> </button>
             </div>
         </div>
     );

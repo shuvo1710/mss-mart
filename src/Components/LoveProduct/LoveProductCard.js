@@ -44,7 +44,7 @@ const LoveProductCard = ({ product }) => {
   }
   return (
     <>
-      <div className="  mx-auto ">
+      <div className="mx-auto">
         <div className="">
           <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
             <div className="md:flex lg:items-center">
@@ -92,8 +92,8 @@ const LoveProductCard = ({ product }) => {
           </div>
         </div>
       </div>
-     
-   
+
+
     </>
   );
 };
