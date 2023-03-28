@@ -31,7 +31,7 @@ const LoveProductCard = ({ product }) => {
 
     const agree = window.confirm(`are you sure to delete ${product?.products?.title}`)
     if (agree) {
-      fetch(`http://localhost:5000/loveProductDelete/${products?._id}`, {
+      fetch(`https://mss-mart-server.vercel.app/loveProductDelete/${products?._id}`, {
         method: "Delete",
       })
         .then(res => res.json())

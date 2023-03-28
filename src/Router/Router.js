@@ -51,7 +51,7 @@ export const router = createBrowserRouter([
             
             {
                 path:"/details/:id",
-                loader:({params})=> fetch(`http://localhost:5000/allProduct/${params.id}`),
+                loader:({params})=> fetch(`https://mss-mart-server.vercel.app/allProduct/${params.id}`),
                 element:<DetailsPage/>
             },
             {

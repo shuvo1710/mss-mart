@@ -8,7 +8,7 @@ const Users = () => {
   const { data: users = [], isLoading } = useQuery({
     queryKey: ["userInfo"],
     queryFn: async () => {
-      const res = await fetch("http://localhost:5000/userInfo");
+      const res = await fetch("https://mss-mart-server.vercel.app/userInfo");
       const data = await res.json();
       return data;
     },

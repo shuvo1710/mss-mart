@@ -10,7 +10,7 @@ const Card = () => {
     const {data:recommendation = [], isLoading} = useQuery({
         queryKey: ['recommendation'],
         queryFn: async ()=>{
-            const res = await fetch('http://localhost:5000/allProducts?category=man')
+            const res = await fetch('https://mss-mart-server.vercel.app/allProducts?category=man')
             const data = await res.json()
             return data;
         }

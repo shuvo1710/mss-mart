@@ -111,7 +111,7 @@ const Register = () => {
     const userInfo = {
       fullName, email, imageUrl, gender
     }
-    fetch('http://localhost:5000/userInfo', {
+    fetch('https://mss-mart-server.vercel.app/userInfo', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'

@@ -19,7 +19,7 @@ const CategoryContext = ({children}) => {
   const {data: allProducts = [], isLoading:allProductsLoader} = useQuery({
     queryKey:["allProducts", ],
     queryFn: async ()=>{
-      const res = await fetch('http://localhost:5000/allProducts');
+      const res = await fetch('https://mss-mart-server.vercel.app/allProducts');
       const data = await res.json();
       return data;
     }
@@ -29,7 +29,7 @@ const CategoryContext = ({children}) => {
   const { data: storeProduct = [], isLoading } = useQuery({
     queryKey: ["allProduct", categoryName],
     queryFn: async () => {
-      const res = await fetch(`http://localhost:5000/allProduct?productType=${categoryName}`);
+      const res = await fetch(`https://mss-mart-server.vercel.app/allProduct?productType=${categoryName}`);
       const data = await res.json();
       return data;
     },
@@ -38,7 +38,7 @@ const CategoryContext = ({children}) => {
 const {data:bestSeals = [], isLoading: bestSealLoad} = useQuery({
   queryKey:["bestSeals"],
   queryFn: async ()=>{
-    const res = await fetch('http://localhost:5000/bestSeal');
+    const res = await fetch('https://mss-mart-server.vercel.app/bestSeal');
     const data = await res.json()
     return data;
   }
@@ -48,7 +48,7 @@ const {data:productInfo = [], isLoading:emailVerifyLoading,refetch} = useQuery({
 
   queryKey: ['addGetCart', user?.email],
   queryFn: async () => {
-      const res = await fetch(`http://localhost:5000/addGetCart?email=${user?.email}`)
+      const res = await fetch(`https://mss-mart-server.vercel.app/addGetCart?email=${user?.email}`)
       const data = await res.json();
       return data;
   }
@@ -56,7 +56,7 @@ const {data:productInfo = [], isLoading:emailVerifyLoading,refetch} = useQuery({
 
 const handlePostProductInfo=(email,products)=>{
   const postProductInfo={email,products}
-  fetch('http://localhost:5000/addToCart',{
+  fetch('https://mss-mart-server.vercel.app/addToCart',{
     method:"POST",
     headers:{
       'content-type':'application/json'
@@ -77,7 +77,7 @@ const handleLoveCard =(email,products)=>{
     email,
     products
   }
-  fetch('http://localhost:5000/loveProduct',{
+  fetch('https://mss-mart-server.vercel.app/loveProduct',{
     method:'POST',
     headers:{
       'content-type':'application/json'
@@ -94,7 +94,7 @@ const handleLoveCard =(email,products)=>{
 const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
   queryKey:['loveProduct', user?.email],
   queryFn: async ()=>{
-    const res = await fetch (`http://localhost:5000/loveProduct?email=${user?.email}`)
+    const res = await fetch (`https://mss-mart-server.vercel.app/loveProduct?email=${user?.email}`)
     const data = await res.json()
     return data;
   }
@@ -104,7 +104,7 @@ const {data:loveProduct, isLoading:loveLoad, refetch:loveRefetch} = useQuery({
 const {data: allProduct = [], isLoading:allProductsLoading, refetch:allProductRefetch} = useQuery({
   queryKey:["allProducts",productSlice ],
   queryFn: async ()=>{
-    const res = await fetch('http://localhost:5000/Products');
+    const res = await fetch('https://mss-mart-server.vercel.app/Products');
     const data = await res.json();
     return data;
   }

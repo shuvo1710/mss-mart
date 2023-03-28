@@ -14,7 +14,7 @@ const Profile = () => {
      const {data:userInfo, isLoading} = useQuery({
         queryKey:['user', user?.email],
         queryFn: async ()=>{
-            const res = await fetch(`http://localhost:5000/user?email=${user?.email}`)
+            const res = await fetch(`https://mss-mart-server.vercel.app/user?email=${user?.email}`)
             const data = await res.json();
             return data;
         }
