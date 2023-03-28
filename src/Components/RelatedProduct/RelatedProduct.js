@@ -17,7 +17,7 @@ const RelatedProduct = ({ productType, setImg}) => {
     const { data: RelatedProduct = [], isLoading } = useQuery({
         queryKey: [],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/allProduct?productType=${productType}`);
+            const res = await fetch(`https://mss-mart-server.vercel.app/allProduct?productType=${productType}`);
             const data = await res.json()
             return data;
         }

@@ -15,7 +15,7 @@ const GottaHaveIt = () => {
   const navigation = useNavigation();
 
   useEffect(() => {
-    fetch("http://localhost:5000/allProducts?category=man")
+    fetch("https://mss-mart-server.vercel.app/allProducts?category=man")
       .then((res) => res.json())
       .then((data) => {
         setActive(data);
@@ -26,7 +26,7 @@ const GottaHaveIt = () => {
   }, []);
 
   const mansProduct = () => {
-    fetch("http://localhost:5000/allProducts?category=man")
+    fetch("https://mss-mart-server.vercel.app/allProducts?category=man")
       .then((res) => res.json())
       .then((data) => {
         setMan(data);
@@ -36,7 +36,7 @@ const GottaHaveIt = () => {
       });
   };
   const womansProducts = () => {
-    fetch("http://localhost:5000/allProducts?category=woman")
+    fetch("https://mss-mart-server.vercel.app/allProducts?category=woman")
       .then((res) => res.json())
       .then((data) => {
         setWoman(data);
@@ -46,7 +46,7 @@ const GottaHaveIt = () => {
       });
   };
   const kidsProducts = () => {
-    fetch("http://localhost:5000/allProducts?category=kid")
+    fetch("https://mss-mart-server.vercel.app/allProducts?category=kid")
       .then((res) => res.json())
       .then((data) => {
         setKid(data);

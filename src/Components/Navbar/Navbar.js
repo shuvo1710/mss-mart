@@ -160,7 +160,7 @@ const Navbar = () => {
         </div>
 
         <Link to="/" className="font-bold text-black mr-10 md:mr-10">
-          Logo
+          MSSMART
         </Link>
         <div className="navbar-end mr-0 lg:mr-6">
           <div className="flex text-black justify-center gap-x-2">
