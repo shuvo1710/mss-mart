@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { toast } from "react-hot-toast";
 
 const AddProduct = () => {
-  const submitForm = (e) => {
+  const [images, setImages] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const submitForm =async  (e) => {
     e.preventDefault();
     const form = e.target;
+    setLoading(true);
     const category = form.category.value;
     const productType = form.productType.value;
     const price = form.price.value;
@@ -26,106 +29,31 @@ const AddProduct = () => {
     const image3 = form.image3.files[0];
     const image4 = form.image4.files[0];
     const image5= form.image5.files[0];
+    
+    // const files=[image1, image2, image3, image4]
+    // const formData = new FormData();
+
+    // for (let i = 0; i < files.length; i++) {
+    //   formData.append('image', files[i]);
+    //   console.log("i", i)
+    // }
+
+    // const apiKey = '30c45cbf02b1638a98e8ac99319f604c';
+
+    // const response = await fetch(`https://api.imgbb.com/1/upload?key=${apiKey}`, {
+    //   method: 'POST',
+    //   body: formData,
+    // })
+    // const data = await response.json();
+    // // setImages(data.data.image);
+    // setLoading(false);
+
+    // console.log("data", data)
+    // console.log("image", images)
+
 
   
-    const fromData = new FormData();
-    fromData.append("image", image1);
-    const url =
-      "https://api.imgbb.com/1/upload?key=4ed0788280979d06e12345ebe75021e9";
-    fetch(url, {
-      method: "POST",
-      body: fromData,
-    })
-      .then((res) => res.json())
-      .then((imageData) => {
-        const img1=imageData.delete_url;
-        console.log(imageData)
-        toast.success('first image posty')
-      })
-      .catch((error) => {
-        console.log(error.message);
-      });
-
-
-
-      const fromData2 = new FormData();
-      fromData2.append("image", image2);
-      const url2 =
-        "https://api.imgbb.com/1/upload?key=4ed0788280979d06e12345ebe75021e9";
-      fetch(url2, {
-        method: "POST",
-        body: fromData,
-      })
-        .then((res) => res.json())
-        .then((imageData) => {
-          const img2=imageData.delete_url;
-          console.log(imageData)
-          toast.success('second image posty')
-        })
-        .catch((error) => {
-          console.log(error.message);
-        });
-
-
-
-
-        const fromData3 = new FormData();
-        fromData3.append("image", image3);
-        const url3 =
-          "https://api.imgbb.com/1/upload?key=4ed0788280979d06e12345ebe75021e9";
-        fetch(url3, {
-          method: "POST",
-          body: fromData,
-        })
-          .then((res) => res.json())
-          .then((imageData) => {
-            const img3=imageData.delete_url;
-            console.log(imageData)
-            toast.success('third image posty')
-          })
-          .catch((error) => {
-            console.log(error.message);
-          });
-
-
-
-          const fromData4 = new FormData();
-          fromData4.append("image", image4);
-          const url4 =
-            "https://api.imgbb.com/1/upload?key=4ed0788280979d06e12345ebe75021e9";
-          fetch(url4, {
-            method: "POST",
-            body: fromData,
-          })
-            .then((res) => res.json())
-            .then((imageData) => {
-              const img4=imageData.delete_url;
-              console.log(imageData)
-              toast.success('fourth image posty')
-            })
-            .catch((error) => {
-              console.log(error.message);
-            });
-
-
-
-            const fromData5 = new FormData();
-            fromData5.append("image", image5);
-            const url5 =
-              "https://api.imgbb.com/1/upload?key=4ed0788280979d06e12345ebe75021e9";
-            fetch(url5, {
-              method: "POST",
-              body: fromData,
-            })
-              .then((res) => res.json())
-              .then((imageData) => {
-                const img5=imageData.delete_url;
-                console.log(imageData)
-                toast.success('fifth image posty')
-              })
-              .catch((error) => {
-                console.log(error.message);
-              });
+ 
     
   
 
@@ -308,6 +236,9 @@ const AddProduct = () => {
               className="file-input file-input-bordered w-full file-input-sm"
             />
           </div>
+      
+
+
           <div className="form-control w-full lg:col-span-4">
             <label className="label">Pick 2nd file </label>
             <input

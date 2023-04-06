@@ -41,9 +41,16 @@ const RecommendationCard = ({ products }) => {
           <img className="second-image" src={images?.[1].i} alt="" />
           <div className="icons top-4 right-4">
             <div className="flex flex-col gap-y-2">
+            {
+              !user? <Link to='/login' className="bg-white p-2 rounded-full">
+                <BiHeart  className="heart duration-300 hover:scale-125 cursor-pointer" />
+              </Link>
+              :
               <p className="bg-white p-2 rounded-full">
                 <BiHeart onClick={handlePostLove} className="heart duration-300 hover:scale-125 cursor-pointer" />
               </p>
+            }
+              
               <label className="bg-white p-2 rounded-full" htmlFor="purchaseNow" onClick={() => setMOdalData(products)}>
                 <BsImages className="cart duration-300 hover:scale-125 cursor-pointer" />
               </label>
